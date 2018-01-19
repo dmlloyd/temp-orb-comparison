@@ -1,12 +1,6 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.CompletionStatus;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.impl.encoding.CodeSetConversion;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
 public class CDROutputStream_1_2 extends CDROutputStream_1_1
 {

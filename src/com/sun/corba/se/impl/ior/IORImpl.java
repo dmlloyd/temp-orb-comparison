@@ -2,51 +2,21 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.util.ListIterator ;
-import java.util.Iterator ;
-import java.util.Map ;
-import java.util.HashMap ;
-
-import java.io.StringWriter;
-import java.io.IOException;
-
-import javax.rmi.CORBA.Util;
-
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import org.omg.IOP.TAG_INTERNET_IOP ;
-
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplate ;
-import com.sun.corba.se.spi.ior.TaggedProfile ;
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.IORTemplate ;
-import com.sun.corba.se.spi.ior.IORTemplateList ;
-import com.sun.corba.se.spi.ior.IdentifiableFactoryFinder ;
-import com.sun.corba.se.spi.ior.IdentifiableContainerBase ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.IORFactories ;
-
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-
-import com.sun.corba.se.spi.protocol.RequestDispatcherRegistry;
-
-import com.sun.corba.se.spi.orb.ORB;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-
-import com.sun.corba.se.impl.encoding.MarshalOutputStream;
-
-import com.sun.corba.se.impl.encoding.EncapsOutputStream;
-
-import com.sun.corba.se.impl.orbutil.HexOutputStream;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-
-import com.sun.corba.se.impl.logging.IORSystemException ;
 
 
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile ;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public class IORImpl extends IdentifiableContainerBase implements IOR

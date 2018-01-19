@@ -2,40 +2,15 @@
 
 package com.sun.corba.se.spi.servicecontext;
 
-import java.lang.reflect.InvocationTargetException ;
-import java.lang.reflect.Modifier ;
-import java.lang.reflect.Field ;
-import java.lang.reflect.Constructor ;
-import java.util.*;
-
-import org.omg.CORBA.OctetSeqHelper;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA_2_3.portable.InputStream ;
-
-import com.sun.org.omg.SendingContext.CodeBase;
-
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-
-import com.sun.corba.se.spi.orb.ORB ;
-
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
 
-import com.sun.corba.se.spi.servicecontext.ServiceContext ;
-import com.sun.corba.se.spi.servicecontext.ServiceContextRegistry ;
-import com.sun.corba.se.spi.servicecontext.ServiceContextData ;
-import com.sun.corba.se.spi.servicecontext.UnknownServiceContext ;
 
-import com.sun.corba.se.impl.encoding.CDRInputStream;
-import com.sun.corba.se.impl.encoding.EncapsInputStream ;
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
-import com.sun.corba.se.impl.util.Utility ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
 
-import sun.corba.EncapsInputStreamFactory;
+
+
+
+
+
 
 
 public class ServiceContexts {

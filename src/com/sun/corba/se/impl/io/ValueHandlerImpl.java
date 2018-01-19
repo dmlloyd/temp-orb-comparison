@@ -3,27 +3,12 @@
 
 package com.sun.corba.se.impl.io;
 
-import javax.rmi.CORBA.Util;
 
-import java.util.Hashtable;
-import java.io.IOException;
 
-import com.sun.corba.se.impl.util.RepositoryId;
-import com.sun.corba.se.impl.util.Utility;
 
-import org.omg.CORBA.TCKind;
 
-import org.omg.CORBA.portable.IndirectionException;
-import com.sun.org.omg.SendingContext.CodeBase;
-import com.sun.org.omg.SendingContext.CodeBaseHelper;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.impl.logging.OMGSystemException;
-import com.sun.corba.se.impl.logging.UtilSystemException;
 
 public final class ValueHandlerImpl implements javax.rmi.CORBA.ValueHandlerMultiFormat {
 

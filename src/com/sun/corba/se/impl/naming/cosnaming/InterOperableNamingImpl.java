@@ -2,16 +2,10 @@
 
 package com.sun.corba.se.impl.naming.cosnaming;
 
-import org.omg.CosNaming.NamingContextExtPackage.*;
-import java.io.StringWriter;
 
 
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.Object;
 
 
-import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContext;
 
 
 

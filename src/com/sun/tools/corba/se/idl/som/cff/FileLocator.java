@@ -3,21 +3,6 @@
 
 package com.sun.tools.corba.se.idl.som.cff;
 
-import java.lang.Exception;
-import java.lang.String;
-import java.lang.System;
-import java.io.BufferedInputStream;
-import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.io.IOException;
-import java.util.Locale;
-import java.util.NoSuchElementException;
-import java.util.Properties;
-import java.util.StringTokenizer;
-import java.util.zip.*;
 
 
 public abstract class FileLocator extends Object {

@@ -2,7 +2,6 @@
 
 package sun.corba ;
 
-import java.security.BasicPermission ;
 
 
 public final class BridgePermission extends BasicPermission

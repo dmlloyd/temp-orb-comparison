@@ -3,15 +3,7 @@
 
 package com.sun.corba.se.impl.io;
 
-import java.io.IOException;
-import java.io.NotActiveException;
-import java.io.OutputStream;
-import java.io.ObjectOutputStream;
-import java.io.ObjectOutput;
-import java.util.Map;
-import java.util.HashMap;
 
-import org.omg.CORBA.INTERNAL;
 
 public abstract class OutputStreamHook extends ObjectOutputStream
 {

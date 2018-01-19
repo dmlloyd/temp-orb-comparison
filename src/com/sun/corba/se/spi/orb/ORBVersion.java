@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.spi.orb ;
 
-import org.omg.CORBA.portable.OutputStream ;
 
 public interface ORBVersion extends Comparable
 {

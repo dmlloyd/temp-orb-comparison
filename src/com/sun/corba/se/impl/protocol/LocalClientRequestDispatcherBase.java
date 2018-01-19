@@ -2,19 +2,9 @@
 
 package com.sun.corba.se.impl.protocol;
 
-import org.omg.CORBA.portable.ServantObject;
 
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher;
-import com.sun.corba.se.spi.protocol.RequestDispatcherRegistry;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory;
 
-import com.sun.corba.se.spi.ior.ObjectAdapterId;
-import com.sun.corba.se.spi.ior.TaggedProfile;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate;
-import com.sun.corba.se.spi.ior.ObjectId;
 
 public abstract class LocalClientRequestDispatcherBase implements LocalClientRequestDispatcher
 {

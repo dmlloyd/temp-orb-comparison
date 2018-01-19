@@ -2,9 +2,6 @@
 
 package com.sun.corba.se.impl.monitoring;
 
-import java.util.HashMap;
-import com.sun.corba.se.spi.monitoring.MonitoringManagerFactory;
-import com.sun.corba.se.spi.monitoring.MonitoringManager;
 
 public class MonitoringManagerFactoryImpl implements MonitoringManagerFactory {
 

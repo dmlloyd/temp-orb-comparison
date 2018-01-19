@@ -2,29 +2,13 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Iterator;
 
-import org.omg.IOP.TAG_INTERNET_IOP ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA_2_3.portable.InputStream ;
 
-import com.sun.corba.se.spi.ior.TaggedComponent ;
-import com.sun.corba.se.spi.ior.Identifiable ;
-import com.sun.corba.se.spi.ior.IdentifiableFactoryFinder ;
-import com.sun.corba.se.spi.ior.WriteContents ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.impl.ior.FreezableList ;
 
-import com.sun.corba.se.impl.encoding.CDROutputStream ;
-import com.sun.corba.se.impl.encoding.EncapsOutputStream ;
-import com.sun.corba.se.impl.encoding.EncapsInputStream ;
 
-import sun.corba.EncapsInputStreamFactory;
 
 
 public class EncapsulationUtility

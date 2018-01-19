@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.naming.namingutil;
 
-import com.sun.corba.se.impl.logging.NamingSystemException;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
 
 public class CorbanameURL extends INSURLBase

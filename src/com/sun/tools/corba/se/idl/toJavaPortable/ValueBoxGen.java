@@ -8,23 +8,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.File;
-import java.io.PrintWriter;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.GenFileStream;
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
-import com.sun.tools.corba.se.idl.TypedefEntry;
-import com.sun.tools.corba.se.idl.ValueEntry;
-import com.sun.tools.corba.se.idl.ValueBoxEntry;
-import com.sun.tools.corba.se.idl.InterfaceState;
-import com.sun.tools.corba.se.idl.MethodEntry;
-import com.sun.tools.corba.se.idl.PrimitiveEntry;
-import com.sun.tools.corba.se.idl.SequenceEntry;
-import com.sun.tools.corba.se.idl.StringEntry;
 
 
 public class ValueBoxGen implements com.sun.tools.corba.se.idl.ValueBoxGen, JavaGenerator

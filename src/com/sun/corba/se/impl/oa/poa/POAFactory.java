@@ -2,42 +2,18 @@
 
 package com.sun.corba.se.impl.oa.poa ;
 
-import java.util.Set ;
-import java.util.HashSet ;
-import java.util.Collections ;
-import java.util.Iterator ;
-import java.util.Map ;
-import java.util.WeakHashMap ;
 
-import org.omg.CORBA.OBJECT_NOT_EXIST ;
-import org.omg.CORBA.TRANSIENT ;
 
-import org.omg.CORBA.ORBPackage.InvalidName ;
 
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.POA ;
-import org.omg.PortableServer.POAManager ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory ;
 
-import com.sun.corba.se.spi.ior.ObjectAdapterId ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.orbutil.closure.Closure ;
-import com.sun.corba.se.spi.orbutil.closure.ClosureFactory ;
 
-import com.sun.corba.se.spi.protocol.PIHandler ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.logging.POASystemException ;
-import com.sun.corba.se.impl.logging.OMGSystemException ;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
 
-import com.sun.corba.se.impl.oa.poa.POAManagerImpl ;
 
 public class POAFactory implements ObjectAdapterFactory
 {

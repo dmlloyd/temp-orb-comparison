@@ -2,29 +2,15 @@
 
 package com.sun.corba.se.impl.presentation.rmi ;
 
-import java.rmi.RemoteException;
 
-import javax.rmi.CORBA.Tie;
 
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.BAD_OPERATION;
-import org.omg.CORBA.BAD_INV_ORDER;
 
-import org.omg.CORBA.portable.ObjectImpl;
-import org.omg.CORBA.portable.Delegate;
 
-import com.sun.corba.se.spi.presentation.rmi.StubAdapter;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.util.Utility;
 
-import com.sun.corba.se.impl.ior.StubIORImpl ;
 
-import com.sun.corba.se.impl.logging.UtilSystemException ;
 
-import com.sun.corba.se.impl.corba.CORBAObjectImpl ;
 
 public abstract class StubConnectImpl
 {

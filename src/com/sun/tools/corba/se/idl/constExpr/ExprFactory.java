@@ -5,8 +5,6 @@ package com.sun.tools.corba.se.idl.constExpr;
 
 
 
-import com.sun.tools.corba.se.idl.ConstEntry;
-import java.math.BigInteger;
 
 public interface ExprFactory
 {

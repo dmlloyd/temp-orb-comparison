@@ -2,28 +2,9 @@
 
 package com.sun.corba.se.impl.naming.pcosnaming;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.util.Hashtable;
 
-import org.omg.CORBA.Policy;
-import org.omg.CORBA.LocalObject;
 
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.Servant;
-import org.omg.PortableServer.ForwardRequest;
-import org.omg.PortableServer.ServantLocator;
-import org.omg.PortableServer.LifespanPolicyValue;
-import org.omg.PortableServer.RequestProcessingPolicyValue;
-import org.omg.PortableServer.IdAssignmentPolicyValue;
-import org.omg.PortableServer.ServantRetentionPolicyValue;
-import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
-import com.sun.corba.se.spi.orb.ORB;
 
 
 

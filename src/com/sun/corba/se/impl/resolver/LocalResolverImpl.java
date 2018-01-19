@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.resolver ;
 
-import com.sun.corba.se.spi.resolver.LocalResolver ;
-import com.sun.corba.se.spi.orbutil.closure.Closure ;
 
 public class LocalResolverImpl implements LocalResolver {
     java.util.Map nameToClosure = new java.util.HashMap() ;

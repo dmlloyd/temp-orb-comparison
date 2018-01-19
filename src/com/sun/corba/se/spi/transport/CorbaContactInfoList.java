@@ -2,11 +2,8 @@
 
 package com.sun.corba.se.spi.transport;
 
-import com.sun.corba.se.spi.ior.IOR ;
 
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher ;
 
-import com.sun.corba.se.pept.transport.ContactInfoList ;
 
 
 public interface CorbaContactInfoList

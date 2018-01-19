@@ -3,14 +3,8 @@
 
 package com.sun.corba.se.impl.util;
 
-import sun.corba.Bridge ;
 
-import java.util.Map ;
-import java.util.WeakHashMap ;
-import java.util.Collections ;
 
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
 
 
 class JDKClassLoader {

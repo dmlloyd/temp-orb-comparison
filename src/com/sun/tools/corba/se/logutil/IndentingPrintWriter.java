@@ -2,12 +2,6 @@
 
 package com.sun.tools.corba.se.logutil;
 
-import java.io.PrintWriter ;
-import java.io.Writer ;
-import java.io.OutputStream ;
-import java.io.BufferedWriter ;
-import java.io.OutputStreamWriter ;
-import java.util.StringTokenizer ;
 
 public class IndentingPrintWriter extends PrintWriter {
     private int level = 0 ;

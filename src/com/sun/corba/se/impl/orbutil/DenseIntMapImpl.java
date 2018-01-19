@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.orbutil ;
 
-import java.util.ArrayList ;
 
 
 public class DenseIntMapImpl

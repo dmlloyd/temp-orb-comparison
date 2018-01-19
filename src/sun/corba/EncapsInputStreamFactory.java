@@ -1,18 +1,8 @@
 
 package sun.corba;
 
-import java.nio.ByteBuffer;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
 
-import com.sun.corba.se.impl.encoding.EncapsInputStream;
-import com.sun.corba.se.impl.encoding.TypeCodeInputStream;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.pept.protocol.MessageMediator;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.org.omg.SendingContext.CodeBase;
 
 public class EncapsInputStreamFactory {
 

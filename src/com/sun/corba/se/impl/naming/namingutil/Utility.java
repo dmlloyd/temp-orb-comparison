@@ -2,13 +2,8 @@
 
 package com.sun.corba.se.impl.naming.namingutil;
 
-import java.io.StringWriter;
 
-import org.omg.CORBA.DATA_CONVERSION;
-import org.omg.CORBA.CompletionStatus;
 
-import com.sun.corba.se.impl.logging.NamingSystemException;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
 
 class Utility {

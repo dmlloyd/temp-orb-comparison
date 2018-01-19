@@ -2,10 +2,7 @@
 
 package com.sun.corba.se.impl.naming.namingutil;
 
-import java.util.*;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.NamingSystemException ;
 
 
 public class CorbalocURL extends INSURLBase

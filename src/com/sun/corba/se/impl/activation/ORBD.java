@@ -2,34 +2,10 @@
 
 package com.sun.corba.se.impl.activation;
 
-import java.io.File;
-import java.util.Properties;
 
-import org.omg.CORBA.INITIALIZE;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CosNaming.NamingContext;
-import org.omg.PortableServer.POA;
 
-import com.sun.corba.se.pept.transport.Acceptor;
 
-import com.sun.corba.se.spi.activation.Repository;
-import com.sun.corba.se.spi.activation.RepositoryPackage.ServerDef;
-import com.sun.corba.se.spi.activation.Locator;
-import com.sun.corba.se.spi.activation.LocatorHelper;
-import com.sun.corba.se.spi.activation.Activator;
-import com.sun.corba.se.spi.activation.ActivatorHelper;
-import com.sun.corba.se.spi.activation.ServerAlreadyRegistered;
-import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketEndPointInfo;
-import com.sun.corba.se.spi.transport.SocketInfo;
-import com.sun.corba.se.spi.orb.ORB;
 
-import com.sun.corba.se.impl.legacy.connection.SocketFactoryAcceptorImpl;
-import com.sun.corba.se.impl.naming.cosnaming.TransientNameService;
-import com.sun.corba.se.impl.naming.pcosnaming.NameService;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-import com.sun.corba.se.impl.transport.SocketOrChannelAcceptorImpl;
 
 
 public class ORBD

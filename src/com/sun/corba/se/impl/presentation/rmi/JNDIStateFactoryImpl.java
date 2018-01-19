@@ -2,28 +2,16 @@
 
 package com.sun.corba.se.impl.presentation.rmi ;
 
-import java.lang.reflect.Field ;
-
-import java.util.Hashtable;
-
-import javax.naming.*;
-import javax.naming.spi.StateFactory;
-
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
-
-import javax.rmi.PortableRemoteObject ;
-
-import com.sun.corba.se.spi.orb.ORB;
-
-import java.rmi.Remote;
-import java.rmi.server.ExportException;
 
 
 
-import com.sun.jndi.cosnaming.CNCtx ;
 
-import com.sun.corba.se.spi.presentation.rmi.StubAdapter ;
+
+
+
+
+
+
 
 
 

@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.protocol;
 
-import com.sun.corba.se.impl.protocol.giopmsgheaders.KeyAddr;
 
 
 public class AddressingDispositionException extends RuntimeException {

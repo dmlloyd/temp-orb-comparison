@@ -6,19 +6,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.File;
-import java.io.PrintWriter;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.GenFileStream;
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
-import com.sun.tools.corba.se.idl.TypedefEntry;
-import com.sun.tools.corba.se.idl.ForwardValueEntry;
-import com.sun.tools.corba.se.idl.InterfaceState;
-import com.sun.tools.corba.se.idl.MethodEntry;
 
 
 public class ForwardValueGen implements com.sun.tools.corba.se.idl.ForwardValueGen, JavaGenerator

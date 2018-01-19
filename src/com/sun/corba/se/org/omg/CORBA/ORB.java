@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.org.omg.CORBA ;
 
-import org.omg.CORBA.ORBPackage.InvalidName ;
 
 
 abstract public class ORB extends org.omg.CORBA_2_3.ORB

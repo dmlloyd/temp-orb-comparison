@@ -2,13 +2,8 @@
 
 package com.sun.corba.se.spi.protocol;
 
-import java.util.Set;
 
-import com.sun.corba.se.pept.protocol.ClientRequestDispatcher ;
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher ;
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcherFactory ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory ;
 
 
 public interface RequestDispatcherRegistry {

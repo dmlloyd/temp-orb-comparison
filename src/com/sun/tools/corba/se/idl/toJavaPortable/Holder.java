@@ -6,15 +6,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.PrintWriter;
 
-import com.sun.tools.corba.se.idl.GenFileStream;
-import com.sun.tools.corba.se.idl.SymtabEntry;
-import com.sun.tools.corba.se.idl.ValueBoxEntry;
-import com.sun.tools.corba.se.idl.InterfaceState;
-import com.sun.tools.corba.se.idl.TypedefEntry;
-import com.sun.tools.corba.se.idl.StringEntry;
-import com.sun.tools.corba.se.idl.PrimitiveEntry;
 
 
 public class Holder implements AuxGen

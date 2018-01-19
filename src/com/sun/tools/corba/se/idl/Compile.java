@@ -7,14 +7,7 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.constExpr.ExprFactory;
-import com.sun.tools.corba.se.idl.constExpr.DefaultExprFactory;
 
 
 public class Compile

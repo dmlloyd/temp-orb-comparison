@@ -3,14 +3,8 @@
 
 package com.sun.corba.se.impl.corba;
 
-import java.util.Vector;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Bounds;
-import org.omg.CORBA.NVList;
-import org.omg.CORBA.NamedValue;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
 public class NVListImpl extends NVList
 {

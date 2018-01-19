@@ -2,20 +2,11 @@
 
 package com.sun.corba.se.impl.naming.cosnaming;
 
-import java.util.Properties;
-import java.net.InetAddress;
 
-import org.omg.CORBA.ORB;
 
-import org.omg.CosNaming.NamingContext;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.naming.cosnaming.TransientNameService;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-import com.sun.corba.se.impl.logging.NamingSystemException;
 
 
 public class TransientNameServer

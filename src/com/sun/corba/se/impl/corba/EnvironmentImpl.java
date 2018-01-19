@@ -3,9 +3,6 @@
 
 package com.sun.corba.se.impl.corba;
 
-import org.omg.CORBA.Environment;
-import org.omg.CORBA.UserException;
-import org.omg.CORBA.ORB;
 
 public class EnvironmentImpl extends Environment {
 

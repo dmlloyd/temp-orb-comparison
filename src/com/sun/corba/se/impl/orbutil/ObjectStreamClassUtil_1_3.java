@@ -3,28 +3,9 @@
 package com.sun.corba.se.impl.orbutil;
 
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.DigestOutputStream;
-import java.security.AccessController;
-import java.security.PrivilegedExceptionAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedAction;
-import java.io.DataOutputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-
-import java.util.Arrays;
-import java.util.Comparator;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Array;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Constructor;
 
 
-import com.sun.corba.se.impl.io.ObjectStreamClass;
+
 
 public final class ObjectStreamClassUtil_1_3 {
 

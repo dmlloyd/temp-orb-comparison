@@ -2,12 +2,8 @@
 
 package com.sun.corba.se.spi.ior;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.se.spi.orb.ORBVersion ;
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher ;
 
 
 public interface ObjectKeyTemplate extends Writeable

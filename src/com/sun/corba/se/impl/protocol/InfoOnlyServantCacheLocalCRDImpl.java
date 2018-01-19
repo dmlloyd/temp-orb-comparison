@@ -3,16 +3,10 @@
 
 package com.sun.corba.se.impl.protocol;
 
-import org.omg.CORBA.portable.ServantObject ;
 
-import com.sun.corba.se.spi.oa.OAInvocationInfo ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcherFactory ;
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher ;
 
-import com.sun.corba.se.spi.ior.IOR;
 
 public class InfoOnlyServantCacheLocalCRDImpl extends ServantCacheLocalCRDBase
 {

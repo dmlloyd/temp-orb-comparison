@@ -2,15 +2,8 @@
 
 package com.sun.corba.se.spi.orbutil.fsm ;
 
-import com.sun.corba.se.impl.orbutil.fsm.NameBase ;
 
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.Set ;
-import java.util.HashSet ;
 
-import com.sun.corba.se.impl.orbutil.fsm.GuardedAction ;
-import com.sun.corba.se.impl.orbutil.fsm.NameBase ;
 
 
 public class StateImpl extends NameBase implements State {

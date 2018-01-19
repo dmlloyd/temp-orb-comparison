@@ -2,12 +2,8 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.util.Arrays ;
 
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
 
-import com.sun.corba.se.spi.ior.Identifiable ;
 
 
 public abstract class GenericIdentifiable implements Identifiable

@@ -1,20 +1,11 @@
 
 package com.sun.corba.se.spi.orb ;
 
-import java.util.StringTokenizer ;
-import java.util.Arrays ;
 
-import java.lang.reflect.Array ;
 
-import java.net.URL ;
-import java.net.MalformedURLException ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.orbutil.ObjectUtility ;
 
-import sun.corba.SharedSecrets;
 
 
 public abstract class OperationFactory {

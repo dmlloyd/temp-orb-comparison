@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.spi.legacy.connection;
 
-import com.sun.corba.se.spi.transport.SocketInfo;
 
 
 

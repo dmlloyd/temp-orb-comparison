@@ -2,26 +2,10 @@
 
 package com.sun.corba.se.impl.orbutil.fsm ;
 
-import java.util.HashMap ;
-import java.util.HashSet ;
-import java.util.Set ;
-import java.util.Iterator ;
 
-import org.omg.CORBA.INTERNAL ;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
 
-import com.sun.corba.se.spi.orbutil.fsm.Input ;
-import com.sun.corba.se.spi.orbutil.fsm.Guard ;
-import com.sun.corba.se.spi.orbutil.fsm.Action ;
-import com.sun.corba.se.spi.orbutil.fsm.ActionBase ;
-import com.sun.corba.se.spi.orbutil.fsm.State ;
-import com.sun.corba.se.spi.orbutil.fsm.StateEngine ;
-import com.sun.corba.se.spi.orbutil.fsm.StateImpl ;
-import com.sun.corba.se.spi.orbutil.fsm.FSM ;
-import com.sun.corba.se.spi.orbutil.fsm.FSMImpl ;
 
-import com.sun.corba.se.impl.orbutil.fsm.GuardedAction ;
 
 
 public class StateEngineImpl implements StateEngine

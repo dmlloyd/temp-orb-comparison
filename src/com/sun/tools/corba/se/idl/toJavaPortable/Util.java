@@ -33,37 +33,8 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.File;
-import java.io.PrintWriter;
-import java.math.BigInteger;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Locale;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.ConstEntry;
-import com.sun.tools.corba.se.idl.EnumEntry;
-import com.sun.tools.corba.se.idl.ExceptionEntry;
-import com.sun.tools.corba.se.idl.GenFileStream;
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.MethodEntry;
-import com.sun.tools.corba.se.idl.NativeEntry;
-import com.sun.tools.corba.se.idl.ParameterEntry;
-import com.sun.tools.corba.se.idl.PrimitiveEntry;
-import com.sun.tools.corba.se.idl.SequenceEntry;
-import com.sun.tools.corba.se.idl.StringEntry;
-import com.sun.tools.corba.se.idl.StructEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
-import com.sun.tools.corba.se.idl.TypedefEntry;
-import com.sun.tools.corba.se.idl.UnionBranch;
-import com.sun.tools.corba.se.idl.UnionEntry;
-import com.sun.tools.corba.se.idl.ValueEntry;
-import com.sun.tools.corba.se.idl.ValueBoxEntry;
-import com.sun.tools.corba.se.idl.InterfaceState;
 
-import com.sun.tools.corba.se.idl.constExpr.*;
 
 
 public class Util extends com.sun.tools.corba.se.idl.Util

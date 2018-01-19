@@ -3,10 +3,6 @@
 
 package com.sun.corba.se.impl.util;
 
-import java.util.Stack;
-import java.util.Hashtable;
-import java.util.EmptyStackException;
-import java.util.Enumeration;
 
 
 class RepositoryIdPool extends Stack {

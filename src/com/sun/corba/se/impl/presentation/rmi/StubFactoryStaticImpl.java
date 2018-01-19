@@ -2,9 +2,7 @@
 
 package com.sun.corba.se.impl.presentation.rmi;
 
-import java.lang.reflect.InvocationHandler ;
 
-import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
 
 public class StubFactoryStaticImpl extends StubFactoryBase
 {

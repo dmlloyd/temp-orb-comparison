@@ -1,30 +1,10 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.io.ByteArrayOutputStream;
 
-import java.nio.ByteBuffer;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.IORFactories;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.spi.presentation.rmi.StubAdapter;
 
-import com.sun.corba.se.impl.util.Utility;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.corba.TypeCodeImpl;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.CompletionStatus;
 
 
 final class IDLJavaSerializationOutputStream extends CDROutputStreamBase {

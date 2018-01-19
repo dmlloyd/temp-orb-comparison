@@ -3,34 +3,12 @@
 package com.sun.corba.se.impl.naming.pcosnaming;
 
 
-import org.omg.CORBA.Object;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.Policy;
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.LifespanPolicyValue;
-import org.omg.PortableServer.RequestProcessingPolicyValue;
-import org.omg.PortableServer.IdAssignmentPolicyValue;
-import org.omg.PortableServer.ServantRetentionPolicyValue;
 
-import org.omg.CosNaming.*;
-import org.omg.CosNaming.NamingContextPackage.*;
-import org.omg.CosNaming.NamingContextExtPackage.*;
 
-import com.sun.corba.se.impl.naming.cosnaming.NamingContextDataStore;
-import com.sun.corba.se.impl.naming.cosnaming.NamingUtils;
 
-import com.sun.corba.se.impl.naming.namingutil.INSURLHandler;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.logging.NamingSystemException;
 
-import java.io.Serializable;
-import java.util.Hashtable;
 
 
 

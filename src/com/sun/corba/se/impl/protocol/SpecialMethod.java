@@ -2,25 +2,12 @@
 
 package com.sun.corba.se.impl.protocol ;
 
-import javax.rmi.CORBA.Tie;
 
-import org.omg.CORBA.SystemException ;
-import org.omg.CORBA.NO_IMPLEMENT ;
-import org.omg.CORBA.OBJECT_NOT_EXIST ;
-import org.omg.CORBA.CompletionStatus ;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter;
-import com.sun.corba.se.spi.orb.ORB;
 
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 
-import com.sun.corba.se.spi.oa.NullServant ;
 
 public abstract class SpecialMethod {
     public abstract boolean isNonExistentMethod() ;

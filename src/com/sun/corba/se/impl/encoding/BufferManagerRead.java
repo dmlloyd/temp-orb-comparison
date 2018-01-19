@@ -2,10 +2,6 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.nio.ByteBuffer;
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 
 public interface BufferManagerRead
 {

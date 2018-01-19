@@ -5,17 +5,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.File;
-import java.io.PrintWriter;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.AttributeEntry;
-import com.sun.tools.corba.se.idl.GenFileStream;
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.MethodEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
 
 
 public class Stub implements AuxGen

@@ -2,56 +2,20 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import java.util.List ;
-import java.util.Iterator ;
 
-import org.omg.CORBA.SystemException ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA_2_3.portable.InputStream ;
 
-import org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS ;
-import org.omg.IOP.TAG_INTERNET_IOP;
-import org.omg.IOP.TAG_JAVA_CODEBASE;
 
-import com.sun.corba.se.spi.protocol.RequestDispatcherRegistry ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory ;
 
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.ObjectAdapterId ;
-import com.sun.corba.se.spi.ior.TaggedProfile ;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplate ;
-import com.sun.corba.se.spi.ior.ObjectKey ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.TaggedComponent ;
-import com.sun.corba.se.spi.ior.IdentifiableBase ;
-import com.sun.corba.se.spi.ior.IORFactories ;
-import com.sun.corba.se.spi.ior.ObjectKeyFactory ;
 
-import com.sun.corba.se.spi.ior.iiop.IIOPAddress ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate ;
-import com.sun.corba.se.spi.ior.iiop.IIOPFactories ;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion ;
-import com.sun.corba.se.spi.ior.iiop.JavaCodebaseComponent ;
 
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.orb.ORBVersion ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.ior.EncapsulationUtility ;
 
-import com.sun.corba.se.impl.encoding.EncapsInputStream ;
-import com.sun.corba.se.impl.encoding.EncapsOutputStream ;
 
-import sun.corba.EncapsInputStreamFactory;
 
-import com.sun.corba.se.impl.util.JDKBridge;
 
-import com.sun.corba.se.impl.logging.IORSystemException;
 
 
 public class IIOPProfileImpl extends IdentifiableBase implements IIOPProfile

@@ -29,20 +29,9 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.EOFException;
-import java.io.IOException;
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Stack;
-import java.util.Vector;
-import java.util.List ;
-import java.util.ArrayList ;
-import java.util.Iterator ;
 
-import java.math.BigInteger;
 
-import com.sun.tools.corba.se.idl.constExpr.*;
 
 
 class Parser

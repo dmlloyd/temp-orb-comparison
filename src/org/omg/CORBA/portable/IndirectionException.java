@@ -3,7 +3,6 @@
 
 package org.omg.CORBA.portable;
 
-import org.omg.CORBA.SystemException;
 
 public class IndirectionException extends SystemException {
 

@@ -1,7 +1,6 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
 
 public class CDRInputStream_1_1 extends CDRInputStream_1_0
 {

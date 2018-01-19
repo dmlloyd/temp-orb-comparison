@@ -3,28 +3,13 @@
 package com.sun.corba.se.impl.naming.cosnaming;
 
 
-import org.omg.CORBA.INITIALIZE;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.CompletionStatus;
-
-import org.omg.CORBA.Policy;
-import org.omg.CORBA.INTERNAL;
-import org.omg.PortableServer.POA;
-import org.omg.PortableServer.LifespanPolicyValue;
-import org.omg.PortableServer.RequestProcessingPolicyValue;
-import org.omg.PortableServer.IdAssignmentPolicyValue;
-import org.omg.PortableServer.ServantRetentionPolicyValue;
 
 
-import org.omg.CosNaming.NamingContext;
 
 
-import com.sun.corba.se.impl.naming.cosnaming.TransientNamingContext;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.logging.NamingSystemException;
+
 
 
 public class TransientNameService

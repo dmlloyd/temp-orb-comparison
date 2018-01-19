@@ -2,18 +2,8 @@
 
 package com.sun.corba.se.spi.orbutil.proxy ;
 
-import java.io.Serializable ;
-import java.util.Map ;
-import java.util.LinkedHashMap ;
-import java.lang.reflect.Proxy ;
-import java.lang.reflect.Method ;
-import java.lang.reflect.InvocationHandler ;
 
-import javax.rmi.PortableRemoteObject;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.presentation.rmi.DynamicAccessPermission;
 
 public class CompositeInvocationHandlerImpl implements
     CompositeInvocationHandler

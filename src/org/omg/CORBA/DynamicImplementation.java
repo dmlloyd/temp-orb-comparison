@@ -2,7 +2,6 @@
 
 package org.omg.CORBA;
 
-import org.omg.CORBA.portable.ObjectImpl;
 
 
 @Deprecated

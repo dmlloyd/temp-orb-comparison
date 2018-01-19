@@ -2,20 +2,10 @@
 
 package com.sun.corba.se.internal.CosNaming;
 
-import java.util.Enumeration;
-import java.util.Properties;
 
-import java.io.File;
-import java.io.FileInputStream;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.resolver.Resolver ;
-import com.sun.corba.se.spi.resolver.LocalResolver ;
-import com.sun.corba.se.spi.resolver.ResolverDefault ;
 
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
 
 public class BootstrapServer

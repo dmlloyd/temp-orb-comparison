@@ -2,37 +2,10 @@
 
 package com.sun.corba.se.spi.protocol;
 
-import java.nio.ByteBuffer;
 
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.portable.ResponseHandler;
-import org.omg.CORBA.portable.UnknownException;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
 
-import com.sun.corba.se.pept.broker.Broker;
-import com.sun.corba.se.pept.protocol.MessageMediator;
-import com.sun.corba.se.pept.encoding.InputObject;
-import com.sun.corba.se.pept.encoding.OutputObject;
-import com.sun.corba.se.pept.protocol.ProtocolHandler;
-import com.sun.corba.se.pept.transport.Connection;
 
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.ObjectKey;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.protocol.CorbaProtocolHandler;
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
 
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyOrReplyMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.MessageBase;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.MessageHandler;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage_1_0;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_0;
 
 
 public interface CorbaMessageMediator

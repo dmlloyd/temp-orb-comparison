@@ -2,12 +2,8 @@
 
 package com.sun.corba.se.impl.resolver ;
 
-import com.sun.corba.se.spi.resolver.Resolver ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.orb.Operation ;
-import com.sun.corba.se.spi.orb.StringPair ;
 
 public class ORBInitRefResolverImpl implements Resolver {
     Operation urlHandler ;

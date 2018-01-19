@@ -3,14 +3,8 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import org.omg.CORBA_2_3.portable.OutputStream;
 
-import com.sun.corba.se.spi.ior.TaggedComponentBase;
-import com.sun.corba.se.spi.ior.iiop.RequestPartitioningComponent;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
 
 public class RequestPartitioningComponentImpl extends TaggedComponentBase

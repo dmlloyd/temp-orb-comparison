@@ -2,23 +2,7 @@
 
 package com.sun.corba.se.impl.activation;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.util.Vector;
-import java.util.Properties;
-import java.util.StringTokenizer;
 
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.INITIALIZE;
-import org.omg.CORBA.CompletionStatus;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.CorbaResourceUtil;
-import com.sun.corba.se.spi.activation.*;
-import com.sun.corba.se.spi.activation.ServerHeldDown;
-import com.sun.corba.se.spi.activation.RepositoryPackage.ServerDef;
-import com.sun.corba.se.spi.activation.LocatorPackage.ServerLocation;
-import com.sun.corba.se.spi.activation.LocatorPackage.ServerLocationPerORB;
 
 
 public class ServerTool

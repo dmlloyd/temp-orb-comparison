@@ -2,10 +2,7 @@
 
 package com.sun.corba.se.pept.transport;
 
-import java.nio.channels.SelectableChannel;
-import java.nio.channels.SelectionKey;
 
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
 
 
 public interface EventHandler

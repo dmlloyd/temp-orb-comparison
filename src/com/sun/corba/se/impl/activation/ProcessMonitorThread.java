@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.activation;
 
-import java.util.*;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
 
 public class ProcessMonitorThread extends java.lang.Thread {

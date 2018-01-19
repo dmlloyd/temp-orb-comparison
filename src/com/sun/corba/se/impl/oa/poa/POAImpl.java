@@ -2,84 +2,12 @@
 
 package com.sun.corba.se.impl.oa.poa;
 
-import java.util.Collection ;
-import java.util.Set ;
-import java.util.HashSet ;
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.Iterator ;
 
-import org.omg.CORBA.Policy ;
-import org.omg.CORBA.SystemException ;
 
-import org.omg.PortableServer.POA ;
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.POAManager ;
-import org.omg.PortableServer.AdapterActivator ;
-import org.omg.PortableServer.ServantManager ;
-import org.omg.PortableServer.ForwardRequest ;
-import org.omg.PortableServer.ThreadPolicy;
-import org.omg.PortableServer.LifespanPolicy;
-import org.omg.PortableServer.IdUniquenessPolicy;
-import org.omg.PortableServer.IdAssignmentPolicy;
-import org.omg.PortableServer.ImplicitActivationPolicy;
-import org.omg.PortableServer.ServantRetentionPolicy;
-import org.omg.PortableServer.RequestProcessingPolicy;
-import org.omg.PortableServer.ThreadPolicyValue ;
-import org.omg.PortableServer.LifespanPolicyValue ;
-import org.omg.PortableServer.IdUniquenessPolicyValue ;
-import org.omg.PortableServer.IdAssignmentPolicyValue ;
-import org.omg.PortableServer.ImplicitActivationPolicyValue ;
-import org.omg.PortableServer.ServantRetentionPolicyValue ;
-import org.omg.PortableServer.RequestProcessingPolicyValue ;
-import org.omg.PortableServer.POAPackage.AdapterAlreadyExists ;
-import org.omg.PortableServer.POAPackage.AdapterNonExistent ;
-import org.omg.PortableServer.POAPackage.InvalidPolicy ;
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.PortableServer.POAPackage.WrongAdapter ;
-import org.omg.PortableServer.POAPackage.NoServant ;
-import org.omg.PortableServer.POAPackage.ServantAlreadyActive ;
-import org.omg.PortableServer.POAPackage.ObjectAlreadyActive ;
-import org.omg.PortableServer.POAPackage.ServantNotActive ;
-import org.omg.PortableServer.POAPackage.ObjectNotActive ;
 
-import org.omg.PortableInterceptor.ObjectReferenceFactory ;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.NON_EXISTENT ;
 
-import org.omg.IOP.TAG_INTERNET_IOP ;
 
-import com.sun.corba.se.spi.copyobject.CopierManager ;
-import com.sun.corba.se.spi.copyobject.ObjectCopier ;
-import com.sun.corba.se.spi.copyobject.ObjectCopierFactory ;
-import com.sun.corba.se.spi.oa.OADestroyed ;
-import com.sun.corba.se.spi.oa.OAInvocationInfo ;
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
-import com.sun.corba.se.spi.oa.ObjectAdapterBase ;
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.ObjectAdapterId ;
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.IORFactories ;
-import com.sun.corba.se.spi.ior.IORTemplate ;
-import com.sun.corba.se.spi.ior.IORTemplateList ;
-import com.sun.corba.se.spi.ior.TaggedProfile ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile ;
-import com.sun.corba.se.spi.ior.iiop.IIOPAddress ;
-import com.sun.corba.se.spi.ior.iiop.IIOPFactories ;
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.protocol.ForwardException ;
-import com.sun.corba.se.spi.transport.SocketOrChannelAcceptor;
 
-import com.sun.corba.se.impl.ior.POAObjectKeyTemplate ;
-import com.sun.corba.se.impl.ior.ObjectAdapterIdArray ;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.concurrent.Sync ;
-import com.sun.corba.se.impl.orbutil.concurrent.SyncUtil ;
-import com.sun.corba.se.impl.orbutil.concurrent.ReentrantMutex ;
-import com.sun.corba.se.impl.orbutil.concurrent.CondVar ;
 
 
 public class POAImpl extends ObjectAdapterBase implements POA

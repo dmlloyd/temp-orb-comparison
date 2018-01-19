@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.naming.cosnaming;
 
-import org.omg.CosNaming.NameComponent;
 
 
 public class InternalBindingKey

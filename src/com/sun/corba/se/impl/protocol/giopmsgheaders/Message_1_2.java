@@ -1,9 +1,7 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import java.nio.ByteBuffer;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
 
 public class Message_1_2 extends Message_1_1
 {

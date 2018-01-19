@@ -1,8 +1,6 @@
 
 package org.omg.PortableServer.portable;
 
-import org.omg.PortableServer.Servant;
-import org.omg.PortableServer.POA;
 
 
 public interface Delegate {

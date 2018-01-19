@@ -2,11 +2,8 @@
 
 package com.sun.corba.se.impl.ior ;
 
-import java.util.Iterator ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.se.spi.ior.ObjectAdapterId ;
 
 abstract class ObjectAdapterIdBase implements ObjectAdapterId {
     public boolean equals( Object other )

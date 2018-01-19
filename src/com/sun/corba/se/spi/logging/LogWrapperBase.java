@@ -2,9 +2,6 @@
 
 package com.sun.corba.se.spi.logging ;
 
-import java.util.logging.Level ;
-import java.util.logging.Logger ;
-import java.util.logging.LogRecord ;
 
 public abstract class LogWrapperBase {
     protected Logger logger ;

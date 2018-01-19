@@ -5,11 +5,6 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.PrintWriter;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Vector;
-import com.sun.tools.corba.se.idl.constExpr.Expression;
 
 
 

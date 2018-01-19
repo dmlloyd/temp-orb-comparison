@@ -2,13 +2,6 @@
 
 package com.sun.corba.se.spi.servicecontext;
 
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.impl.encoding.MarshalInputStream ;
-import com.sun.corba.se.impl.encoding.MarshalOutputStream ;
-import com.sun.corba.se.impl.encoding.CodeSetComponentInfo  ;
 
 public class CodeSetServiceContext extends ServiceContext {
     public CodeSetServiceContext( CodeSetComponentInfo.CodeSetContext csc )

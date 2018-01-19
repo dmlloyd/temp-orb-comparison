@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.spi.orbutil.threadpool;
 
-import java.io.Closeable;
 
 public interface ThreadPoolManager extends Closeable
 {

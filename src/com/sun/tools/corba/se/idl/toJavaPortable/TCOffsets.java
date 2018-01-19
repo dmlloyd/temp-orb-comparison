@@ -5,10 +5,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.util.Enumeration;
-import java.util.Hashtable;
 
-import com.sun.tools.corba.se.idl.*;
 
 
 

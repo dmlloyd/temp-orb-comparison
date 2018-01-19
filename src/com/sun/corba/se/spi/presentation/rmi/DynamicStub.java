@@ -2,12 +2,8 @@
 
 package com.sun.corba.se.spi.presentation.rmi ;
 
-import java.rmi.RemoteException ;
 
-import org.omg.CORBA.portable.Delegate ;
-import org.omg.CORBA.portable.OutputStream ;
 
-import org.omg.CORBA.ORB ;
 
 
 public interface DynamicStub extends org.omg.CORBA.Object

@@ -2,19 +2,9 @@
 
 package com.sun.corba.se.impl.transport;
 
-import com.sun.corba.se.pept.transport.Connection;
 
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.transport.CorbaContactInfoList;
-import com.sun.corba.se.spi.transport.CorbaTransportManager;
-import com.sun.corba.se.spi.transport.SocketInfo;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.transport.CorbaContactInfoBase;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
 
 public class SocketOrChannelContactInfoImpl

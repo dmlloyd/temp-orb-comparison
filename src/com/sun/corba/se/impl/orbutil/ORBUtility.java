@@ -2,64 +2,12 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.lang.Character;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.rmi.NoSuchObjectException;
-import java.security.AccessController;
-import java.security.PermissionCollection;
-import java.security.Policy;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedExceptionAction;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Enumeration;
-import java.util.StringTokenizer;
-import java.util.NoSuchElementException;
 
-import javax.rmi.CORBA.ValueHandler;
-import javax.rmi.CORBA.ValueHandlerMultiFormat;
-import javax.rmi.CORBA.Util;
 
-import org.omg.CORBA.StructMember ;
-import org.omg.CORBA.TypeCode ;
-import org.omg.CORBA.Any ;
-import org.omg.CORBA.TCKind ;
-import org.omg.CORBA.SystemException ;
-import org.omg.CORBA.CompletionStatus ;
-import org.omg.CORBA.DATA_CONVERSION ;
-import org.omg.CORBA.BAD_PARAM ;
-import org.omg.CORBA.BAD_OPERATION ;
-import org.omg.CORBA.INTERNAL ;
-import org.omg.CORBA.TypeCodePackage.BadKind ;
-import org.omg.CORBA.portable.OutputStream ;
-import org.omg.CORBA.portable.InputStream ;
 
-import com.sun.corba.se.pept.transport.ContactInfoList ;
 
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.presentation.rmi.StubAdapter ;
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.spi.orb.ORBVersion ;
-import com.sun.corba.se.spi.orb.ORBVersionFactory ;
-import com.sun.corba.se.spi.protocol.CorbaClientDelegate ;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-import com.sun.corba.se.spi.transport.CorbaContactInfoList ;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate;
 
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.corba.CORBAObjectImpl ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.logging.OMGSystemException ;
-import com.sun.corba.se.impl.ior.iiop.JavaSerializationComponent;
 
-import sun.corba.SharedSecrets;
 
 
 public final class ORBUtility {

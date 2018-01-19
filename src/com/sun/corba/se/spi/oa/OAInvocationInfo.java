@@ -1,16 +1,10 @@
 
 package com.sun.corba.se.spi.oa;
 
-import javax.rmi.CORBA.Tie ;
 
-import org.omg.CORBA.portable.ServantObject;
 
-import org.omg.PortableServer.Servant;
 
-import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
-import com.sun.corba.se.spi.copyobject.ObjectCopierFactory ;
 
 
 public class OAInvocationInfo extends ServantObject {

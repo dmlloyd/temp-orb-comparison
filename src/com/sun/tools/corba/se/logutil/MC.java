@@ -1,16 +1,7 @@
 
 package com.sun.tools.corba.se.logutil;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Formatter;
-import java.util.List;
-import java.util.Queue;
 
 public class MC {
 

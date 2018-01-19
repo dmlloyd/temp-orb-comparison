@@ -2,32 +2,9 @@
 
 package com.sun.corba.se.impl.interceptors;
 
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.OBJECT_NOT_EXIST;
-import org.omg.CORBA.LocalObject;
-import org.omg.CORBA.Policy;
-import org.omg.CORBA.PolicyError;
-import org.omg.IOP.CodecFactory;
-import org.omg.PortableInterceptor.ORBInitInfo;
-import org.omg.PortableInterceptor.ClientRequestInterceptor;
-import org.omg.PortableInterceptor.IORInterceptor;
-import org.omg.PortableInterceptor.PolicyFactory;
-import org.omg.PortableInterceptor.ServerRequestInterceptor;
-import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
-import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.legacy.interceptor.ORBInitInfoExt ;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
 
-import com.sun.corba.se.impl.logging.InterceptorsSystemException;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.logging.OMGSystemException;
 
 
 public final class ORBInitInfoImpl

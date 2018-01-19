@@ -1,15 +1,7 @@
 
 package com.sun.corba.se.spi.orb ;
 
-import java.util.List ;
-import java.util.LinkedList ;
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.Iterator ;
-import java.util.Properties ;
 
-import com.sun.corba.se.impl.orb.ParserAction ;
-import com.sun.corba.se.impl.orb.ParserActionFactory ;
 
 public class PropertyParser {
     private List actions ;

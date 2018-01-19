@@ -1,8 +1,6 @@
 
 package com.sun.corba.se.spi.monitoring;
 
-import com.sun.corba.se.spi.monitoring.MonitoredAttributeInfo;
-import java.util.*;
 
 
 public interface MonitoredAttribute {

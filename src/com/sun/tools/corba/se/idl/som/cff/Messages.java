@@ -3,11 +3,6 @@
 
 package com.sun.tools.corba.se.idl.som.cff;
 
-import java.io.IOException;
-import java.util.Enumeration;
-import java.util.Properties;
-import java.lang.String;
-import java.lang.System;
 
 
 

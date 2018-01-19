@@ -2,27 +2,11 @@
 
 package com.sun.corba.se.spi.transport;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.SocketChannel;
 
-import org.omg.CORBA.SystemException;
 
-import com.sun.org.omg.SendingContext.CodeBase;
 
-import com.sun.corba.se.pept.encoding.InputObject;
-import com.sun.corba.se.pept.encoding.OutputObject;
-import com.sun.corba.se.pept.protocol.MessageMediator;
-import com.sun.corba.se.pept.transport.Connection;
-import com.sun.corba.se.pept.transport.ResponseWaitingRoom;
 
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
 
-import com.sun.corba.se.impl.encoding.CodeSetComponentInfo;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 
 
 public interface CorbaConnection

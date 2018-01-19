@@ -2,9 +2,6 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.io.StringWriter;
-import java.io.OutputStream;
-import java.io.IOException;
 
 
 public class HexOutputStream extends OutputStream

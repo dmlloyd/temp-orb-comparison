@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.monitoring;
 
-import com.sun.corba.se.spi.monitoring.MonitoredAttributeInfo;
 
 public class MonitoredAttributeInfoImpl implements MonitoredAttributeInfo {
     private final String description;

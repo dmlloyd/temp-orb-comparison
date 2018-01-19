@@ -2,10 +2,7 @@
 
 package com.sun.corba.se.impl.resolver ;
 
-import java.util.Set ;
-import java.util.HashSet ;
 
-import com.sun.corba.se.spi.resolver.Resolver ;
 
 public class CompositeResolverImpl implements Resolver {
     private Resolver first ;

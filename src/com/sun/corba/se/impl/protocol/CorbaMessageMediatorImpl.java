@@ -2,104 +2,11 @@
 
 package com.sun.corba.se.impl.protocol;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.ByteBuffer;
-import java.nio.channels.SelectionKey;
-import java.util.EmptyStackException;
-import java.util.Iterator;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.ExceptionList;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.UnknownUserException;
-import org.omg.CORBA.UNKNOWN;
-import org.omg.CORBA.portable.ResponseHandler;
-import org.omg.CORBA.portable.UnknownException;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
-import org.omg.IOP.ExceptionDetailMessage;
-import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
 
-import com.sun.corba.se.pept.broker.Broker;
-import com.sun.corba.se.pept.encoding.InputObject;
-import com.sun.corba.se.pept.encoding.OutputObject;
-import com.sun.corba.se.pept.protocol.MessageMediator;
-import com.sun.corba.se.pept.protocol.ProtocolHandler;
-import com.sun.corba.se.pept.transport.ByteBufferPool;
-import com.sun.corba.se.pept.transport.Connection;
-import com.sun.corba.se.pept.transport.ContactInfo;
-import com.sun.corba.se.pept.transport.EventHandler;
 
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.ObjectKey;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile;
-import com.sun.corba.se.spi.ior.iiop.MaxStreamFormatVersionComponent;
-import com.sun.corba.se.spi.oa.OAInvocationInfo;
-import com.sun.corba.se.spi.oa.ObjectAdapter;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orb.ORBVersionFactory;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-import com.sun.corba.se.spi.protocol.CorbaProtocolHandler;
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher;
-import com.sun.corba.se.spi.protocol.ForwardException;
-import com.sun.corba.se.spi.transport.CorbaConnection;
-import com.sun.corba.se.spi.transport.CorbaContactInfo;
-import com.sun.corba.se.spi.transport.CorbaResponseWaitingRoom;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.spi.servicecontext.ORBVersionServiceContext;
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
-import com.sun.corba.se.spi.servicecontext.UEInfoServiceContext;
-import com.sun.corba.se.spi.servicecontext.MaxStreamFormatVersionServiceContext;
-import com.sun.corba.se.spi.servicecontext.SendingContextServiceContext;
-import com.sun.corba.se.spi.servicecontext.UnknownServiceContext;
 
-import com.sun.corba.se.impl.corba.RequestImpl;
-import com.sun.corba.se.impl.encoding.BufferManagerFactory;
-import com.sun.corba.se.impl.encoding.BufferManagerReadStream;
-import com.sun.corba.se.impl.encoding.CDRInputObject;
-import com.sun.corba.se.impl.encoding.CDROutputObject;
-import com.sun.corba.se.impl.encoding.EncapsOutputStream;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.logging.InterceptorsSystemException;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.ior.iiop.JavaSerializationComponent;
-import com.sun.corba.se.impl.protocol.AddressingDispositionException;
-import com.sun.corba.se.impl.protocol.RequestCanceledException;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.AddressingDispositionHelper;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.CancelRequestMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage_1_1;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage_1_2;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage_1_0;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage_1_1;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage_1_2;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyOrReplyMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage_1_0;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage_1_1;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage_1_2;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.MessageBase;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.MessageHandler;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage_1_0;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage_1_1;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage_1_2;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_0 ;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_1 ;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage_1_2 ;
 
 
 

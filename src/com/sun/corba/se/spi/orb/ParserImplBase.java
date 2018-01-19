@@ -1,24 +1,12 @@
 
 package com.sun.corba.se.spi.orb ;
 
-import java.util.Map ;
-import java.util.Set ;
-import java.util.Iterator ;
-import java.util.Properties ;
 
-import java.security.PrivilegedExceptionAction ;
-import java.security.PrivilegedActionException ;
-import java.security.AccessController ;
 
-import java.lang.reflect.Field ;
 
-import org.omg.CORBA.INTERNAL ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
 
-import com.sun.corba.se.impl.orbutil.ObjectUtility ;
 
 
 

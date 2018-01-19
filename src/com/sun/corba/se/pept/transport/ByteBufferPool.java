@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.pept.transport;
 
-import java.nio.ByteBuffer;
 
 
 public interface ByteBufferPool

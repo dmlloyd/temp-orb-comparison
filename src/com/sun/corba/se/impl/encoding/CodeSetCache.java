@@ -1,10 +1,6 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.nio.charset.CharsetDecoder;
-import java.nio.charset.CharsetEncoder;
-import java.util.Map;
-import java.util.WeakHashMap;
 
 
 class CodeSetCache

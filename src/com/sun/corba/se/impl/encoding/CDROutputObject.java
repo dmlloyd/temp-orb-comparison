@@ -2,38 +2,10 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.portable.InputStream;
 
-import com.sun.corba.se.pept.encoding.OutputObject;
-import com.sun.corba.se.pept.protocol.MessageMediator;
 
-import com.sun.corba.se.spi.encoding.CorbaOutputObject ;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-import com.sun.corba.se.pept.transport.ByteBufferPool;
-import com.sun.corba.se.spi.transport.CorbaConnection;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
-import com.sun.corba.se.impl.encoding.BufferManagerFactory;
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-import com.sun.corba.se.impl.encoding.CDROutputStream;
-import com.sun.corba.se.impl.encoding.CDROutputStream_1_0;
-import com.sun.corba.se.impl.encoding.CodeSetConversion;
-import com.sun.corba.se.impl.encoding.CodeSetComponentInfo;
-import com.sun.corba.se.impl.encoding.OSFCodeSetRegistry;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.MessageBase;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.logging.OMGSystemException;
 
 
 public class CDROutputObject extends CorbaOutputObject

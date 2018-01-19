@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.pept.transport;
 
-import com.sun.corba.se.pept.protocol.MessageMediator;
-import com.sun.corba.se.pept.encoding.InputObject;
 
 
 public interface ResponseWaitingRoom

@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.spi.protocol;
 
-import org.omg.CORBA.portable.ServantObject;
 
 
 

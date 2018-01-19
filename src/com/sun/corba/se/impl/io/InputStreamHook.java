@@ -3,23 +3,8 @@
 
 package com.sun.corba.se.impl.io;
 
-import java.io.IOException;
-import java.io.StreamCorruptedException;
-import java.io.NotActiveException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.util.*;
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
 
-import org.omg.CORBA.portable.ValueInputStream;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orb.ORBVersion;
-import com.sun.corba.se.spi.orb.ORBVersionFactory;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.impl.logging.UtilSystemException;
-import com.sun.corba.se.impl.logging.OMGSystemException;
 
 public abstract class InputStreamHook extends ObjectInputStream
 {

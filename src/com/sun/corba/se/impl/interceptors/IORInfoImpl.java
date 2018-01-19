@@ -2,39 +2,15 @@
 
 package com.sun.corba.se.impl.interceptors;
 
-import java.util.Iterator ;
 
-import org.omg.IOP.TaggedComponent;
 
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.INV_POLICY;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.Policy;
-import org.omg.CORBA.LocalObject;
 
-import org.omg.PortableInterceptor.IORInfo;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate;
-import org.omg.PortableInterceptor.ObjectReferenceFactory;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter;
 
-import com.sun.corba.se.spi.legacy.interceptor.IORInfoExt;
-import com.sun.corba.se.spi.legacy.interceptor.UnknownType;
 
-import com.sun.corba.se.spi.ior.IORTemplate;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplate;
-import com.sun.corba.se.spi.ior.TaggedComponentFactoryFinder ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
-import com.sun.corba.se.impl.logging.InterceptorsSystemException ;
-import com.sun.corba.se.impl.logging.OMGSystemException ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
 
 
 public final class IORInfoImpl

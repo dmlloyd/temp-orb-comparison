@@ -2,16 +2,8 @@
 
 package com.sun.corba.se.impl.legacy.connection;
 
-import com.sun.corba.se.pept.transport.Connection;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.spi.transport.CorbaContactInfoList;
-import com.sun.corba.se.spi.transport.SocketInfo;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.transport.SocketOrChannelContactInfoImpl;
 
 
 

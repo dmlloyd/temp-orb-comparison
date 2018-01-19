@@ -3,48 +3,13 @@
 
 package com.sun.corba.se.impl.io;
 
-import java.security.AccessControlContext;
-import java.security.AccessController;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.DigestOutputStream;
-import java.security.PermissionCollection;
-import java.security.Permissions;
-import java.security.PrivilegedExceptionAction;
-import java.security.PrivilegedActionException;
-import java.security.PrivilegedAction;
-import java.security.ProtectionDomain;
 
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Proxy;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.UndeclaredThrowableException;
 
-import java.io.IOException;
-import java.io.DataOutputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InvalidClassException;
-import java.io.Externalizable;
-import java.io.Serializable;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.Set;
 
-import sun.misc.JavaSecurityAccess;
-import sun.misc.SharedSecrets;
 
-import com.sun.corba.se.impl.util.RepositoryId;
 
-import org.omg.CORBA.ValueMember;
 
-import sun.corba.Bridge;
 
 
 public class ObjectStreamClass implements java.io.Serializable {

@@ -2,8 +2,6 @@
 
 
 package com.sun.tools.corba.se.idl.som.idlemit;
-import java.util.Vector;
-import com.sun.tools.corba.se.idl.som.cff.Messages;
 
 public class MetaPragma extends com.sun.tools.corba.se.idl.PragmaHandler {
     

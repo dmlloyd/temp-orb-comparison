@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.spi.presentation.rmi ;
 
-import java.lang.reflect.Method ;
 
 
 public interface IDLNameTranslator

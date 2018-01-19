@@ -3,98 +3,16 @@
 
 package com.sun.corba.se.impl.orb;
 
-import java.util.Collection;
-import java.util.Properties;
-import java.util.Hashtable;
 
-import java.applet.Applet;
 
-import java.net.URL;
 
-import java.io.IOException ;
 
-import java.util.logging.Logger ;
 
-import org.omg.CORBA.Context;
-import org.omg.CORBA.ContextList;
-import org.omg.CORBA.Environment;
-import org.omg.CORBA.ExceptionList;
-import org.omg.CORBA.ORBPackage.InvalidName;
-import org.omg.CORBA.NVList;
-import org.omg.CORBA.TCKind;
-import org.omg.CORBA.NamedValue;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.Request;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.StructMember;
-import org.omg.CORBA.UnionMember;
-import org.omg.CORBA.ValueMember;
-import org.omg.CORBA.Policy;
-import org.omg.CORBA.PolicyError;
 
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CORBA.portable.RemarshalException;
 
-import com.sun.corba.se.pept.protocol.ClientInvocationInfo ;
-import com.sun.corba.se.pept.transport.ContactInfo;
-import com.sun.corba.se.pept.transport.ConnectionCache;
-import com.sun.corba.se.pept.transport.Selector ;
-import com.sun.corba.se.pept.transport.TransportManager;
 
-import com.sun.corba.se.spi.legacy.connection.ORBSocketFactory;
-import com.sun.corba.se.spi.orb.ORBData;
-import com.sun.corba.se.spi.orb.Operation;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orb.ORBVersion;
-import com.sun.corba.se.spi.orb.ORBVersionFactory;
-import com.sun.corba.se.spi.oa.OAInvocationInfo;
-import com.sun.corba.se.spi.oa.ObjectAdapter;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-import com.sun.corba.se.spi.protocol.ClientDelegateFactory;
-import com.sun.corba.se.spi.protocol.RequestDispatcherRegistry;
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher;
-import com.sun.corba.se.spi.protocol.PIHandler;
-import com.sun.corba.se.spi.resolver.Resolver;
-import com.sun.corba.se.spi.resolver.LocalResolver;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.IdentifiableFactoryFinder;
-import com.sun.corba.se.spi.ior.TaggedComponentFactoryFinder;
-import com.sun.corba.se.spi.ior.ObjectKey;
-import com.sun.corba.se.spi.ior.ObjectKeyFactory;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.pept.transport.ByteBufferPool ;
-import com.sun.corba.se.spi.transport.CorbaContactInfoListFactory ;
-import com.sun.corba.se.spi.transport.CorbaTransportManager;
-import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketManager;
-import com.sun.corba.se.spi.orbutil.closure.Closure;
-import com.sun.corba.se.spi.orbutil.threadpool.ThreadPoolManager;
-import com.sun.corba.se.spi.logging.LogWrapperFactory;
-import com.sun.corba.se.spi.logging.LogWrapperBase;
-import com.sun.corba.se.spi.copyobject.CopierManager;
-import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
-import com.sun.corba.se.spi.presentation.rmi.PresentationDefaults;
 
-import com.sun.corba.se.spi.servicecontext.ServiceContextRegistry;
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
 
-import com.sun.corba.se.impl.corba.TypeCodeFactory;
-import com.sun.corba.se.impl.corba.TypeCodeImpl;
-import com.sun.corba.se.impl.corba.NVListImpl;
-import com.sun.corba.se.impl.corba.NamedValueImpl;
-import com.sun.corba.se.impl.corba.ExceptionListImpl;
-import com.sun.corba.se.impl.corba.ContextListImpl;
-import com.sun.corba.se.impl.corba.EnvironmentImpl;
-import com.sun.corba.se.impl.corba.AnyImpl;
-import com.sun.corba.se.impl.encoding.BufferManagerFactory;
-import com.sun.corba.se.impl.encoding.CodeSetComponentInfo;
-import com.sun.corba.se.impl.encoding.MarshalInputStream;
-import com.sun.corba.se.impl.encoding.EncapsOutputStream;
-import com.sun.corba.se.impl.encoding.MarshalOutputStream;
-import com.sun.corba.se.impl.oa.poa.BadServerIdHandler;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketEndPointInfo;
 
 
 public class ORBSingleton extends ORB

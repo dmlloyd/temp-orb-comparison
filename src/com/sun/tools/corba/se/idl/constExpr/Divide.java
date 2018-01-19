@@ -9,8 +9,6 @@ package com.sun.tools.corba.se.idl.constExpr;
 
 
 
-import com.sun.tools.corba.se.idl.Util;
-import java.math.BigInteger;
 
 
 public class Divide extends BinaryExpr

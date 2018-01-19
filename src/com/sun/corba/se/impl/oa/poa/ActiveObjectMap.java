@@ -2,16 +2,7 @@
 
 package com.sun.corba.se.impl.oa.poa;
 
-import java.util.Set ;
-import java.util.HashSet ;
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.Iterator ;
-import java.util.Vector ;
 
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.CORBA.INTERNAL ;
 
 
 public abstract class ActiveObjectMap

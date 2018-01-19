@@ -2,16 +2,8 @@
 
 package org.omg.CORBA;
 
-import org.omg.CORBA.portable.*;
-import org.omg.CORBA.ORBPackage.InvalidName;
 
-import java.util.Properties;
-import java.applet.Applet;
-import java.io.File;
-import java.io.FileInputStream;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
 
 

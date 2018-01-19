@@ -2,9 +2,6 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import org.omg.CORBA.Principal;
-import com.sun.corba.se.spi.ior.ObjectKey;
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
 
 
 
