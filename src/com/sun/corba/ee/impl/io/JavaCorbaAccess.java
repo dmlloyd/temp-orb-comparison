@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.io;
+package xxxx;
 
 public interface JavaCorbaAccess {
 	public ValueHandlerImpl newValueHandlerImpl();

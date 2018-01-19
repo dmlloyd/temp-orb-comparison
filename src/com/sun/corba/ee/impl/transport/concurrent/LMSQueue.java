@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.impl.transport.concurrent ;
+package xxxx;
 
 
 public class LMSQueue<V> {

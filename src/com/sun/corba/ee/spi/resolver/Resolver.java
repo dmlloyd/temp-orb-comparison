@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.spi.resolver ;
+package xxxx;
 
 
 public interface Resolver {

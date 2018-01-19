@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.spi.servicecontext;
+package xxxx;
 
 
 public class ServiceContextsCache {

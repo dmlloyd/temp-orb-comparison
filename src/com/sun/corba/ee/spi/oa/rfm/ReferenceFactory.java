@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.oa.rfm ;
+package xxxx;
 
 public interface ReferenceFactory extends org.omg.CORBA.Object,
     org.omg.CORBA.portable.IDLEntity 

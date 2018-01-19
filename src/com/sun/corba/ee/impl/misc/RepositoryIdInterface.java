@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.impl.misc;
+package xxxx;
 
 
 

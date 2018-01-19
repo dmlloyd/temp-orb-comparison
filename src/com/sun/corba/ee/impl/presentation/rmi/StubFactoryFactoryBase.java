@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.impl.presentation.rmi;
+package xxxx;
 
 
 

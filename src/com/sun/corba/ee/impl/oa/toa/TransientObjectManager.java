@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.ee.impl.oa.toa;
+package xxxx;
 
 
 @com.sun.corba.ee.spi.trace.TransientObjectManager

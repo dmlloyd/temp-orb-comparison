@@ -1,7 +1,7 @@
 
 
 
-package org.glassfish.corba;
+package xxxx;
 
 
 

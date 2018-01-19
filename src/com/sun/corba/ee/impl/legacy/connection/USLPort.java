@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.legacy.connection;
+package xxxx;
 
 
 @ManagedData

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.presentation.rmi ;
+package xxxx;
 
 
 public class IDLTypeException extends Exception {

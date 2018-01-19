@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.impl.txpoa;
+package xxxx;
 
 
 public class TSIdentificationImpl extends org.omg.CORBA.LocalObject

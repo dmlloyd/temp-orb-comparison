@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.impl.copyobject ;
+package xxxx;
 
 
 public class CopierManagerImpl implements CopierManager

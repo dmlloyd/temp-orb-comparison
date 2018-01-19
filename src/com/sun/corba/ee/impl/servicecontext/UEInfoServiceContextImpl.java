@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.impl.servicecontext;
+package xxxx;
 
 
 public class UEInfoServiceContextImpl extends ServiceContextBase

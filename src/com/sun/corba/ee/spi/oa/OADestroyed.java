@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.spi.oa;
+package xxxx;
 
 
 public class OADestroyed extends java.lang.Exception {

@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.ee.spi.ior;
+package xxxx;
 
 
 

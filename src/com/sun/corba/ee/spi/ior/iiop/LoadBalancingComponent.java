@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.spi.ior.iiop;
+package xxxx;
 
 
 public interface LoadBalancingComponent extends TaggedComponent

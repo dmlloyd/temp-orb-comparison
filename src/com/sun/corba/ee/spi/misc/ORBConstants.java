@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.misc;
+package xxxx;
 
 
 public class ORBConstants {

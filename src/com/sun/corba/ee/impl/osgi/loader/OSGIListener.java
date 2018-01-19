@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.osgi.loader ;
+package xxxx;
 
 
 

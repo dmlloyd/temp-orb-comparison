@@ -6,7 +6,7 @@
 
 
 
-package com.sun.corba.ee.impl.orb ;
+package xxxx;
 
 
 public class AppletDataCollector extends DataCollectorBase {

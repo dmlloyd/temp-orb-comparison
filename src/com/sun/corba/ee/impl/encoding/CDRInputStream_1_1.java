@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.encoding;
+package xxxx;
 
 
 public class CDRInputStream_1_1 extends CDRInputStream_1_0

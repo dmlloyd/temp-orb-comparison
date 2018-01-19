@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.transport;
+package xxxx;
 
 public interface SocketInfo
 {

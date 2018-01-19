@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.encoding;
+package xxxx;
 
 
 public class CDROutputStream_1_1 extends CDROutputStream_1_0

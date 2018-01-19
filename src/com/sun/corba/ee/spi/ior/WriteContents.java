@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.ior;
+package xxxx;
 
 
 public interface WriteContents {

@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.ee.impl.util;
+package xxxx;
 
 
 public class RepositoryIdCache extends Hashtable {

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.spi.logex.corba ;
+package xxxx;
 
 
 

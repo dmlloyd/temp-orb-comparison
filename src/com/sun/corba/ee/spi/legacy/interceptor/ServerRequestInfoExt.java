@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.legacy.interceptor;
+package xxxx;
 
 
 public interface ServerRequestInfoExt {

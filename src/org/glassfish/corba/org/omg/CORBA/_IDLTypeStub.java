@@ -1,6 +1,6 @@
 
 
-package org.glassfish.corba.org.omg.CORBA;
+package xxxx;
 
 
 

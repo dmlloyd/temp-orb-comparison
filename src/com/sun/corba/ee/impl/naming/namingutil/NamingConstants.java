@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.impl.naming.namingutil;
+package xxxx;
 
 
 public class NamingConstants {

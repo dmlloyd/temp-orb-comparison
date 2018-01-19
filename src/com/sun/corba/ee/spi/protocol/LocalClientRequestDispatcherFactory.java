@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.protocol;
+package xxxx;
 
 
 public interface LocalClientRequestDispatcherFactory {

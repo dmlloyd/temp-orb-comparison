@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.ee.impl.javax.rmi;        
+package xxxx;
 
 
 

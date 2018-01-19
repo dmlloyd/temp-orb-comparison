@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.ee.spi.presentation.rmi ;
+package xxxx;
 
 
 public interface InvocationInterceptor {
