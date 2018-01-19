@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.legacy.interceptor;
+package xxxx;
 
 
 public interface IORInfoExt

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.ior ;
+package xxxx;
 
 
 public class ObjectAdapterIdArray extends ObjectAdapterIdBase {

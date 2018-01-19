@@ -1,6 +1,6 @@
 
 
-package com.sun.jndi.toolkit.corba;
+package xxxx;
 
 
 

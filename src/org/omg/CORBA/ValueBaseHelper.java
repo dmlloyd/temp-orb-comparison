@@ -5,7 +5,7 @@
 
 
 
-package org.omg.CORBA;
+package xxxx;
 
 abstract public class ValueBaseHelper
 {

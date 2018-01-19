@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.orbutil.fsm;
+package xxxx;
 
 
 public interface Action

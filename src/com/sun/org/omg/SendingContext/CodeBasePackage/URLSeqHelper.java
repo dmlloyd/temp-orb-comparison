@@ -1,5 +1,5 @@
 
-package com.sun.org.omg.SendingContext.CodeBasePackage;
+package xxxx;
 
 
 

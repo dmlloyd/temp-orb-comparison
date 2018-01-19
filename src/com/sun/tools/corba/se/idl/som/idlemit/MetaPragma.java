@@ -1,7 +1,7 @@
 
 
 
-package com.sun.tools.corba.se.idl.som.idlemit;
+package xxxx;
 
 public class MetaPragma extends com.sun.tools.corba.se.idl.PragmaHandler {
     

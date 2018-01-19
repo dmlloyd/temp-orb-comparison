@@ -2,7 +2,7 @@
 
  
 
-package org.omg.CORBA;
+package xxxx;
 
 
 public abstract class ServiceInformationHelper {

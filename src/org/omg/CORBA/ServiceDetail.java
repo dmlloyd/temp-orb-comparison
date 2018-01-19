@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA;
+package xxxx;
 
 
 public final class ServiceDetail implements org.omg.CORBA.portable.IDLEntity

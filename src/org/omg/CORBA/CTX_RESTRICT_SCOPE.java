@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA;
+package xxxx;
 
 
 public interface CTX_RESTRICT_SCOPE {

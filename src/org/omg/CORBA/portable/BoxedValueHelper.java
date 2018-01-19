@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CORBA.portable;
+package xxxx;
 
 public interface BoxedValueHelper {
     Serializable read_value(InputStream is);

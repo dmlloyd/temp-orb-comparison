@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.orbutil.threadpool;
+package xxxx;
 
 public class TimeoutException extends Exception
 {

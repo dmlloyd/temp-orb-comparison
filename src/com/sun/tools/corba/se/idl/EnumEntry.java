@@ -1,7 +1,7 @@
 
 
 
-package com.sun.tools.corba.se.idl;
+package xxxx;
 
 
 

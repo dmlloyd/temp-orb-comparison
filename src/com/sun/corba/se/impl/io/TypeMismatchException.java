@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.impl.io;
+package xxxx;
 
 public class TypeMismatchException extends Error
 {

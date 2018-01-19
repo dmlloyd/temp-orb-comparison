@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CORBA.DynAnyPackage;
+package xxxx;
 
 
 public final class InvalidSeq

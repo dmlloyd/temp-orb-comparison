@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CORBA.ORBPackage;
+package xxxx;
 
 
 public final class InconsistentTypeCode

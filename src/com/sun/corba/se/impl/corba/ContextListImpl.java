@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.impl.corba;
+package xxxx;
 
 
 public class ContextListImpl extends ContextList

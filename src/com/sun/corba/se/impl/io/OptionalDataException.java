@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.se.impl.io;
+package xxxx;
 
 
 public class OptionalDataException extends java.io.IOException {

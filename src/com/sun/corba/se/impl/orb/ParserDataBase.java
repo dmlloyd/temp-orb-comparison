@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.orb ;
+package xxxx;
 
 
 public abstract class ParserDataBase implements ParserData {

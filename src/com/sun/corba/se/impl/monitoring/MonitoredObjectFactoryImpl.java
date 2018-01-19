@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.monitoring;
+package xxxx;
 
 
 public class MonitoredObjectFactoryImpl implements MonitoredObjectFactory {

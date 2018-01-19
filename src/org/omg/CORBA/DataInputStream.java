@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA;
+package xxxx;
 
 
 public interface DataInputStream extends org.omg.CORBA.portable.ValueBase

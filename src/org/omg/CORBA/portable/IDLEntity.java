@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA.portable;
+package xxxx;
 
 
 public interface IDLEntity extends java.io.Serializable {

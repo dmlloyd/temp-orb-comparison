@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CosNaming;
+package xxxx;
 public abstract class _BindingIteratorImplBase extends org.omg.CORBA.DynamicImplementation implements org.omg.CosNaming.BindingIterator {
     
     public _BindingIteratorImplBase() {

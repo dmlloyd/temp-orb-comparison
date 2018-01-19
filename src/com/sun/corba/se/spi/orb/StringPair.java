@@ -1,5 +1,5 @@
 
-package com.sun.corba.se.spi.orb ;
+package xxxx;
 
 public class StringPair {
     private String first ;

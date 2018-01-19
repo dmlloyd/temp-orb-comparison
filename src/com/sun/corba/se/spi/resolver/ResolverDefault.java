@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.resolver ;
+package xxxx;
 
 
 

@@ -1,6 +1,6 @@
 
 
-package javax.activity;
+package xxxx;
 
 
 public class ActivityCompletedException extends java.rmi.RemoteException

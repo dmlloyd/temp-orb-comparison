@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.se.impl.util;
+package xxxx;
 
 
 class IdentityHashtableEntry {

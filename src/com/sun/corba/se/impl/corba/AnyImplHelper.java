@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.se.impl.corba;
+package xxxx;
 
 abstract public class AnyImplHelper
 {

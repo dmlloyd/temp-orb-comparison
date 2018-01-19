@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.orbutil.closure ;
+package xxxx;
 
 
 public class Future implements Closure {

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.transport;
+package xxxx;
 
 public interface ReadTimeouts {
     public int get_initial_time_to_wait();

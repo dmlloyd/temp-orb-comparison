@@ -1,6 +1,6 @@
 
 
-package com.sun.jndi.url.corbaname;
+package xxxx;
 
 
 

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.protocol;
+package xxxx;
 
 
 public class RequestCanceledException extends RuntimeException {

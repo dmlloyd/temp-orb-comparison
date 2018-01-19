@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.impl.oa.toa;
+package xxxx;
 
 
 public final class TransientObjectManager {

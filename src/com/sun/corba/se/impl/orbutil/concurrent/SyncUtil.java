@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.orbutil.concurrent;
+package xxxx;
 
 
 public class SyncUtil {

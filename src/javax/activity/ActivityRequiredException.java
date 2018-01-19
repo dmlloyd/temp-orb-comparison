@@ -1,6 +1,6 @@
 
 
-package javax.activity;
+package xxxx;
 
 
 public class ActivityRequiredException extends java.rmi.RemoteException

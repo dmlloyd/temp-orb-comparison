@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.encoding;
+package xxxx;
 
 
 public interface BufferManagerRead

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.internal.POA;
+package xxxx;
 
 
 public class POAORB extends com.sun.corba.se.internal.iiop.ORB

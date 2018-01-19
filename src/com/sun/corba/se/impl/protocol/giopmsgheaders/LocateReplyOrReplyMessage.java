@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.protocol.giopmsgheaders;
+package xxxx;
 
 
 public interface LocateReplyOrReplyMessage extends Message {

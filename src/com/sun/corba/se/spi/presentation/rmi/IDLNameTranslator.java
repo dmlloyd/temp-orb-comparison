@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.presentation.rmi ;
+package xxxx;
 
 
 

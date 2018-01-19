@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.corba;
+package xxxx;
 
 public interface TypeCodeFactory {
     void setTypeCode(String id, TypeCodeImpl code);
