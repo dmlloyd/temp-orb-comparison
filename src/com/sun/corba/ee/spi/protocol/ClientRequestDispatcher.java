@@ -3,10 +3,6 @@
 
 package com.sun.corba.ee.spi.protocol;
 
-import com.sun.corba.ee.impl.encoding.CDRInputObject;
-import com.sun.corba.ee.impl.encoding.CDROutputObject;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.transport.ContactInfo;
 
 
 public interface ClientRequestDispatcher

@@ -3,71 +3,9 @@
 
 package com.sun.corba.ee.impl.protocol;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.ByteBuffer;
-import java.util.EmptyStackException;
-import java.util.Iterator;
-import java.util.Queue;
 
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.*;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.ExceptionList;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.UnknownUserException;
-import org.omg.CORBA.UNKNOWN;
-import org.omg.CORBA.portable.UnknownException;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
-import org.omg.IOP.ExceptionDetailMessage;
-import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
 
-import com.sun.corba.ee.spi.ior.IOR;
-import com.sun.corba.ee.spi.ior.ObjectKey;
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.ior.iiop.IIOPProfileTemplate;
-import com.sun.corba.ee.spi.ior.iiop.MaxStreamFormatVersionComponent;
-import com.sun.corba.ee.spi.oa.OAInvocationInfo;
-import com.sun.corba.ee.spi.oa.ObjectAdapter;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.orb.ObjectKeyCacheEntry;
-import com.sun.corba.ee.spi.threadpool.NoSuchThreadPoolException;
-import com.sun.corba.ee.spi.threadpool.NoSuchWorkQueueException;
-import com.sun.corba.ee.spi.threadpool.Work;
-import com.sun.corba.ee.spi.protocol.MessageMediator;
-import com.sun.corba.ee.spi.protocol.ProtocolHandler;
-import com.sun.corba.ee.spi.protocol.RequestId;
-import com.sun.corba.ee.spi.protocol.ServerRequestDispatcher;
-import com.sun.corba.ee.spi.protocol.ForwardException;
-import com.sun.corba.ee.spi.servicecontext.MaxStreamFormatVersionServiceContext;
-import com.sun.corba.ee.spi.servicecontext.ORBVersionServiceContext;
-import com.sun.corba.ee.spi.servicecontext.ServiceContexts;
-import com.sun.corba.ee.spi.servicecontext.ServiceContextsCache;
-import com.sun.corba.ee.spi.servicecontext.SendingContextServiceContext;
-import com.sun.corba.ee.spi.servicecontext.ServiceContextDefaults;
-import com.sun.corba.ee.spi.servicecontext.UEInfoServiceContext;
-import com.sun.corba.ee.spi.servicecontext.UnknownServiceContext;
-import com.sun.corba.ee.spi.transport.Connection;
-import com.sun.corba.ee.spi.transport.ContactInfo;
 
-import com.sun.corba.ee.impl.corba.RequestImpl;
-import com.sun.corba.ee.impl.encoding.BufferManagerFactory;
-import com.sun.corba.ee.impl.encoding.BufferManagerWrite;
-import com.sun.corba.ee.impl.encoding.CDRInputObject;
-import com.sun.corba.ee.impl.encoding.CDROutputObject;
-import com.sun.corba.ee.impl.encoding.EncapsOutputStream;
-import com.sun.corba.ee.impl.encoding.OutputStreamFactory;
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
-import com.sun.corba.ee.spi.logging.InterceptorsSystemException;
-import com.sun.corba.ee.spi.misc.ORBConstants;
-import com.sun.corba.ee.impl.misc.ORBUtility;
-import com.sun.corba.ee.spi.trace.Subcontract;
-import com.sun.corba.ee.spi.trace.Transport;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
 
 
 @Subcontract

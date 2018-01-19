@@ -3,13 +3,9 @@
 
 package com.sun.corba.ee.spi.ior;
 
-import java.util.Iterator ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import com.sun.corba.ee.impl.ior.EncapsulationUtility ;
 
 public abstract class TaggedProfileTemplateBase 
     extends IdentifiableContainerBase<TaggedComponent> 

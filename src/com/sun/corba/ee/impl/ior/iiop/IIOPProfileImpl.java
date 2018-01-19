@@ -3,43 +3,7 @@
 
 package com.sun.corba.ee.impl.ior.iiop;
 
-import com.sun.corba.ee.impl.encoding.EncapsInputStream;
-import com.sun.corba.ee.impl.encoding.EncapsInputStreamFactory;
-import com.sun.corba.ee.impl.encoding.EncapsOutputStream;
-import com.sun.corba.ee.impl.encoding.OutputStreamFactory;
-import com.sun.corba.ee.impl.ior.EncapsulationUtility;
-import com.sun.corba.ee.impl.orb.ORBVersionImpl;
-import com.sun.corba.ee.impl.util.JDKBridge;
-import com.sun.corba.ee.spi.ior.IORFactories;
-import com.sun.corba.ee.spi.ior.IdentifiableBase;
-import com.sun.corba.ee.spi.ior.ObjectAdapterId;
-import com.sun.corba.ee.spi.ior.ObjectId;
-import com.sun.corba.ee.spi.ior.ObjectKey;
-import com.sun.corba.ee.spi.ior.ObjectKeyTemplate;
-import com.sun.corba.ee.spi.ior.TaggedComponent;
-import com.sun.corba.ee.spi.ior.TaggedProfile;
-import com.sun.corba.ee.spi.ior.TaggedProfileTemplate;
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.ior.iiop.IIOPAddress;
-import com.sun.corba.ee.spi.ior.iiop.IIOPFactories;
-import com.sun.corba.ee.spi.ior.iiop.IIOPProfile;
-import com.sun.corba.ee.spi.ior.iiop.IIOPProfileTemplate;
-import com.sun.corba.ee.spi.ior.iiop.JavaCodebaseComponent;
-import com.sun.corba.ee.spi.logging.IORSystemException;
-import com.sun.corba.ee.spi.oa.ObjectAdapter;
-import com.sun.corba.ee.spi.oa.ObjectAdapterFactory;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.orb.ORBVersion;
-import com.sun.corba.ee.spi.protocol.RequestDispatcherRegistry;
-import com.sun.corba.ee.spi.trace.IsLocal;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
-import org.omg.IOP.TAG_INTERNET_IOP;
-import org.omg.IOP.TAG_JAVA_CODEBASE;
 
-import java.util.Iterator;
 
 
 @IsLocal

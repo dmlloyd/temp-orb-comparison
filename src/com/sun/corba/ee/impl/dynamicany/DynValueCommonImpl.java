@@ -3,12 +3,7 @@
 
 package com.sun.corba.ee.impl.dynamicany;
 
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Any;
-import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
 
-import com.sun.corba.ee.spi.orb.ORB ;
-import org.omg.DynamicAny.DynValueCommon;
 
 abstract class DynValueCommonImpl extends DynAnyComplexImpl implements DynValueCommon
 {

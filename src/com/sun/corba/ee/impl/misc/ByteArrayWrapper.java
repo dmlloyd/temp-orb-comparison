@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import java.util.Arrays;
 
 public class ByteArrayWrapper {
 

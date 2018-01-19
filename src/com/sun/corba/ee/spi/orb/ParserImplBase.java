@@ -2,18 +2,9 @@
 
 package com.sun.corba.ee.spi.orb ;
 
-import java.util.Map ;
-import java.util.Set ;
-import java.util.Iterator ;
-import java.util.Properties ;
 
-import java.security.PrivilegedExceptionAction ;
-import java.security.PrivilegedActionException ;
-import java.security.AccessController ;
 
-import java.lang.reflect.Field ;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
 
 public abstract class ParserImplBase {
     private static final ORBUtilSystemException wrapper =

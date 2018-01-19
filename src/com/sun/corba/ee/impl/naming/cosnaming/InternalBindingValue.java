@@ -3,9 +3,6 @@
 
 package com.sun.corba.ee.impl.naming.cosnaming;
 
-import org.omg.CORBA.Object;
-import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.NameComponent;
 
 
 public class InternalBindingValue

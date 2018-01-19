@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.copyobject ;
 
-import org.glassfish.pfl.dynamic.copyobject.spi.ObjectCopier;
 
 
 public class ReferenceObjectCopierImpl implements ObjectCopier

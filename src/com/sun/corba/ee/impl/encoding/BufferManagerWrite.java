@@ -3,11 +3,8 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import com.sun.corba.ee.spi.orb.ORB;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
 
-import java.nio.ByteBuffer;
 
 
 public abstract class BufferManagerWrite

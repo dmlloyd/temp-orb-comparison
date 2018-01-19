@@ -3,43 +3,10 @@
 
 package com.sun.corba.ee.impl.oa.poa;
 
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.BitSet ;
 
-import com.sun.corba.ee.spi.misc.ORBConstants ;
-import com.sun.corba.ee.spi.extension.ServantCachingPolicy ;
-import com.sun.corba.ee.spi.extension.ZeroPortPolicy ;
-import com.sun.corba.ee.spi.extension.CopyObjectPolicy ;
 
-import org.glassfish.gmbal.Description;
-import org.glassfish.gmbal.ManagedAttribute;
-import org.glassfish.gmbal.ManagedData;
 
-import org.omg.CORBA.Policy;
 
-import org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID;
-import org.omg.PortableServer.ID_UNIQUENESS_POLICY_ID;
-import org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_ID;
-import org.omg.PortableServer.IdAssignmentPolicy;
-import org.omg.PortableServer.IdAssignmentPolicyValue;
-import org.omg.PortableServer.IdUniquenessPolicy;
-import org.omg.PortableServer.IdUniquenessPolicyValue;
-import org.omg.PortableServer.ImplicitActivationPolicy;
-import org.omg.PortableServer.ImplicitActivationPolicyValue;
-import org.omg.PortableServer.LIFESPAN_POLICY_ID;
-import org.omg.PortableServer.LifespanPolicy;
-import org.omg.PortableServer.LifespanPolicyValue;
-import org.omg.PortableServer.POAPackage.InvalidPolicy;
-import org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID;
-import org.omg.PortableServer.RequestProcessingPolicy;
-import org.omg.PortableServer.RequestProcessingPolicyValue;
-import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
-import org.omg.PortableServer.ServantRetentionPolicy;
-import org.omg.PortableServer.ServantRetentionPolicyValue;
-import org.omg.PortableServer.THREAD_POLICY_ID;
-import org.omg.PortableServer.ThreadPolicy;
-import org.omg.PortableServer.ThreadPolicyValue;
 
 @ManagedData
 @Description( "A collection of Policy instances")

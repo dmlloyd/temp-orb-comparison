@@ -3,14 +3,7 @@
 
 package com.sun.corba.ee.impl.oa.poa ;
 
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.ServantManager ;
-import org.omg.PortableServer.ForwardRequest ;
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.PortableServer.POAPackage.ObjectNotActive ;
-import org.omg.PortableServer.POAPackage.NoServant ;
 
-import com.sun.corba.ee.impl.oa.NullServantImpl ;
 
 
 public class POAPolicyMediatorImpl_R_AOM extends POAPolicyMediatorBase_R {

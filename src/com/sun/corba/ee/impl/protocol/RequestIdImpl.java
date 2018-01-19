@@ -3,8 +3,6 @@
 
 package com.sun.corba.ee.impl.protocol;
 
-import com.sun.corba.ee.spi.protocol.RequestId;
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
 
 
 public class RequestIdImpl implements RequestId {

@@ -2,18 +2,11 @@
 
 package com.sun.corba.ee.impl.ior.iiop;
 
-import org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT;
 
-import org.omg.CORBA_2_3.portable.OutputStream;
 
-import javax.rmi.CORBA.ValueHandler;
-import javax.rmi.CORBA.ValueHandlerMultiFormat;
 
-import com.sun.corba.ee.impl.misc.ORBUtility;
 
-import com.sun.corba.ee.spi.ior.TaggedComponentBase;
 
-import com.sun.corba.ee.spi.ior.iiop.MaxStreamFormatVersionComponent;
 
 
 

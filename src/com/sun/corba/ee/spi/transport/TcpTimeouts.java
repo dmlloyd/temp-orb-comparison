@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.transport;
 
-import com.sun.corba.ee.impl.transport.TcpTimeoutsImpl ;
 
 
 public interface TcpTimeouts {

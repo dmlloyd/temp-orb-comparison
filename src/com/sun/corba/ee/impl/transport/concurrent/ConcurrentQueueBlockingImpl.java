@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.transport.concurrent ;
 
-import com.sun.corba.ee.spi.transport.concurrent.ConcurrentQueue ;
 
 public class ConcurrentQueueBlockingImpl<V> implements ConcurrentQueue<V> {
     

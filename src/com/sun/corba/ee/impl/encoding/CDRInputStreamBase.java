@@ -2,14 +2,8 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Any;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.org.omg.SendingContext.CodeBase;
 
 
 abstract class CDRInputStreamBase extends java.io.InputStream

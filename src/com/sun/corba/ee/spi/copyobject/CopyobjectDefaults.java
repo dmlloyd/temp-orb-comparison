@@ -3,16 +3,7 @@
 
 package com.sun.corba.ee.spi.copyobject ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
-import org.glassfish.pfl.dynamic.copyobject.spi.ObjectCopier ;
-import org.glassfish.pfl.dynamic.copyobject.spi.ObjectCopierFactory ;
-import org.glassfish.pfl.dynamic.copyobject.impl.FallbackObjectCopierImpl ;
 
-import com.sun.corba.ee.impl.copyobject.ReferenceObjectCopierImpl ;
-import com.sun.corba.ee.impl.copyobject.ORBStreamObjectCopierImpl ;
-import com.sun.corba.ee.impl.copyobject.JavaStreamORBObjectCopierImpl ;
-import com.sun.corba.ee.impl.copyobject.OldReflectObjectCopierImpl ;
-import com.sun.corba.ee.impl.copyobject.ReflectObjectCopierImpl ;
 
 public abstract class CopyobjectDefaults
 {

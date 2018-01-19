@@ -2,9 +2,6 @@
 
 package com.sun.corba.ee.impl.legacy.connection;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.Description ;
-import org.glassfish.gmbal.ManagedAttribute ;
 
 @ManagedData
 @Description( "An address of a transport endpoint that the ORB "

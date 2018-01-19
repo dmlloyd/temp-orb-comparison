@@ -4,15 +4,8 @@
 
 package com.sun.corba.ee.impl.corba;
 
-import java.util.List;
-import java.util.ArrayList;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.Bounds;
-import org.omg.CORBA.NVList;
-import org.omg.CORBA.NamedValue;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
 public class NVListImpl extends NVList 
 {

@@ -4,21 +4,12 @@
 
 package com.sun.corba.ee.impl.io;
 
-import org.omg.CORBA.ORB;
 
-import javax.rmi.CORBA.ValueHandler;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Stack;
 
-import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
 
-import com.sun.org.omg.SendingContext._CodeBaseImplBase;
 
-import com.sun.corba.ee.spi.logging.OMGSystemException;
 
-import com.sun.corba.ee.impl.javax.rmi.CORBA.Util;
 
 
 public class FVDCodeBaseImpl extends _CodeBaseImplBase

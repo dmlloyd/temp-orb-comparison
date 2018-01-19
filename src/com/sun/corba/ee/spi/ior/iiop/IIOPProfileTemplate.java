@@ -3,13 +3,8 @@
 
 package com.sun.corba.ee.spi.ior.iiop;
 
-import com.sun.corba.ee.spi.ior.TaggedProfileTemplate ;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion ;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.ManagedAttribute ;
-import org.glassfish.gmbal.Description ;
 
 
 @ManagedData

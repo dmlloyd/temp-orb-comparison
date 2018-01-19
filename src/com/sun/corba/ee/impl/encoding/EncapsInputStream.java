@@ -3,13 +3,8 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 
-import com.sun.org.omg.SendingContext.CodeBase;
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
 
 
 public class EncapsInputStream extends CDRInputObject

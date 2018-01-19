@@ -3,10 +3,7 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import java.util.Properties ;
 
-import com.sun.corba.ee.spi.orb.Operation ;
-import com.sun.corba.ee.spi.orb.PropertyParser ;
 
 public class NormalParserData extends ParserDataBase {
     private String testData ;

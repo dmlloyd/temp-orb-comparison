@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.transport;
 
-import java.nio.ByteBuffer;
 
 
 public interface ByteBufferPool

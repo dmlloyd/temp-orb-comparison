@@ -3,8 +3,6 @@
 
 package com.sun.corba.ee.impl.legacy.connection;
 
-import com.sun.corba.ee.spi.legacy.connection.LegacyServerSocketEndPointInfo;
-import com.sun.corba.ee.spi.transport.SocketInfo;
 
 public class EndPointInfoImpl 
     implements 

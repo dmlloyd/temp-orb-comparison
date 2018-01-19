@@ -3,11 +3,7 @@
 
 package com.sun.corba.ee.spi.ior ;
 
-import java.util.Iterator ;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.ManagedAttribute ;
-import org.glassfish.gmbal.Description ;
 
 
 @ManagedData

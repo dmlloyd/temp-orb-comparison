@@ -3,14 +3,9 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import com.sun.corba.ee.spi.orb.ORB;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
 
-import com.sun.corba.ee.spi.misc.ORBConstants;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 
 
 public class EncapsOutputStream extends CDROutputObject

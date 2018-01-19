@@ -3,39 +3,8 @@
 
 package com.sun.corba.ee.spi.logging ;
 
-import com.sun.corba.ee.spi.ior.ObjectAdapterId;
-import org.glassfish.pfl.basic.logex.Chain;
-import org.glassfish.pfl.basic.logex.ExceptionWrapper;
-import org.glassfish.pfl.basic.logex.Log;
-import org.glassfish.pfl.basic.logex.LogLevel;
-import org.glassfish.pfl.basic.logex.Message;
-import org.glassfish.pfl.basic.logex.WrapperGenerator;
-import com.sun.corba.ee.spi.logex.corba.CS;
-import com.sun.corba.ee.spi.logex.corba.CSValue;
 
-import com.sun.corba.ee.spi.logex.corba.ORBException ;
-import com.sun.corba.ee.spi.logex.corba.CorbaExtension ;
 
-import org.omg.CORBA.BAD_CONTEXT;
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.BAD_OPERATION;
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.BAD_TYPECODE;
-import org.omg.CORBA.DATA_CONVERSION;
-import org.omg.CORBA.IMP_LIMIT;
-import org.omg.CORBA.INITIALIZE;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.INTF_REPOS;
-import org.omg.CORBA.INV_OBJREF;
-import org.omg.CORBA.INV_POLICY;
-import org.omg.CORBA.MARSHAL;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.NO_RESOURCES;
-import org.omg.CORBA.OBJECT_NOT_EXIST;
-import org.omg.CORBA.OBJ_ADAPTER;
-import org.omg.CORBA.TRANSACTION_ROLLEDBACK;
-import org.omg.CORBA.TRANSIENT;
-import org.omg.CORBA.UNKNOWN;
 
 @ExceptionWrapper( idPrefix="IOP" )
 @ORBException( omgException=true, group=0 )

@@ -4,13 +4,7 @@
 package com.sun.corba.ee.impl.transport.connection;
 
 
-import com.sun.corba.ee.spi.transport.connection.Connection ;
-import com.sun.corba.ee.spi.transport.connection.ConnectionCache ;
 
-import com.sun.corba.ee.spi.transport.concurrent.ConcurrentQueue ;
-import com.sun.corba.ee.spi.transport.concurrent.ConcurrentQueue.Handle;
-import com.sun.corba.ee.spi.trace.Transport;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
 
 @Transport
 public abstract class ConnectionCacheBase<C extends Connection> 

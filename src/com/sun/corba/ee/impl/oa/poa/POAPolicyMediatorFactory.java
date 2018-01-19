@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.oa.poa ;
 
-import com.sun.corba.ee.spi.logging.POASystemException;
 
 abstract class POAPolicyMediatorFactory {
     private static final POASystemException wrapper =

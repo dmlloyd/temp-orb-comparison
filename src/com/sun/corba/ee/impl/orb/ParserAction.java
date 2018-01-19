@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import java.util.Properties ;
 
 public interface ParserAction {
     

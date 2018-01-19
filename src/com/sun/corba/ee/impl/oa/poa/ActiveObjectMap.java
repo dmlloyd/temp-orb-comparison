@@ -3,13 +3,7 @@
 
 package com.sun.corba.ee.impl.oa.poa;
 
-import java.util.Set ;
-import java.util.HashSet ;
-import java.util.Map ;
-import java.util.HashMap ;
 
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
 
 
 public abstract class ActiveObjectMap

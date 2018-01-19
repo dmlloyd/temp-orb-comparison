@@ -4,10 +4,7 @@
 
 package com.sun.corba.ee.impl.corba;
 
-import org.omg.CORBA.NamedValue;
-import org.omg.CORBA.Any;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
 public class NamedValueImpl extends NamedValue 
 {

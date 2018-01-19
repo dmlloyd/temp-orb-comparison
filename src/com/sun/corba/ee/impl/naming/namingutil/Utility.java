@@ -3,11 +3,8 @@
 
 package com.sun.corba.ee.impl.naming.namingutil;
 
-import java.io.StringWriter;
 
-import org.omg.CORBA.DATA_CONVERSION;
 
-import com.sun.corba.ee.spi.logging.NamingSystemException;
 
 
 class Utility {

@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.legacy.interceptor;
 
-import com.sun.corba.ee.spi.oa.ObjectAdapter;
 
 public interface IORInfoExt
 {

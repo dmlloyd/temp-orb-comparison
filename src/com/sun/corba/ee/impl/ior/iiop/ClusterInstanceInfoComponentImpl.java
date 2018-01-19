@@ -2,14 +2,9 @@
 
 package com.sun.corba.ee.impl.ior.iiop;
 
-import org.omg.CORBA_2_3.portable.OutputStream;
 
-import com.sun.corba.ee.spi.folb.ClusterInstanceInfo;
 
-import com.sun.corba.ee.spi.ior.TaggedComponentBase;
-import com.sun.corba.ee.spi.ior.iiop.ClusterInstanceInfoComponent;
 
-import com.sun.corba.ee.spi.misc.ORBConstants;
 
 public class ClusterInstanceInfoComponentImpl extends TaggedComponentBase 
     implements ClusterInstanceInfoComponent {

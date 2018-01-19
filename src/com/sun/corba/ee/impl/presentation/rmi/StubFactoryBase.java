@@ -3,14 +3,8 @@
 
 package com.sun.corba.ee.impl.presentation.rmi ;
 
-import javax.rmi.CORBA.Tie ;
 
-import java.lang.reflect.InvocationHandler ;
-import java.lang.reflect.Proxy ;
 
-import com.sun.corba.ee.spi.presentation.rmi.PresentationManager ;
-import com.sun.corba.ee.spi.presentation.rmi.DynamicStub ;
-import com.sun.corba.ee.spi.presentation.rmi.StubAdapter ;
 
 public abstract class StubFactoryBase implements PresentationManager.StubFactory 
 {

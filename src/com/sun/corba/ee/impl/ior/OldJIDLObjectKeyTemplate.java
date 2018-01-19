@@ -3,18 +3,11 @@
 
 package com.sun.corba.ee.impl.ior;
 
-import org.omg.CORBA.OctetSeqHolder ;
-
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-
-import com.sun.corba.ee.spi.ior.ObjectId ;
-
-import com.sun.corba.ee.spi.orb.ORB ;
-import com.sun.corba.ee.spi.orb.ORBVersionFactory ;
 
 
-import com.sun.corba.ee.impl.encoding.CDRInputObject ;
+
+
+
 
 
 public final class OldJIDLObjectKeyTemplate extends OldObjectKeyTemplateBase

@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.ior ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
 
 public interface IORFactory extends Writeable, MakeImmutable {

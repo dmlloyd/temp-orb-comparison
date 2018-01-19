@@ -3,18 +3,10 @@
 
 package com.sun.corba.ee.impl.ior.iiop;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.ee.spi.ior.TaggedComponentBase ;
 
-import com.sun.corba.ee.spi.ior.iiop.CodeSetsComponent ;
 
-import org.omg.IOP.TAG_CODE_SETS ;
 
-import com.sun.corba.ee.impl.encoding.CodeSetComponentInfo ;
-import com.sun.corba.ee.impl.encoding.MarshalOutputStream ;
-import com.sun.corba.ee.impl.encoding.MarshalInputStream ;
 
 
 public class CodeSetsComponentImpl extends TaggedComponentBase 

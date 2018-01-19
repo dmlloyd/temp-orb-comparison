@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.legacy.connection;
 
-import com.sun.corba.ee.spi.transport.SocketInfo;
 
 
 

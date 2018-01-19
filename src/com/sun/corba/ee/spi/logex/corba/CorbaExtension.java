@@ -3,57 +3,8 @@
 
 package com.sun.corba.ee.spi.logex.corba ;
 
-import com.sun.corba.ee.spi.logex.stdcorba.StandardLogger;
-import com.sun.corba.ee.org.omg.CORBA.SUNVMCID;
-import java.lang.reflect.Constructor;
 
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
-import org.glassfish.pfl.basic.logex.ExceptionWrapper;
-import org.glassfish.pfl.basic.logex.Log;
 
-import org.omg.CORBA.ACTIVITY_COMPLETED;
-import org.omg.CORBA.ACTIVITY_REQUIRED;
-import org.omg.CORBA.BAD_CONTEXT;
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.BAD_OPERATION;
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.BAD_QOS;
-import org.omg.CORBA.BAD_TYPECODE;
-import org.omg.CORBA.CODESET_INCOMPATIBLE;
-import org.omg.CORBA.COMM_FAILURE;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.DATA_CONVERSION;
-import org.omg.CORBA.FREE_MEM;
-import org.omg.CORBA.IMP_LIMIT;
-import org.omg.CORBA.INITIALIZE;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.INTF_REPOS;
-import org.omg.CORBA.INVALID_ACTIVITY;
-import org.omg.CORBA.INVALID_TRANSACTION;
-import org.omg.CORBA.INV_FLAG;
-import org.omg.CORBA.INV_IDENT;
-import org.omg.CORBA.INV_OBJREF;
-import org.omg.CORBA.INV_POLICY;
-import org.omg.CORBA.MARSHAL;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.NO_MEMORY;
-import org.omg.CORBA.NO_PERMISSION;
-import org.omg.CORBA.NO_RESOURCES;
-import org.omg.CORBA.NO_RESPONSE;
-import org.omg.CORBA.OBJECT_NOT_EXIST;
-import org.omg.CORBA.OBJ_ADAPTER;
-import org.omg.CORBA.OMGVMCID;
-import org.omg.CORBA.PERSIST_STORE;
-import org.omg.CORBA.REBIND;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.TIMEOUT;
-import org.omg.CORBA.TRANSACTION_REQUIRED;
-import org.omg.CORBA.TRANSACTION_ROLLEDBACK;
-import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
-import org.omg.CORBA.TRANSIENT;
-import org.omg.CORBA.UNKNOWN;
 
 public class CorbaExtension extends StandardLogger {
     public static final CorbaExtension self = new CorbaExtension() ;

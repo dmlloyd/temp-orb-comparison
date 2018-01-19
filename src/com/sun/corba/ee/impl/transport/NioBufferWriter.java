@@ -1,11 +1,6 @@
 package com.sun.corba.ee.impl.transport;
 
-import com.sun.corba.ee.spi.transport.TcpTimeouts;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.SocketChannel;
 
 public class NioBufferWriter {
     protected TemporarySelector tmpWriteSelector;

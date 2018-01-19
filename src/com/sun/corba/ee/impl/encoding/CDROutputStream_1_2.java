@@ -2,10 +2,6 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.misc.ORBConstants;
-import com.sun.corba.ee.spi.trace.CdrWrite;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
 
 @CdrWrite
 public class CDROutputStream_1_2 extends CDROutputStream_1_1

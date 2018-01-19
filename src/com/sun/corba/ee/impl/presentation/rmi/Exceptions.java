@@ -3,14 +3,6 @@
 
 package com.sun.corba.ee.impl.presentation.rmi;
 
-import com.sun.corba.ee.spi.logex.stdcorba.StandardLogger;
-import javax.naming.Context;
-import org.glassfish.pfl.basic.logex.Chain;
-import org.glassfish.pfl.basic.logex.ExceptionWrapper;
-import org.glassfish.pfl.basic.logex.Log;
-import org.glassfish.pfl.basic.logex.LogLevel;
-import org.glassfish.pfl.basic.logex.Message;
-import org.glassfish.pfl.basic.logex.WrapperGenerator;
 
 
 @ExceptionWrapper( idPrefix="ORBPRES" )

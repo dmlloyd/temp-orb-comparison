@@ -3,8 +3,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import org.omg.CORBA.ORB;
-import com.sun.corba.ee.impl.util.RepositoryId;
 
 
 public interface RepositoryIdUtility

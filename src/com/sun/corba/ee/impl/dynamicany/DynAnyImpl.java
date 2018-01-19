@@ -3,19 +3,9 @@
 
 package com.sun.corba.ee.impl.dynamicany;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.ORBPackage.InvalidName;
-import org.omg.CORBA.portable.OutputStream;
 
-import org.omg.DynamicAny.*;
-import org.omg.DynamicAny.DynAnyPackage.TypeMismatch;
-import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
 
-import com.sun.corba.ee.spi.misc.ORBConstants ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
 
 abstract class DynAnyImpl extends org.omg.CORBA.LocalObject implements DynAny
 {

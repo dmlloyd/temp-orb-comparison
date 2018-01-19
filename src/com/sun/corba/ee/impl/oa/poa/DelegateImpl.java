@@ -2,13 +2,9 @@
 
 package com.sun.corba.ee.impl.oa.poa;
 
-import java.util.EmptyStackException;
 
-import org.omg.PortableServer.*;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import com.sun.corba.ee.spi.logging.POASystemException ;
 
 public class DelegateImpl implements org.omg.PortableServer.portable.Delegate
 {

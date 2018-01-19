@@ -3,11 +3,6 @@
 
 package com.sun.corba.ee.impl.presentation.rmi ;
 
-import java.lang.reflect.Method;
-import java.lang.reflect.Field;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Iterator;
 
 
 public final class IDLTypesUtil {

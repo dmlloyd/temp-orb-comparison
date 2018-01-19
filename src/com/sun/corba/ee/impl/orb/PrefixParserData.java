@@ -3,11 +3,7 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import java.util.Properties ;
 
-import com.sun.corba.ee.spi.orb.Operation ;
-import com.sun.corba.ee.spi.orb.PropertyParser ;
-import org.glassfish.pfl.basic.contain.Pair;
 
 public class PrefixParserData extends ParserDataBase {
 

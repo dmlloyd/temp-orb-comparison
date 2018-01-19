@@ -3,8 +3,6 @@
 
 package com.sun.corba.ee.impl.naming.cosnaming;
 
-import java.io.*;
-import org.omg.CosNaming.NameComponent;
 
 
 public class NamingUtils {

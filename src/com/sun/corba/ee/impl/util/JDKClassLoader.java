@@ -4,14 +4,8 @@
 
 package com.sun.corba.ee.impl.util;
 
-import org.glassfish.pfl.basic.reflection.Bridge;
 
-import java.util.Map ;
-import java.util.WeakHashMap ;
-import java.util.Collections ;
 
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
 
 
 class JDKClassLoader {

@@ -3,37 +3,12 @@
 
 package com.sun.corba.ee.impl.corba;
 
-import java.io.PrintStream;
-import java.io.ByteArrayOutputStream;
 
-import org.omg.CORBA.TypeCode ;
-import org.omg.CORBA.StructMember ;
-import org.omg.CORBA.UnionMember ;
-import org.omg.CORBA.ValueMember ;
-import org.omg.CORBA.TCKind ;
-import org.omg.CORBA.Any ;
-import org.omg.CORBA.TypeCodePackage.BadKind ;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
 
-import com.sun.corba.ee.spi.orb.ORB;
 
-import com.sun.corba.ee.impl.encoding.CDRInputObject;
-import com.sun.corba.ee.impl.encoding.CDROutputObject;
-import com.sun.corba.ee.impl.encoding.OutputStreamFactory;
-import com.sun.corba.ee.impl.encoding.TypeCodeInputStream;
-import com.sun.corba.ee.impl.encoding.TypeCodeOutputStream;
-import com.sun.corba.ee.impl.encoding.TypeCodeReader;
-import com.sun.corba.ee.impl.encoding.WrapperInputStream;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
 
-import com.sun.corba.ee.spi.trace.DynamicType ;
-import org.glassfish.pfl.dynamic.copyobject.spi.Copy;
-import org.glassfish.pfl.dynamic.copyobject.spi.CopyType;
 
 
 @DynamicType

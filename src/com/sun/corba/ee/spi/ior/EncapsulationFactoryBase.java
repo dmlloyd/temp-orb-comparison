@@ -3,11 +3,8 @@
 
 package com.sun.corba.ee.spi.ior ;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import com.sun.corba.ee.impl.ior.EncapsulationUtility ;
 
 public abstract class EncapsulationFactoryBase<E extends Identifiable> 
     implements IdentifiableFactory<E> {

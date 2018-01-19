@@ -2,9 +2,6 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.nio.ByteBuffer;
-import java.util.LinkedList;
-import java.util.NoSuchElementException;
 
 
 public class BufferQueue

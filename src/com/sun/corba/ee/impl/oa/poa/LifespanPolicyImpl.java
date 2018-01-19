@@ -3,8 +3,6 @@
 
 package com.sun.corba.ee.impl.oa.poa;
 
-import org.omg.CORBA.*;
-import org.omg.PortableServer.*;
 
 final class LifespanPolicyImpl
     extends org.omg.CORBA.LocalObject implements LifespanPolicy {

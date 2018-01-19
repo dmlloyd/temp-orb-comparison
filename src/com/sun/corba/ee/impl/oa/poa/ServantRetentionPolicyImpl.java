@@ -3,10 +3,6 @@
 
 package com.sun.corba.ee.impl.oa.poa;
 
-import org.omg.CORBA.Policy;
-import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
-import org.omg.PortableServer.ServantRetentionPolicy;
-import org.omg.PortableServer.ServantRetentionPolicyValue;
 
 final class ServantRetentionPolicyImpl
     extends org.omg.CORBA.LocalObject implements ServantRetentionPolicy {

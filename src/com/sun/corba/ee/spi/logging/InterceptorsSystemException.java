@@ -3,28 +3,8 @@
 
 package com.sun.corba.ee.spi.logging ;
 
-import com.sun.corba.ee.spi.oa.ObjectAdapter;
-import org.glassfish.pfl.basic.logex.Chain;
-import org.glassfish.pfl.basic.logex.ExceptionWrapper;
-import org.glassfish.pfl.basic.logex.Log;
-import org.glassfish.pfl.basic.logex.LogLevel;
-import org.glassfish.pfl.basic.logex.Message;
-import org.glassfish.pfl.basic.logex.WrapperGenerator;
-import com.sun.corba.ee.spi.logex.corba.CS;
-import com.sun.corba.ee.spi.logex.corba.CSValue;
 
-import com.sun.corba.ee.spi.logex.corba.ORBException ;
-import com.sun.corba.ee.spi.logex.corba.CorbaExtension ;
-import java.util.List;
 
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.BAD_PARAM;
-import org.omg.CORBA.COMM_FAILURE;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.NO_IMPLEMENT;
-import org.omg.CORBA.OBJECT_NOT_EXIST;
-import org.omg.CORBA.UNKNOWN;
-import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 
 @ExceptionWrapper( idPrefix="IOP" )
 @ORBException( omgException=false, group=CorbaExtension.InterceptorsGroup )

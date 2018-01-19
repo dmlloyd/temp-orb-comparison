@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.naming.namingutil;
 
-import com.sun.corba.ee.spi.misc.ORBConstants;
 
 
 public class IIOPEndpointInfo

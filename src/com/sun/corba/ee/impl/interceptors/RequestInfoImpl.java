@@ -2,46 +2,8 @@
 
 package com.sun.corba.ee.impl.interceptors;
 
-import com.sun.corba.ee.impl.encoding.EncapsOutputStream;
-import com.sun.corba.ee.impl.encoding.OutputStreamFactory;
-import com.sun.corba.ee.impl.misc.ORBUtility;
-import com.sun.corba.ee.impl.util.RepositoryId;
-import com.sun.corba.ee.spi.ior.IOR;
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.legacy.connection.Connection;
-import com.sun.corba.ee.spi.legacy.interceptor.RequestInfoExt;
-import com.sun.corba.ee.spi.logging.InterceptorsSystemException;
-import com.sun.corba.ee.spi.logging.OMGSystemException;
-import com.sun.corba.ee.spi.misc.ORBClassLoader;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.servicecontext.ServiceContextDefaults;
-import com.sun.corba.ee.spi.servicecontext.ServiceContexts;
-import com.sun.corba.ee.spi.servicecontext.UnknownServiceContext;
 
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.Map;
 
-import org.omg.CORBA.Any;
-import org.omg.CORBA.BAD_INV_ORDER;
-import org.omg.CORBA.LocalObject;
-import org.omg.CORBA.NVList;
-import org.omg.CORBA.NamedValue;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.ParameterMode;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.UNKNOWN;
-import org.omg.CORBA.UserException;
-import org.omg.CORBA.portable.ApplicationException;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.Dynamic.Parameter;
-import org.omg.IOP.ServiceContextHelper;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-import org.omg.PortableInterceptor.ForwardRequest;
-import org.omg.PortableInterceptor.InvalidSlot;
-import org.omg.PortableInterceptor.RequestInfo;
 
 
 public abstract class RequestInfoImpl 

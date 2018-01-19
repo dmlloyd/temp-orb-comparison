@@ -3,7 +3,6 @@
 package com.sun.corba.ee.impl.encoding;
 
 
-import java.nio.ByteBuffer;
 
 
 interface MarkAndResetHandler

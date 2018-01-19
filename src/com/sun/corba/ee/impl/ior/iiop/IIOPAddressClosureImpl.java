@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.ior.iiop;
 
-import org.glassfish.pfl.basic.func.NullaryFunction;
 
 
 public final class IIOPAddressClosureImpl extends IIOPAddressBase

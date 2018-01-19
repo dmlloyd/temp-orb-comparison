@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import com.sun.corba.ee.spi.orb.ORB;
 
 public abstract class RepositoryIdFactory
 {

@@ -2,9 +2,7 @@
 
 package com.sun.corba.ee.spi.orb ;
 
-import java.lang.reflect.Constructor ;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
 
 
 public class OperationFactoryExt {

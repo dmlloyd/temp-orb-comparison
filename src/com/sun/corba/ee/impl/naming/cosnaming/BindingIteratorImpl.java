@@ -4,13 +4,8 @@
 package com.sun.corba.ee.impl.naming.cosnaming;
 
 
-import org.omg.CORBA.ORB;
 
 
-import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.BindingHolder;
-import org.omg.CosNaming.BindingIteratorPOA;
-import org.omg.CORBA.BAD_PARAM;
 
 
 public abstract class BindingIteratorImpl extends BindingIteratorPOA

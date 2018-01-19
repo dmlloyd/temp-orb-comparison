@@ -2,10 +2,7 @@
 
 package com.sun.corba.ee.spi.transport;
 
-import java.nio.channels.SelectableChannel;
-import java.nio.channels.SelectionKey;
 
-import com.sun.corba.ee.spi.threadpool.Work;
 
 
 public interface EventHandler 

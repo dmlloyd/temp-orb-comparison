@@ -2,19 +2,9 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.nio.ByteBuffer;
 
-import com.sun.corba.ee.spi.transport.ByteBufferPool;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
-import com.sun.corba.ee.impl.protocol.RequestCanceledException;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.FragmentMessage;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.ee.spi.trace.Transport;
 
-import java.util.LinkedList;
 
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
 
 @Transport
 public class BufferManagerReadStream

@@ -2,9 +2,6 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.misc.ORBConstants;
-import com.sun.corba.ee.spi.trace.CdrRead;
 
 @CdrRead
 public class CDRInputStream_1_2 extends CDRInputStream_1_1

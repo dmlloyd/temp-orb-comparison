@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.resolver ;
 
-import org.glassfish.pfl.basic.func.NullaryFunction;
 
 
 public interface LocalResolver extends Resolver {

@@ -3,11 +3,7 @@
 
 package com.sun.corba.ee.spi.extension ;
 
-import org.omg.CORBA.Policy ;
-import org.omg.CORBA.LocalObject ;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
-import com.sun.corba.ee.spi.misc.ORBConstants ;
 
 
 public class RequestPartitioningPolicy extends LocalObject implements Policy

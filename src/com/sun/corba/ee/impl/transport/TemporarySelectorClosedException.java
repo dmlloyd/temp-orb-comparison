@@ -2,7 +2,6 @@
 
 package com.sun.corba.ee.impl.transport;
 
-import java.io.IOException;
 
 
 

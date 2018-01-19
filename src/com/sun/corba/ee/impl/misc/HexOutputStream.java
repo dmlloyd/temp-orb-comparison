@@ -3,9 +3,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import java.io.StringWriter;
-import java.io.OutputStream;
-import java.io.IOException;
 
 
 public class HexOutputStream extends OutputStream

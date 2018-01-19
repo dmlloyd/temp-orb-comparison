@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.presentation.rmi ;
 
-import java.lang.reflect.Method ;
 
 
 public interface IDLNameTranslator 

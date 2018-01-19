@@ -4,34 +4,7 @@
 
 package com.sun.corba.ee.impl.io;
 
-import com.sun.corba.ee.impl.misc.ClassInfoCache;
-import com.sun.corba.ee.impl.util.RepositoryId;
-import com.sun.corba.ee.spi.trace.TraceValueHandler;
-import org.glassfish.pfl.basic.concurrent.SoftCache;
-import org.glassfish.pfl.basic.reflection.Bridge;
-import org.omg.CORBA.ValueMember;
 
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.Serializable;
-import java.lang.invoke.MethodHandle;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Member;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Proxy;
-import java.security.AccessController;
-import java.security.DigestOutputStream;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.security.PrivilegedAction;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 
 
 @TraceValueHandler

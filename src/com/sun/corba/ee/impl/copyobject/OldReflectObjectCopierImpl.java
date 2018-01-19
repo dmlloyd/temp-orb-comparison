@@ -5,29 +5,7 @@
 
 package com.sun.corba.ee.impl.copyobject ;
 
-import com.sun.corba.ee.impl.util.Utility;
-import com.sun.corba.ee.spi.orb.ORB;
-import org.glassfish.pfl.basic.reflection.Bridge;
-import org.glassfish.pfl.dynamic.copyobject.spi.ObjectCopier;
-import org.glassfish.pfl.dynamic.copyobject.spi.ReflectiveCopyException;
 
-import java.io.Externalizable;
-import java.io.Serializable;
-import java.lang.reflect.AccessibleObject;
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Modifier;
-import java.rmi.Remote;
-import java.rmi.RemoteException;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.security.PrivilegedExceptionAction;
-import java.util.HashMap;
-import java.util.IdentityHashMap;
-import java.util.Iterator;
-import java.util.Map;
 
 
 public class OldReflectObjectCopierImpl implements ObjectCopier 

@@ -3,14 +3,8 @@
 
 package com.sun.corba.ee.impl.naming.cosnaming;
 
-import java.util.Properties;
 
-import org.omg.CORBA.ORB;
 
-import com.sun.corba.ee.spi.misc.ORBConstants;
-import com.sun.corba.ee.impl.misc.CorbaResourceUtil;
-import com.sun.corba.ee.spi.logging.NamingSystemException;
-import com.sun.corba.ee.spi.trace.Naming;
 
 
 @Naming

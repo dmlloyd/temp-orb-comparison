@@ -4,22 +4,11 @@
 
 package com.sun.corba.ee.impl.util;
 
-import java.util.Map;
-import java.util.WeakHashMap;
-import java.util.Hashtable;
-import java.util.IdentityHashMap;
-import java.io.IOException;
-import java.lang.reflect.Method;
 
 
-import java.net.MalformedURLException;
 
-import com.sun.corba.ee.impl.io.ObjectStreamClass;
 
-import com.sun.corba.ee.impl.javax.rmi.CORBA.Util;
 
-import com.sun.corba.ee.impl.misc.ClassInfoCache ;
-import org.glassfish.pfl.basic.concurrent.SoftCache;
 
 public class RepositoryId {
         

@@ -3,12 +3,8 @@
 
 package com.sun.corba.ee.spi.protocol;
 
-import java.util.Set;
 
-import com.sun.corba.ee.spi.protocol.ServerRequestDispatcher ;
-import com.sun.corba.ee.spi.protocol.LocalClientRequestDispatcherFactory ;
 
-import com.sun.corba.ee.spi.oa.ObjectAdapterFactory ;
 
 
 public interface RequestDispatcherRegistry {

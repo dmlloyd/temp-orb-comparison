@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.misc;
 
-import com.sun.corba.ee.org.omg.CORBA.SUNVMCID ;
 
 public class ORBConstants {
     private ORBConstants() {}

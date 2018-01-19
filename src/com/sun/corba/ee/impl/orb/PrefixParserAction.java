@@ -3,19 +3,10 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import java.util.Properties ;
-import java.util.List ;
-import java.util.LinkedList ;
-import java.util.Iterator ;
 
-import java.lang.reflect.Array ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import com.sun.corba.ee.spi.orb.Operation ;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
-import org.glassfish.pfl.basic.contain.Pair;
 
 public class PrefixParserAction extends ParserActionBase {
     private static final ORBUtilSystemException wrapper =

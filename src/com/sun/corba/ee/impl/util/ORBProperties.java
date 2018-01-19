@@ -4,9 +4,6 @@
 
 package com.sun.corba.ee.impl.util;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
 
 public class ORBProperties {
 

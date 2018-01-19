@@ -3,8 +3,6 @@
 package com.sun.corba.ee.spi.transport ;
 
 
-import com.sun.corba.ee.spi.ior.IOR;
-import java.util.Iterator;
 
 public abstract interface ContactInfoListIterator
     extends Iterator<ContactInfo> {

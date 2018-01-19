@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.transport.connection;
 
-import java.io.IOException ;
 
 
 public interface OutboundConnectionCache<C extends Connection> 

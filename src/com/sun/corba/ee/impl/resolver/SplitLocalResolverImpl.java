@@ -3,10 +3,6 @@
 
 package com.sun.corba.ee.impl.resolver ;
 
-import com.sun.corba.ee.spi.resolver.Resolver ;
-import com.sun.corba.ee.spi.resolver.LocalResolver ;
-import java.util.Set;
-import org.glassfish.pfl.basic.func.NullaryFunction;
 
 public class SplitLocalResolverImpl implements LocalResolver 
 {

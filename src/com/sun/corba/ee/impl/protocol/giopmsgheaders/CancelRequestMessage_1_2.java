@@ -3,9 +3,6 @@
 
 package com.sun.corba.ee.impl.protocol.giopmsgheaders;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.protocol.RequestId;
-import com.sun.corba.ee.impl.protocol.RequestIdImpl;
 
 
 

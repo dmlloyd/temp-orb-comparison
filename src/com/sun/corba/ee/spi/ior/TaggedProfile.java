@@ -3,12 +3,7 @@
 
 package com.sun.corba.ee.spi.ior;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.IncludeSubclass ;
-import org.glassfish.gmbal.Description ;
-import org.glassfish.gmbal.ManagedAttribute ;
 
 
 @ManagedData

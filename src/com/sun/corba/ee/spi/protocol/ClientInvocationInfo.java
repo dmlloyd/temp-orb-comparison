@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.protocol;
 
-import java.util.Iterator;
 
 
 public interface ClientInvocationInfo 

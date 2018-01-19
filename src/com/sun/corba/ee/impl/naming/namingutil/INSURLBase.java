@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.impl.naming.namingutil;
 
-import com.sun.corba.ee.spi.logging.OMGSystemException ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
 
 public abstract class INSURLBase implements INSURL {

@@ -3,15 +3,8 @@
 package com.sun.corba.ee.impl.transport;
 
 
-import com.sun.corba.ee.spi.transport.Acceptor;
-import com.sun.corba.ee.spi.transport.ListenerThread;
 
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.threadpool.Work;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
-import com.sun.corba.ee.spi.trace.Transport;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
 
 @Transport
 public class ListenerThreadImpl

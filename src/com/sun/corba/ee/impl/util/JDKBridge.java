@@ -5,23 +5,11 @@
 package com.sun.corba.ee.impl.util;
 
 
-import java.rmi.server.RMIClassLoader;
 
-import java.security.AccessController;
 
-import java.net.MalformedURLException;
 
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.WeakHashMap ;
-import java.util.logging.Logger;
-import java.util.logging.Level;
 
-import java.lang.ref.SoftReference ;
-import java.lang.ref.ReferenceQueue ;
 
-import com.sun.corba.ee.org.omg.CORBA.GetPropertyAction;
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
 
 
 public class JDKBridge {

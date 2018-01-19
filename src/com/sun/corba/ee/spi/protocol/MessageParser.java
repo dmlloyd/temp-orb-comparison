@@ -3,13 +3,8 @@
 
 package com.sun.corba.ee.spi.protocol;
 
-import java.nio.ByteBuffer;
 
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.trace.Transport;
-import com.sun.corba.ee.spi.transport.Connection;
 
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.Message;
 
 
 

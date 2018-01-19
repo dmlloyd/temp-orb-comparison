@@ -3,15 +3,9 @@
 
 package com.sun.corba.ee.impl.ior;
 
-import com.sun.corba.ee.spi.ior.TaggedComponent ;
-import com.sun.corba.ee.spi.ior.TaggedComponentFactoryFinder ;
 
 
-import com.sun.corba.ee.impl.encoding.EncapsOutputStream ;
-import com.sun.corba.ee.impl.encoding.OutputStreamFactory;
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
 
 
 public class TaggedComponentFactoryFinderImpl 

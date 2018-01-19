@@ -2,13 +2,7 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.org.omg.SendingContext.CodeBase;
 
 
 public class EncapsInputStreamFactory {

@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.logex.corba ;
 
-import org.omg.CORBA.CompletionStatus ;
 
 
 public enum CSValue {

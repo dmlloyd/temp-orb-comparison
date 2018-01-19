@@ -3,11 +3,7 @@
 
 package com.sun.corba.ee.spi.orb ;
 
-import org.omg.CORBA.portable.OutputStream ;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.Description ;
-import org.glassfish.gmbal.ManagedAttribute ;
 
 @ManagedData
 @Description( "The version of the ORB" )

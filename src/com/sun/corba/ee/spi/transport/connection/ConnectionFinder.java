@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.spi.transport.connection;
 
-import java.util.Collection ;
 
-import java.io.IOException ;
 
 
 public interface ConnectionFinder<C extends Connection> {

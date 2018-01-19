@@ -7,9 +7,7 @@
 
 package com.sun.corba.ee.spi.folb;
 
-import java.util.List;
 
-import com.sun.corba.ee.spi.folb.GroupInfoServiceObserver;
 
 
 public interface GroupInfoService

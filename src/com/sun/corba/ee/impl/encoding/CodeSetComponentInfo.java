@@ -4,13 +4,7 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.util.StringTokenizer;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.NoSuchElementException;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
 
 public final class CodeSetComponentInfo {
     private static final ORBUtilSystemException wrapper =

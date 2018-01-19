@@ -7,15 +7,7 @@
 
 package com.sun.corba.ee.impl.plugin.hwlb ;
 
-import java.util.Properties;
 
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.TRANSIENT;
-import org.omg.PortableInterceptor.ORBInitializer;
-import org.omg.PortableInterceptor.ORBInitInfo;
-import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
-import org.omg.PortableInterceptor.ServerRequestInterceptor;
-import org.omg.PortableInterceptor.ServerRequestInfo;
 
 
 public class RetryServerRequestInterceptor

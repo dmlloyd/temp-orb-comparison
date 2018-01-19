@@ -5,43 +5,7 @@
 
 package com.sun.corba.ee.impl.protocol;
 
-import com.sun.corba.ee.impl.encoding.CDRInputObject;
-import com.sun.corba.ee.impl.encoding.CDROutputObject;
-import com.sun.corba.ee.impl.encoding.CodeSetComponentInfo;
-import com.sun.corba.ee.impl.encoding.CodeSetConversion;
-import com.sun.corba.ee.impl.encoding.EncapsInputStream;
-import com.sun.corba.ee.impl.misc.ORBUtility;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.ReplyMessage;
-import com.sun.corba.ee.spi.ior.IOR;
-import com.sun.corba.ee.spi.ior.iiop.CodeSetsComponent;
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.ee.spi.ior.iiop.IIOPProfileTemplate;
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
-import com.sun.corba.ee.spi.misc.ORBConstants;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.orb.ORBVersion;
-import com.sun.corba.ee.spi.protocol.ClientRequestDispatcher;
-import com.sun.corba.ee.spi.protocol.MessageMediator;
-import com.sun.corba.ee.spi.servicecontext.*;
-import com.sun.corba.ee.spi.trace.Subcontract;
-import com.sun.corba.ee.spi.transport.Connection;
-import com.sun.corba.ee.spi.transport.ContactInfo;
-import com.sun.corba.ee.spi.transport.ContactInfoListIterator;
-import com.sun.corba.ee.spi.transport.OutboundConnectionCache;
-import org.glassfish.pfl.tf.spi.TimingPointType;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.portable.ApplicationException;
-import org.omg.CORBA.portable.RemarshalException;
-import org.omg.CORBA.portable.UnknownException;
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.IOP.ExceptionDetailMessage;
-import org.omg.IOP.TAG_CODE_SETS;
 
-import java.io.IOException;
-import java.util.Iterator;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 
 
 @Subcontract

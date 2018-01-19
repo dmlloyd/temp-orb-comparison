@@ -2,13 +2,8 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
 
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Any;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion;
 
 
 abstract class CDROutputStreamBase extends java.io.OutputStream

@@ -3,8 +3,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import java.util.ResourceBundle;
-import java.util.MissingResourceException;
 
 public class CorbaResourceUtil {
     public static String getString(String key) {

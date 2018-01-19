@@ -4,22 +4,8 @@
 package com.sun.corba.ee.impl.oa.poa ;
 
 
-import org.omg.PortableServer.POA ;
-import org.omg.PortableServer.Servant ;
-import org.omg.PortableServer.ServantManager ;
-import org.omg.PortableServer.ServantLocator ;
-import org.omg.PortableServer.ForwardRequest ;
-import org.omg.PortableServer.POAPackage.NoServant ;
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.PortableServer.POAPackage.ObjectNotActive ;
-import org.omg.PortableServer.POAPackage.ServantNotActive ;
-import org.omg.PortableServer.POAPackage.ObjectAlreadyActive ;
-import org.omg.PortableServer.POAPackage.ServantAlreadyActive ;
-import org.omg.PortableServer.ServantLocatorPackage.CookieHolder ;
 
 
-import com.sun.corba.ee.spi.oa.OAInvocationInfo ;
-import com.sun.corba.ee.impl.oa.NullServantImpl ;
 
 
 public class POAPolicyMediatorImpl_NR_USM extends POAPolicyMediatorBase {

@@ -3,10 +3,7 @@
 
 package com.sun.corba.ee.spi.ior;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 
-import com.sun.corba.ee.impl.ior.FreezableList ;
 
 
 public class IdentifiableContainerBase<E extends Identifiable> 

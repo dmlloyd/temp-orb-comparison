@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.txpoa;
 
-import org.omg.CORBA.TSIdentification;
 
 public class TSIdentificationImpl extends org.omg.CORBA.LocalObject
         implements TSIdentification {

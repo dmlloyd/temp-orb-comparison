@@ -3,21 +3,10 @@
 
 package com.sun.corba.ee.impl.transport.connection;
 
-import java.util.Queue ;
-import java.util.Collection ;
-import java.util.Collections ;
 
-import java.util.concurrent.LinkedBlockingQueue ;
 
-import java.util.concurrent.locks.ReentrantLock ;
-import java.util.concurrent.locks.Condition ;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.ManagedAttribute ;
-import org.glassfish.gmbal.Description ;
 
-import com.sun.corba.ee.spi.transport.connection.Connection ;
-import java.util.ArrayList;
 
 
 

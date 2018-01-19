@@ -1,11 +1,6 @@
 package com.sun.corba.ee.impl.transport;
 
-import com.sun.corba.ee.spi.orb.ORB;
 
-import java.io.EOFException;
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.SocketChannel;
 
 public class SocketChannelReader {
     private ORB orb;

@@ -3,10 +3,7 @@
 
 package com.sun.corba.ee.impl.naming.cosnaming;
 
-import java.io.StringWriter;
 
-import org.omg.CosNaming.NameComponent;
-import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
 
 
 

@@ -2,9 +2,6 @@
 
 package com.sun.corba.ee.spi.orb ;
 
-import com.sun.corba.ee.impl.orb.NormalParserData ;
-import com.sun.corba.ee.impl.orb.PrefixParserData ;
-import org.glassfish.pfl.basic.contain.Pair;
 
 public class ParserDataFactory {
     public static ParserData make( String  propertyName,

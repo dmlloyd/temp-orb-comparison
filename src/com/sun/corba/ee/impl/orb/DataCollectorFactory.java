@@ -3,11 +3,7 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import java.applet.Applet ;
-import java.util.Properties ;
-import java.net.URL ;
 
-import com.sun.corba.ee.spi.orb.DataCollector ;
 
 public abstract class DataCollectorFactory {
     private DataCollectorFactory() {}

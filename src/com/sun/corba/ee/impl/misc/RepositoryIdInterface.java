@@ -3,9 +3,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import org.omg.CORBA.ORB;
-import java.io.Serializable;
-import java.net.MalformedURLException;
 
 
 public interface RepositoryIdInterface

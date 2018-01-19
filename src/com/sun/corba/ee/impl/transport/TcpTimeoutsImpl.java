@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.impl.transport;
 
-import com.sun.corba.ee.spi.transport.TcpTimeouts;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
 
 
 public class TcpTimeoutsImpl implements TcpTimeouts

@@ -3,13 +3,9 @@
 
 package com.sun.corba.ee.spi.protocol;
 
-import org.omg.CORBA.BAD_PARAM ;
 
-import com.sun.corba.ee.impl.misc.ORBUtility ;
 
-import com.sun.corba.ee.spi.ior.IOR ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
 
 public class ForwardException extends RuntimeException {

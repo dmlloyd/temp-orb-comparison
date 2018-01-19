@@ -4,19 +4,12 @@
 package com.sun.corba.ee.impl.naming.cosnaming;
 
 
-import org.omg.CORBA.ORB;
-import org.omg.PortableServer.POA;
-
-
-import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.NameComponent;
 
 
 
 
-import java.util.Map;
-import java.util.Iterator;
+
+
 
 
 public class TransientBindingIterator extends BindingIteratorImpl

@@ -2,19 +2,7 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.FragmentMessage;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.MessageBase;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.ReplyMessage;
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.transport.Connection;
-import com.sun.corba.ee.spi.transport.ContactInfoListIterator;
-import org.glassfish.pfl.basic.reflection.Bridge;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.portable.RemarshalException;
 
-import java.nio.ByteBuffer;
-import java.util.EmptyStackException;
 
 
 public class BufferManagerWriteStream extends BufferManagerWrite

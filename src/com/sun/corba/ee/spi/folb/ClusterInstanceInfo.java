@@ -3,14 +3,8 @@
 
 package com.sun.corba.ee.spi.folb;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
-import java.io.Serializable ;
 
-import org.omg.CORBA_2_3.portable.InputStream;
-import org.omg.CORBA_2_3.portable.OutputStream;
 
 
 public class ClusterInstanceInfo implements Serializable {

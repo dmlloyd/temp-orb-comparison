@@ -3,20 +3,10 @@
 
 package com.sun.corba.ee.spi.ior;
 
-import java.util.List ;
-import java.util.Iterator ;
 
-import com.sun.corba.ee.spi.orb.ORBVersion ;
 
-import com.sun.corba.ee.spi.ior.iiop.GIOPVersion ;
-import com.sun.corba.ee.spi.ior.iiop.IIOPProfile ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
-import org.glassfish.gmbal.ManagedData ;
-import org.glassfish.gmbal.ManagedAttribute ;
-import org.glassfish.gmbal.InheritedAttribute ;
-import org.glassfish.gmbal.Description ;
 
 
 @ManagedData

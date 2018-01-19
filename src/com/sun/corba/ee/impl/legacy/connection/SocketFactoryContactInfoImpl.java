@@ -3,15 +3,8 @@
 
 package com.sun.corba.ee.impl.legacy.connection;
 
-import com.sun.corba.ee.spi.transport.Connection;
 
-import com.sun.corba.ee.spi.orb.ORB;
-import com.sun.corba.ee.spi.ior.IOR;
-import com.sun.corba.ee.spi.transport.ContactInfoList;
-import com.sun.corba.ee.spi.transport.SocketInfo;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException;
-import com.sun.corba.ee.impl.transport.ContactInfoImpl;
 
 
 

@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.naming.namingutil;
 
-import java.util.*;
 
 
 public class CorbalocURL extends INSURLBase

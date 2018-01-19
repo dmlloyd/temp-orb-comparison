@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.spi.copyobject ;
 
-import org.glassfish.pfl.dynamic.copyobject.spi.ObjectCopierFactory ;
 
 
 public interface CopierManager

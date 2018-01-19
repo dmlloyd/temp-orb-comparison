@@ -3,17 +3,10 @@
 
 package com.sun.corba.ee.spi.osgi;
 
-import java.util.Properties ;
 
-import org.glassfish.external.amx.AMXGlassfish ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
-import com.sun.corba.ee.spi.orb.ClassCodeBaseHandler ;
 
-import com.sun.corba.ee.impl.orb.ORBImpl ;
 
-import com.sun.corba.ee.impl.osgi.loader.OSGIListener;
-import com.sun.corba.ee.spi.misc.ORBConstants;
 
 
 public class ORBFactory {   

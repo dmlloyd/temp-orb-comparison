@@ -3,9 +3,6 @@
 
 package com.sun.corba.ee.impl.protocol.giopmsgheaders;
 
-import com.sun.corba.ee.spi.servicecontext.ServiceContexts;
-import org.omg.CORBA.SystemException;
-import com.sun.corba.ee.spi.ior.IOR;
 
 
 

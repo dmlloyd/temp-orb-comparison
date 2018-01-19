@@ -4,12 +4,6 @@
 
 package com.sun.corba.ee.impl.oa.toa;
 
-import com.sun.corba.ee.impl.misc.ORBUtility ;
-import com.sun.corba.ee.spi.orb.ORB ;
-import org.glassfish.gmbal.Description;
-import org.glassfish.gmbal.ManagedAttribute;
-import org.glassfish.gmbal.ManagedData;
-import org.glassfish.pfl.tf.spi.annotation.InfoMethod;
 
 @com.sun.corba.ee.spi.trace.TransientObjectManager
 @ManagedData

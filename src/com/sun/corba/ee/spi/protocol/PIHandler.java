@@ -3,27 +3,12 @@
 
 package com.sun.corba.ee.spi.protocol;
 
-import java.io.Closeable ;
 
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.Interceptor ;
-import org.omg.PortableInterceptor.Current ;
-import org.omg.PortableInterceptor.PolicyFactory ;
-import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName ;
 
-import org.omg.CORBA.NVList ;
-import org.omg.CORBA.Any ;
-import org.omg.CORBA.Policy ;
-import org.omg.CORBA.PolicyError ;
 
-import org.omg.CORBA.portable.RemarshalException;
 
-import com.sun.corba.ee.spi.oa.ObjectAdapter ;
 
-import com.sun.corba.ee.spi.ior.ObjectKeyTemplate ;
 
-import com.sun.corba.ee.impl.corba.RequestImpl ;
-import com.sun.corba.ee.impl.protocol.giopmsgheaders.ReplyMessage ;
 
 
 public interface PIHandler extends Closeable {

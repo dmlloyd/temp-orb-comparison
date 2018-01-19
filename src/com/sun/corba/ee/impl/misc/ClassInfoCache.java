@@ -3,27 +3,12 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import java.lang.reflect.Proxy ;
 
-import java.io.Serializable ;
-import java.io.Externalizable ;
 
-import java.rmi.Remote ;
-import java.rmi.RemoteException ;
 
-import java.util.Map ;
-import java.util.WeakHashMap ;
 
-import org.omg.CORBA.UserException ;
 
-import org.omg.CORBA.portable.ObjectImpl ;
-import org.omg.CORBA.portable.Streamable ;
-import org.omg.CORBA.portable.StreamableValue ;
-import org.omg.CORBA.portable.CustomValue ;
-import org.omg.CORBA.portable.ValueBase ;
-import org.omg.CORBA.portable.IDLEntity ;
 
-import com.sun.corba.ee.spi.orb.ORB ;
 
 
 

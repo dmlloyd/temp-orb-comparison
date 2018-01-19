@@ -3,26 +3,12 @@
 
 package com.sun.corba.ee.spi.presentation.rmi ;
 
-import javax.rmi.CORBA.Tie ;
 
-import org.omg.CORBA.portable.Delegate ;
-import org.omg.CORBA.portable.ObjectImpl ;
-import org.omg.CORBA.portable.OutputStream ;
 
-import org.omg.PortableServer.POA ;
-import org.omg.PortableServer.POAManager ;
-import org.omg.PortableServer.POAManagerPackage.State ;
-import org.omg.PortableServer.Servant ;
 
-import org.omg.PortableServer.POAPackage.WrongPolicy ;
-import org.omg.PortableServer.POAPackage.ServantNotActive ;
-import org.omg.PortableServer.POAManagerPackage.AdapterInactive ;
 
-import org.omg.CORBA.ORB ;
 
-import com.sun.corba.ee.spi.logging.ORBUtilSystemException ;
 
-import com.sun.corba.ee.impl.oa.poa.POAManagerImpl ;
 
  
 public abstract class StubAdapter 

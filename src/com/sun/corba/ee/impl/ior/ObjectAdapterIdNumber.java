@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.ior ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
 
 public class ObjectAdapterIdNumber extends ObjectAdapterIdArray {

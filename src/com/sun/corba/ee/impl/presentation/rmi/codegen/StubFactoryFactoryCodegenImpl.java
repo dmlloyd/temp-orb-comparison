@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.impl.presentation.rmi.codegen ;
 
-import com.sun.corba.ee.spi.presentation.rmi.PresentationManager ;
 
-import com.sun.corba.ee.impl.presentation.rmi.StubFactoryFactoryDynamicBase ;
 
 public class StubFactoryFactoryCodegenImpl extends StubFactoryFactoryDynamicBase 
 {

@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.impl.oa ;
 
-import org.omg.CORBA.SystemException ;
 
-import com.sun.corba.ee.spi.oa.NullServant ;
 
 public class NullServantImpl implements NullServant 
 {

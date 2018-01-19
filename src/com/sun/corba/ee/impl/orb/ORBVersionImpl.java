@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import org.omg.CORBA.portable.OutputStream ;
 
-import com.sun.corba.ee.spi.orb.ORBVersion ;
 
 public class ORBVersionImpl implements ORBVersion {
     private byte orbType ;

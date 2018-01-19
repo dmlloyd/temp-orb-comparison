@@ -2,11 +2,6 @@
 
 package com.sun.corba.ee.impl.misc;
 
-import java.io.IOException;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
-import java.util.HashMap;
-import java.util.Map;
 
 
 class LegacyHookPutFields extends ObjectOutputStream.PutField

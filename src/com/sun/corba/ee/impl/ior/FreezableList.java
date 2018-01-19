@@ -3,10 +3,7 @@
 
 package com.sun.corba.ee.impl.ior ;
 
-import java.util.List ;
-import java.util.AbstractList ;
 
-import com.sun.corba.ee.spi.ior.MakeImmutable ;
 
 
 public class FreezableList<E> extends AbstractList<E> {

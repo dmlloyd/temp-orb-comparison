@@ -3,7 +3,6 @@
 
 package com.sun.corba.ee.impl.oa.toa ;
 
-import com.sun.corba.ee.spi.oa.ObjectAdapter ;
 
 
 public interface TOA extends ObjectAdapter {

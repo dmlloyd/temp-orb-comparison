@@ -3,10 +3,6 @@
 
 package com.sun.corba.ee.impl.ior;
 
-import java.util.Arrays ;
-import com.sun.corba.ee.spi.ior.ObjectId ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import com.sun.corba.ee.impl.misc.ORBUtility ;
 
 
 public final class ObjectIdImpl implements ObjectId

@@ -3,21 +3,10 @@
 
 package com.sun.corba.ee.impl.encoding;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Collections;
-import java.util.ArrayList;
-import java.io.IOException;
-
-import org.omg.CORBA.TypeCode ;
-import org.omg.CORBA.Any ;
 
 
-import org.omg.CORBA_2_3.portable.InputStream;
 
-import com.sun.corba.ee.impl.corba.TypeCodeImpl;
+
 
 public class WrapperInputStream extends org.omg.CORBA_2_3.portable.InputStream implements TypeCodeReader
 {

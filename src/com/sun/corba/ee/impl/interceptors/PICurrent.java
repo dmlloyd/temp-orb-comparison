@@ -3,12 +3,7 @@
 
 package com.sun.corba.ee.impl.interceptors;
 
-import com.sun.corba.ee.spi.logging.OMGSystemException;
-import com.sun.corba.ee.spi.orb.ORB;
 
-import org.omg.CORBA.Any;
-import org.omg.PortableInterceptor.Current;
-import org.omg.PortableInterceptor.InvalidSlot;
 
 
 public class PICurrent extends org.omg.CORBA.LocalObject

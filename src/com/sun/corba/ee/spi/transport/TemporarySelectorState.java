@@ -3,10 +3,6 @@
 
 package com.sun.corba.ee.spi.transport;
 
-import java.io.IOException;
-import java.nio.channels.SelectableChannel;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
 
 
 

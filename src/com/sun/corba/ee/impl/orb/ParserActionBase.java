@@ -3,9 +3,7 @@
 
 package com.sun.corba.ee.impl.orb ;
 
-import java.util.Properties ;
 
-import com.sun.corba.ee.spi.orb.Operation ;
 
 public abstract class ParserActionBase implements ParserAction {
     private String propertyName ;
