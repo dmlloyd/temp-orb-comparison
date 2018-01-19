@@ -2,7 +2,7 @@
 
 
 
-package javax.rmi.CORBA;
+package xxxx;
 
 
 

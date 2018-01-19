@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.protocol;
+package xxxx;
 
 public abstract class CorbaClientDelegate
     extends org.omg.CORBA_2_3.portable.Delegate

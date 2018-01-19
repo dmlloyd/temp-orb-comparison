@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA.TypeCodePackage;
+package xxxx;
 
 
 

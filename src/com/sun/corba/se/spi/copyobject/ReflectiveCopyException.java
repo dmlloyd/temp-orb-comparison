@@ -1,5 +1,5 @@
 
-package com.sun.corba.se.spi.copyobject ;
+package xxxx;
 
 public class ReflectiveCopyException extends Exception {
     public ReflectiveCopyException()

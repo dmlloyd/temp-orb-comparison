@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CORBA;
+package xxxx;
 
 
 

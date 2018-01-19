@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.naming.namingutil;
+package xxxx;
 
 
 

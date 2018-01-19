@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.oa.poa;
+package xxxx;
 
 
 public class RequestProcessingPolicyImpl

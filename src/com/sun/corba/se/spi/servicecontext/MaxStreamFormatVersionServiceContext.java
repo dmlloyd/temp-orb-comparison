@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.spi.servicecontext;
+package xxxx;
 
 
 public class MaxStreamFormatVersionServiceContext extends ServiceContext {

@@ -1,7 +1,7 @@
 
 
 
-package javax.rmi.CORBA;
+package xxxx;
 
 
 public class ClassDesc implements java.io.Serializable {

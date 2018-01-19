@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.orbutil.threadpool;
+package xxxx;
 
 public class NoSuchWorkQueueException extends Exception
 {

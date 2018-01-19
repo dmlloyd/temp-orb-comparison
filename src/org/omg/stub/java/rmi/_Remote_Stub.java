@@ -4,7 +4,7 @@
 
 
 
-package org.omg.stub.java.rmi;
+package xxxx;
 
 
 

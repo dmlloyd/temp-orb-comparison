@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA;
+package xxxx;
 
 
 public abstract class UserException extends java.lang.Exception implements org.omg.CORBA.portable.IDLEntity {

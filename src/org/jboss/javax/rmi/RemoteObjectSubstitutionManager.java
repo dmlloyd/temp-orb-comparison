@@ -1,4 +1,4 @@
-package org.jboss.javax.rmi;
+package xxxx;
 
 
 

@@ -1,6 +1,6 @@
 
 
-package javax.rmi.CORBA;
+package xxxx;
 
 
 public interface ValueHandlerMultiFormat extends ValueHandler {

@@ -3,7 +3,7 @@
 
 
 
-package javax.rmi.CORBA;
+package xxxx;
 
 
 class GetORBPropertiesFileAction implements PrivilegedAction<Object> {

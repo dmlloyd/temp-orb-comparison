@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.internal.CosNaming;
+package xxxx;
 
 
 

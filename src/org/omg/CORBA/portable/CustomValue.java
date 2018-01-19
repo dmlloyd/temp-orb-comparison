@@ -2,7 +2,7 @@
 
 
 
-package org.omg.CORBA.portable;
+package xxxx;
 
 
 public interface CustomValue extends ValueBase, CustomMarshal {

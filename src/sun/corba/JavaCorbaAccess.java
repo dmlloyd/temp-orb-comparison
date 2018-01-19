@@ -1,6 +1,6 @@
 
 
-package sun.corba;
+package xxxx;
 
 
 public interface JavaCorbaAccess {

@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.transport ;
+package xxxx;
 
 
 public interface ReadTimeoutsFactory {

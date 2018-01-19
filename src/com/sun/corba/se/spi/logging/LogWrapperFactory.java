@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.logging ;
+package xxxx;
 
 
 

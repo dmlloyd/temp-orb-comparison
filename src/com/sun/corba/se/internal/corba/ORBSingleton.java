@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.internal.corba;
+package xxxx;
 
 
 public class ORBSingleton extends com.sun.corba.se.impl.orb.ORBSingleton

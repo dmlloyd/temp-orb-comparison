@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.resolver ;
+package xxxx;
 
 
 public class LocalResolverImpl implements LocalResolver {

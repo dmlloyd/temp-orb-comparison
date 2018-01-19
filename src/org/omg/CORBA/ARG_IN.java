@@ -1,6 +1,6 @@
 
 
-package org.omg.CORBA;
+package xxxx;
 
 
 public interface ARG_IN {

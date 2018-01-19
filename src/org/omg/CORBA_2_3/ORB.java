@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CORBA_2_3;
+package xxxx;
 
 
 public abstract class ORB extends org.omg.CORBA.ORB {

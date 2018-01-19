@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.monitoring;
+package xxxx;
 
 public interface MonitoringConstants
 {

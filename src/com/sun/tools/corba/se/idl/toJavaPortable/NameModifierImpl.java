@@ -1,6 +1,6 @@
 
 
-package com.sun.tools.corba.se.idl.toJavaPortable ;
+package xxxx;
 
 
 public class NameModifierImpl implements NameModifier {

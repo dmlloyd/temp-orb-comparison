@@ -1,7 +1,7 @@
 
 
 
-package org.omg.SendingContext;
+package xxxx;
 
 
 public interface RunTimeOperations

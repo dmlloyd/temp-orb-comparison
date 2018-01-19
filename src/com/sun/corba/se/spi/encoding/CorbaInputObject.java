@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.encoding ;
+package xxxx;
 
 
 public abstract class CorbaInputObject

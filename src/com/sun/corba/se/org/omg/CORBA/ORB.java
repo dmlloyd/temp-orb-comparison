@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.org.omg.CORBA ;
+package xxxx;
 
 
 

@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.impl.util;
+package xxxx;
 
 
 public class ORBProperties {

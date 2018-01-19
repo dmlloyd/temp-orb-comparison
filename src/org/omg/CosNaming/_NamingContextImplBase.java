@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CosNaming;
+package xxxx;
 public abstract class _NamingContextImplBase extends org.omg.CORBA.DynamicImplementation implements org.omg.CosNaming.NamingContext {
     
     public _NamingContextImplBase() {

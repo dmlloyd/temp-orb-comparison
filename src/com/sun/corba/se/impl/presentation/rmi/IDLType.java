@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.impl.presentation.rmi ;
+package xxxx;
 
 
 public class IDLType {

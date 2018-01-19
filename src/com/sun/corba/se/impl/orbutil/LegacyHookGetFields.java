@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.impl.orbutil;
+package xxxx;
 
 
 class LegacyHookGetFields extends ObjectInputStream.GetField {

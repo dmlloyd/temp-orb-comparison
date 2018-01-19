@@ -1,7 +1,7 @@
 
 
 
-package com.sun.corba.se.impl.javax.rmi;
+package xxxx;
 
 
 

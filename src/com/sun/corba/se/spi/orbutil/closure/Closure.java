@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.spi.orbutil.closure ;
+package xxxx;
 
 public interface Closure {
     public Object evaluate() ;

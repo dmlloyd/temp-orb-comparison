@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.se.internal.iiop;
+package xxxx;
 
 
 public class ORB extends 
