@@ -1,0 +1,39 @@
+
+
+package com.sun.corba.se.impl.legacy.connection;
+
+import java.util.Iterator;
+
+import com.sun.corba.se.spi.ior.IOR;
+import com.sun.corba.se.spi.orb.ORB;
+import com.sun.corba.se.impl.transport.CorbaContactInfoListImpl;
+import com.sun.corba.se.impl.transport.CorbaContactInfoListIteratorImpl;
+
+
+public class SocketFactoryContactInfoListImpl
+    extends
+        CorbaContactInfoListImpl
+{
+    
+    public SocketFactoryContactInfoListImpl(ORB orb)
+    {
+        super(orb);
+    }
+
+    public SocketFactoryContactInfoListImpl(ORB orb, IOR targetIOR)
+    {
+        super(orb, targetIOR);
+    }
+
+    
+    
+    
+    
+
+    public Iterator iterator()
+    {
+        return new SocketFactoryContactInfoListIteratorImpl(orb, this);
+    }
+}
+
+
