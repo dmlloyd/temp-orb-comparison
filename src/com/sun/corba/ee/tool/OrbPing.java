@@ -2,12 +2,6 @@
 
 package com.sun.corba.ee.tool;
 
-import org.glassfish.pfl.basic.tools.argparser.ArgParser;
-import org.glassfish.pfl.basic.tools.argparser.DefaultValue;
-import org.glassfish.pfl.basic.tools.argparser.Help;
-import org.omg.CORBA.ORB;
-import org.omg.CosNaming.NamingContext;
-import org.omg.CosNaming.NamingContextHelper;
 
 
 public class OrbPing {

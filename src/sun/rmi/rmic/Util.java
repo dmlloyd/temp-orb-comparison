@@ -5,8 +5,6 @@
 
 package sun.rmi.rmic;
 
-import java.io.File;
-import sun.tools.java.Identifier;
 
 
 

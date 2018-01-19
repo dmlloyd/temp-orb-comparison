@@ -5,10 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.io.IOException;
-import sun.tools.java.CompilerError;
-import sun.tools.java.ClassDefinition;
-import sun.rmi.rmic.IndentingWriter;
 
 
 public abstract class InterfaceType extends CompoundType {

@@ -18,20 +18,6 @@
 
 package sun.rmi.rmic;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
-import java.io.IOException;
-import java.util.Enumeration;
-import java.util.Vector;
-import sun.tools.java.Type;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.ClassFile;
-import sun.tools.java.MemberDefinition;
-import com.sun.corba.ee.impl.util.Utility;
 
 
 public class RMIGenerator implements RMIConstants, Generator {

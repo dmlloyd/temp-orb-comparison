@@ -5,12 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import sun.tools.java.CompilerError;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.ClassDefinition;
-import sun.rmi.rmic.IndentingWriter;
-import java.io.IOException;
 
 
 public abstract class ClassType extends CompoundType {

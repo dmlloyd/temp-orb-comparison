@@ -5,11 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.CompilerError;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.ClassDefinition;
 
 
 public class SpecialInterfaceType extends InterfaceType {

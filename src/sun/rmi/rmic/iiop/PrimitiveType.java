@@ -5,9 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import sun.tools.java.CompilerError;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassDefinition;
 
 
 public class PrimitiveType extends Type {

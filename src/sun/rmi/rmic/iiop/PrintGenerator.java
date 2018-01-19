@@ -4,13 +4,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import sun.tools.java.CompilerError;
-import sun.tools.java.ClassDefinition;
-import sun.rmi.rmic.IndentingWriter;
-import sun.rmi.rmic.Main;
 
 
 public class PrintGenerator implements sun.rmi.rmic.Generator,

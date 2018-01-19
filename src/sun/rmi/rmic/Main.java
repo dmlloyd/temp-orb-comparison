@@ -5,30 +5,9 @@
 
 package sun.rmi.rmic;
 
-import java.util.Vector;
-import java.util.Enumeration;
-import java.util.ResourceBundle;
-import java.util.StringTokenizer;
-import java.util.MissingResourceException;
 
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.io.IOException;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.ByteArrayOutputStream;
 
-import sun.tools.java.ClassFile;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassPath;
 
-import sun.tools.util.CommandLine;
-import java.lang.reflect.Constructor;
-import java.util.Properties;
 
 
 @SuppressWarnings({"deprecation"})

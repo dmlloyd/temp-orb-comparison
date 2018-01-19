@@ -5,10 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Vector;
-import sun.tools.java.CompilerError;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassNotFound;
 
 
 public class RemoteType extends InterfaceType {

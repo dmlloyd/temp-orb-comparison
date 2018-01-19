@@ -18,11 +18,6 @@
 
 package sun.rmi.rmic;
 
-import java.io.File;
-import java.io.OutputStream;
-import java.util.Enumeration;
-import java.util.Vector;
-import sun.tools.java.ClassPath;
 
 
 

@@ -4,21 +4,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Locale;
-import java.util.StringTokenizer;
-import java.util.Vector;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.CompilerError;
-import sun.rmi.rmic.IndentingWriter;
-import java.util.HashSet;
-import sun.rmi.rmic.Main;
 
 
 public class IDLGenerator extends sun.rmi.rmic.iiop.Generator {

@@ -5,7 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import sun.tools.java.CompilerError;
 
 
 public class ContextStack {

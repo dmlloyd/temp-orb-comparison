@@ -5,17 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import sun.rmi.rmic.Main;
-import sun.tools.java.ClassPath;
-import java.io.OutputStream;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassNotFound;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.util.Iterator;
 
 
 public class BatchEnvironment extends sun.rmi.rmic.BatchEnvironment implements Constants {

@@ -3,7 +3,6 @@
 
 package sun.rmi.rmic;
 
-import sun.tools.java.Identifier;
 
 
 public class Names {

@@ -5,22 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Vector;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.MemberDefinition;
-import sun.tools.java.CompilerError;
-import sun.tools.tree.Node;
-import sun.tools.tree.LocalMember;
-import sun.tools.tree.CharExpression;
-import sun.tools.tree.IntegerExpression;
-import sun.rmi.rmic.IndentingWriter;
-import java.io.IOException;
-import java.util.HashSet;
-import java.util.Enumeration;
-import java.io.File;
 
 
 public abstract class CompoundType extends Type {

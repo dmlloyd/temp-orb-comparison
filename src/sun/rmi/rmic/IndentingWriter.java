@@ -18,9 +18,6 @@
 
 package sun.rmi.rmic;
 
-import java.io.Writer;
-import java.io.BufferedWriter;
-import java.io.IOException;
 
 
 public class IndentingWriter extends BufferedWriter {

@@ -5,12 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Vector;
-import java.util.HashSet;
-import sun.tools.java.CompilerError;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassDefinition;
-import java.lang.reflect.Array;
 
 
 public class ArrayType extends Type {

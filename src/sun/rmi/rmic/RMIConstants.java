@@ -5,7 +5,6 @@
 
 package sun.rmi.rmic;
 
-import sun.tools.java.Identifier;
 
 public interface RMIConstants extends sun.rmi.rmic.Constants {
 

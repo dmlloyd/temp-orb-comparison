@@ -4,14 +4,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Vector;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.MemberDefinition;
-import java.util.Hashtable;
-import java.io.ObjectStreamClass;
-import java.io.ObjectStreamField;
 
 
 

@@ -6,20 +6,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
-import java.io.IOException;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassPath;
-import sun.tools.java.ClassFile;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.rmi.rmic.IndentingWriter;
-import sun.rmi.rmic.Main;
-import sun.rmi.rmic.iiop.Util;
-import java.util.HashSet;
 
 
 public abstract class Generator implements      sun.rmi.rmic.Generator,

@@ -5,7 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Hashtable;
 
 
 class NameContext {

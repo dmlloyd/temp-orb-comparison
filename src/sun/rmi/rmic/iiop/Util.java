@@ -5,10 +5,7 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.io.File;
-import sun.tools.java.Identifier;
 
-import com.sun.corba.ee.impl.util.PackagePrefixChecker;
 
 
 

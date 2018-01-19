@@ -3,7 +3,6 @@
 
 package sun.rmi.rmic;
 
-import sun.tools.java.Identifier;
 
 public interface Constants extends sun.tools.java.Constants {
 

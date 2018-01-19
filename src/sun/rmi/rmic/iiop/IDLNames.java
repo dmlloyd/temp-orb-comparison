@@ -5,13 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Hashtable;
-import java.util.Locale;
-import sun.tools.java.Identifier;
-import sun.tools.java.CompilerError;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassNotFound;
-import com.sun.corba.ee.impl.util.RepositoryId;
 
 
 public class IDLNames implements sun.rmi.rmic.iiop.Constants {

@@ -5,22 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Vector;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.CompilerError;
-import sun.rmi.rmic.IndentingWriter;
-import java.util.HashSet;
-import java.util.Arrays;
-import com.sun.corba.ee.impl.util.Utility;
-import com.sun.corba.ee.impl.util.PackagePrefixChecker;
-import sun.rmi.rmic.Main;
 
 
 

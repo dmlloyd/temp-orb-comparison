@@ -5,19 +5,6 @@
 
 package sun.rmi.rmic.iiop;
 
-import java.util.Vector;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.io.IOException;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassNotFound;
-import sun.tools.java.CompilerError;
-import sun.rmi.rmic.IndentingWriter;
-import java.util.HashSet;
-import com.sun.corba.ee.impl.util.RepositoryId;
-import sun.rmi.rmic.Names;
 
 
 public abstract class Type implements sun.rmi.rmic.iiop.Constants, ContextElement, Cloneable {

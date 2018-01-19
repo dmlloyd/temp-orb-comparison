@@ -3,21 +3,6 @@
 
 package sun.rmi.rmic;
 
-import java.util.Vector;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.io.IOException;
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-import java.security.MessageDigest;
-import java.security.DigestOutputStream;
-import java.security.NoSuchAlgorithmException;
-import sun.tools.java.Type;
-import sun.tools.java.ClassDefinition;
-import sun.tools.java.ClassDeclaration;
-import sun.tools.java.MemberDefinition;
-import sun.tools.java.Identifier;
-import sun.tools.java.ClassNotFound;
 
 
 public class RemoteClass implements sun.rmi.rmic.RMIConstants {
