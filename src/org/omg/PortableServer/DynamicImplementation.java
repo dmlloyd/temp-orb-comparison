@@ -1,6 +1,6 @@
 
 
-package org.omg.PortableServer;
+package xxxx;
 
 
 abstract public class DynamicImplementation extends Servant {

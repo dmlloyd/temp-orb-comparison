@@ -3,7 +3,7 @@
 
 
 
-package sun.rmi.rmic;
+package xxxx;
 
 
 public interface RMIConstants extends sun.rmi.rmic.Constants {

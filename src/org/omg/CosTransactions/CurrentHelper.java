@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CosTransactions;
+package xxxx;
 
 public class CurrentHelper {
     

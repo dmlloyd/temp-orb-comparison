@@ -2,7 +2,7 @@
 
 
 
-package com.sun.corba.ee.internal.io;
+package xxxx;
 
 public class LibraryManager
 {

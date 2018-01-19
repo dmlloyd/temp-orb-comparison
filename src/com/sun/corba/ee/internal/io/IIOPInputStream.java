@@ -1,6 +1,6 @@
 
 
-package com.sun.corba.ee.internal.io;
+package xxxx;
 
 public class IIOPInputStream {
     private static native Object allocateNewObject(Class aclass,

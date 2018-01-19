@@ -1,7 +1,7 @@
 
 
 
-package org.omg.CosTransactions;
+package xxxx;
 
 
 public final class CurrentHolder implements org.omg.CORBA.portable.Streamable

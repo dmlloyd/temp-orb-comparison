@@ -2,7 +2,7 @@
 
 
 
-package org.omg.CosNaming;
+package xxxx;
 
 @SuppressWarnings({"deprecation"})
 public abstract class _NamingContextImplBase 

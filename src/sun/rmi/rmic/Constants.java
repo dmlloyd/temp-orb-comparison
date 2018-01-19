@@ -1,7 +1,7 @@
 
 
 
-package sun.rmi.rmic;
+package xxxx;
 
 
 public interface Constants extends sun.tools.java.Constants {

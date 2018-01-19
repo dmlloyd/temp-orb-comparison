@@ -2,7 +2,7 @@
 
 
 
-package javax.transaction;
+package xxxx;
 
 
 public class TransactionRolledbackException extends java.rmi.RemoteException 
