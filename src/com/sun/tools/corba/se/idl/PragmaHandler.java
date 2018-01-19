@@ -6,7 +6,6 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.IOException;
 
 public abstract class PragmaHandler
 {

@@ -2,21 +2,9 @@
 
 package com.sun.corba.se.impl.transport;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.net.Socket;
-import java.net.SocketException;
-import java.net.ServerSocket;
-import java.nio.channels.SocketChannel;
-import java.nio.channels.ServerSocketChannel;
-import java.security.PrivilegedAction;
 
-import com.sun.corba.se.pept.transport.Acceptor;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.transport.ORBSocketFactory;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
 public class DefaultSocketFactoryImpl
     implements ORBSocketFactory

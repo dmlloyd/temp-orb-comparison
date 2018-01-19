@@ -5,8 +5,6 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.security.MessageDigest;
-import java.util.Hashtable;
 
 
 public class ValueRepositoryId

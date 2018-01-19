@@ -1,29 +1,11 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.io.IOException;
-import java.io.Serializable;
-import java.math.BigDecimal;
-import java.nio.ByteBuffer;
 
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.Any;
 
-import com.sun.org.omg.SendingContext.CodeBase;
 
-import com.sun.corba.se.pept.protocol.MessageMediator;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.encoding.CodeSetConversion;
-import com.sun.corba.se.impl.encoding.OSFCodeSetRegistry;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 
 
 public abstract class CDRInputStream

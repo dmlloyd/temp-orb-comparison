@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import java.util.Properties ;
 
 public interface ParserAction {
     

@@ -4,9 +4,6 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.lang.reflect.Field;
-import java.lang.Comparable;
-import java.util.Hashtable;
 
 
 

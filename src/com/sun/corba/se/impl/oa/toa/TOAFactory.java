@@ -2,28 +2,14 @@
 
 package com.sun.corba.se.impl.oa.toa ;
 
-import java.util.Map ;
-import java.util.HashMap ;
 
-import org.omg.CORBA.INTERNAL ;
-import org.omg.CORBA.CompletionStatus ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory ;
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.ior.ObjectAdapterId ;
 
-import com.sun.corba.se.impl.oa.toa.TOAImpl ;
-import com.sun.corba.se.impl.oa.toa.TransientObjectManager ;
 
-import com.sun.corba.se.impl.javax.rmi.CORBA.Util ;
 
-import com.sun.corba.se.impl.ior.ObjectKeyTemplateBase ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
 
 public class TOAFactory implements ObjectAdapterFactory
 {

@@ -10,27 +10,8 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.GenFileStream;
-import com.sun.tools.corba.se.idl.ConstEntry;
-import com.sun.tools.corba.se.idl.EnumEntry;
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.PrimitiveEntry;
-import com.sun.tools.corba.se.idl.SequenceEntry;
-import com.sun.tools.corba.se.idl.StringEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
-import com.sun.tools.corba.se.idl.TypedefEntry;
-import com.sun.tools.corba.se.idl.UnionBranch;
-import com.sun.tools.corba.se.idl.UnionEntry;
 
-import com.sun.tools.corba.se.idl.constExpr.Expression;
-import com.sun.tools.corba.se.idl.constExpr.EvaluationException;
 
 
 public class UnionGen implements com.sun.tools.corba.se.idl.UnionGen, JavaGenerator

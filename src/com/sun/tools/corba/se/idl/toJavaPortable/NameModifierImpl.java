@@ -2,7 +2,6 @@
 
 package com.sun.tools.corba.se.idl.toJavaPortable ;
 
-import com.sun.tools.corba.se.idl.toJavaPortable.NameModifier ;
 
 public class NameModifierImpl implements NameModifier {
     private String prefix ;

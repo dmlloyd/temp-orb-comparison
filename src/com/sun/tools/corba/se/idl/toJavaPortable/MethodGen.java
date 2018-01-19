@@ -20,26 +20,8 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.PrintWriter;
-import java.util.Enumeration;
-import java.util.Hashtable;
 
-import com.sun.tools.corba.se.idl.EnumEntry;
-import com.sun.tools.corba.se.idl.ExceptionEntry;
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.MethodEntry;
-import com.sun.tools.corba.se.idl.ParameterEntry;
-import com.sun.tools.corba.se.idl.PrimitiveEntry;
-import com.sun.tools.corba.se.idl.StringEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
-import com.sun.tools.corba.se.idl.SequenceEntry;
-import com.sun.tools.corba.se.idl.ValueEntry;
-import com.sun.tools.corba.se.idl.ValueBoxEntry;
-import com.sun.tools.corba.se.idl.InterfaceState;
-import com.sun.tools.corba.se.idl.TypedefEntry;
-import com.sun.tools.corba.se.idl.AttributeEntry;
 
-import com.sun.tools.corba.se.idl.constExpr.Expression;
 
 
 public class MethodGen implements com.sun.tools.corba.se.idl.MethodGen

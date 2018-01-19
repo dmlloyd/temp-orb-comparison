@@ -2,14 +2,8 @@
 
 package com.sun.jndi.url.iiop;
 
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
-import javax.naming.*;
-import javax.naming.spi.ResolveResult;
-import javax.naming.spi.NamingManager;
 
-import java.util.Hashtable;
-import java.net.MalformedURLException;
 
 
 abstract public class GenericURLContext implements Context {

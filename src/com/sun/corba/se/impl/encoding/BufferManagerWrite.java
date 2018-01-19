@@ -2,13 +2,9 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.spi.orb.ORB;
 
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 
 
 public abstract class BufferManagerWrite

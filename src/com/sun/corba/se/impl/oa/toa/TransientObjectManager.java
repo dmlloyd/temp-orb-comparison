@@ -3,8 +3,6 @@
 
 package com.sun.corba.se.impl.oa.toa;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
-import com.sun.corba.se.spi.orb.ORB ;
 
 public final class TransientObjectManager {
     private ORB orb ;

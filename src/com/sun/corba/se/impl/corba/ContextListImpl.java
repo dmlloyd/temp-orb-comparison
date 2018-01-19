@@ -3,10 +3,6 @@
 
 package com.sun.corba.se.impl.corba;
 
-import java.util.Vector;
-import org.omg.CORBA.ContextList;
-import org.omg.CORBA.Bounds;
-import org.omg.CORBA.ORB;
 
 public class ContextListImpl extends ContextList
 {

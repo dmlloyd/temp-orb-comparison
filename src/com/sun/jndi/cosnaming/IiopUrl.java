@@ -2,13 +2,7 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.Name;
-import javax.naming.NamingException;
 
-import java.net.MalformedURLException;
-import java.util.Vector;
-import java.util.StringTokenizer;
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
 
 

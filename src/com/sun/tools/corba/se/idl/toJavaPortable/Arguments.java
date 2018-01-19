@@ -11,13 +11,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Properties;
-import java.util.Vector;
-import java.io.File;
 
-import com.sun.tools.corba.se.idl.InvalidArgument;
 
 
 public class Arguments extends com.sun.tools.corba.se.idl.Arguments

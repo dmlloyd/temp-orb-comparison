@@ -1,7 +1,6 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import java.io.IOException;
 
 
 public interface MessageHandler

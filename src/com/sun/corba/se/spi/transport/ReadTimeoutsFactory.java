@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.spi.transport ;
 
-import com.sun.corba.se.spi.transport.ReadTimeouts;
 
 public interface ReadTimeoutsFactory {
    

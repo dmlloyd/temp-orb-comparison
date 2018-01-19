@@ -3,50 +3,16 @@
 
 package com.sun.corba.se.impl.io;
 
-import java.io.IOException;
-import java.io.StreamCorruptedException;
-import java.io.ObjectInputValidation;
-import java.io.NotActiveException;
-import java.io.InvalidObjectException;
-import java.io.InvalidClassException;
-import java.io.OptionalDataException;
-import java.io.Externalizable;
-import java.io.EOFException;
-import java.lang.reflect.*;
-import java.util.Vector;
-import java.util.Enumeration;
 
-import sun.corba.Bridge ;
 
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
 
-import com.sun.corba.se.impl.util.Utility;
 
-import org.omg.CORBA.portable.ValueInputStream;
 
-import org.omg.CORBA.ValueMember;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.TCKind;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.portable.IndirectionException;
-import org.omg.CORBA.MARSHAL;
-import org.omg.CORBA.TypeCode;
 
-import com.sun.org.omg.CORBA.ValueDefPackage.FullValueDescription;
-import com.sun.org.omg.SendingContext.CodeBase;
 
-import javax.rmi.CORBA.Util;
-import javax.rmi.CORBA.ValueHandler;
 
-import java.security.*;
-import java.util.*;
 
-import com.sun.corba.se.impl.logging.OMGSystemException ;
-import com.sun.corba.se.impl.logging.UtilSystemException ;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
 
 
 

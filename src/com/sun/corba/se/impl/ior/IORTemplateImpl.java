@@ -2,25 +2,11 @@
 
 package com.sun.corba.se.impl.ior;
 
-import java.util.Iterator ;
 
-import org.omg.CORBA.INTERNAL ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
-import org.omg.CORBA_2_3.portable.InputStream ;
 
-import org.omg.IOP.TAG_INTERNET_IOP ;
 
-import com.sun.corba.se.spi.ior.IdentifiableContainerBase ;
-import com.sun.corba.se.spi.ior.IdentifiableFactoryFinder ;
-import com.sun.corba.se.spi.ior.IORTemplate ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplate ;
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.IORFactory ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
 
 public class IORTemplateImpl extends IdentifiableContainerBase implements IORTemplate

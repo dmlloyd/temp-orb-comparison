@@ -2,44 +2,11 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import java.io.IOException;
-import java.lang.Class;
-import java.lang.reflect.Constructor;
-import java.nio.ByteBuffer;
-import java.util.Iterator;
 
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.MARSHAL;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.SystemException;
-import org.omg.IOP.TaggedProfile;
 
-import com.sun.corba.se.pept.transport.ByteBufferPool;
 
-import com.sun.corba.se.spi.ior.ObjectKey;
-import com.sun.corba.se.spi.ior.ObjectId;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.ObjectKeyFactory;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile;
-import com.sun.corba.se.spi.ior.iiop.IIOPFactories;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate ;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.ior.iiop.RequestPartitioningComponent;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.transport.CorbaConnection;
-import com.sun.corba.se.spi.transport.ReadTimeouts;
 
-import com.sun.corba.se.spi.servicecontext.ServiceContexts;
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-import com.sun.corba.se.impl.encoding.CDRInputStream_1_0;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.protocol.AddressingDispositionException;
 
-import sun.corba.SharedSecrets;
 
 
 

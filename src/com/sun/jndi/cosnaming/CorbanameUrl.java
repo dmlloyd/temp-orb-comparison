@@ -2,11 +2,7 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.Name;
-import javax.naming.NamingException;
 
-import java.net.MalformedURLException;
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
 
 

@@ -1,9 +1,6 @@
 
 package org.omg.CORBA.portable;
 
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.Any;
 
 
 

@@ -3,28 +3,13 @@
 
 package com.sun.corba.se.impl.io;
 
-import org.omg.CORBA.portable.OutputStream;
 
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
 
-import java.io.IOException;
-import java.io.InvalidClassException;
-import java.io.Externalizable;
-import java.io.NotSerializableException;
-import java.io.NotActiveException;
 
-import java.lang.reflect.InvocationTargetException;
 
-import javax.rmi.CORBA.Util;
 
-import sun.corba.Bridge ;
 
-import com.sun.corba.se.impl.util.Utility;
-import com.sun.corba.se.impl.util.RepositoryId;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.impl.logging.UtilSystemException ;
 
 
 

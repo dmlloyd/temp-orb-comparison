@@ -2,20 +2,9 @@
 
 package com.sun.corba.se.impl.interceptors;
 
-import org.omg.PortableInterceptor.Interceptor;
-import org.omg.PortableInterceptor.ORBInitInfo;
-import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
 
-import org.omg.CORBA.INTERNAL;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.lang.reflect.Array;
 
-import com.sun.corba.se.impl.logging.InterceptorsSystemException ;
 
 
 public class InterceptorList {

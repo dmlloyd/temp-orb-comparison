@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.orbutil ;
 
-import java.util.Arrays ;
 
 public abstract class ObjectWriter {
     public static ObjectWriter make( boolean isIndenting,

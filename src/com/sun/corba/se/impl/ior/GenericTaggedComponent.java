@@ -2,14 +2,9 @@
 
 package com.sun.corba.se.impl.ior;
 
-import org.omg.CORBA.ORB ;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion ;
 
-import com.sun.corba.se.spi.ior.TaggedComponent ;
 
 
 public class GenericTaggedComponent extends GenericIdentifiable

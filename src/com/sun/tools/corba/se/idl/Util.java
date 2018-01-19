@@ -9,17 +9,8 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Properties;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.som.cff.FileLocator;
 
 public class Util
 {

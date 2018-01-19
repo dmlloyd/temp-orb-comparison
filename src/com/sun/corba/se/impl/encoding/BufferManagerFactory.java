@@ -2,17 +2,7 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import com.sun.corba.se.impl.encoding.BufferManagerRead;
-import com.sun.corba.se.impl.encoding.BufferManagerReadGrow;
-import com.sun.corba.se.impl.encoding.BufferManagerReadStream;
-import com.sun.corba.se.impl.encoding.BufferManagerWrite;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.orb.ORB;
 
-import org.omg.CORBA.INTERNAL;
 
 
 

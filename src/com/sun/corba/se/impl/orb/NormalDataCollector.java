@@ -2,12 +2,8 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import java.net.InetAddress ;
 
-import java.util.Properties ;
 
-import org.omg.CORBA.INTERNAL ;
-import org.omg.CORBA.CompletionStatus ;
 
 public class NormalDataCollector extends DataCollectorBase {
     private String[] args ;

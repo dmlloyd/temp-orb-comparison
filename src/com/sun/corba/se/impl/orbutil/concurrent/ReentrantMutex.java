@@ -4,7 +4,6 @@
 
 package com.sun.corba.se.impl.orbutil.concurrent;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
 
 
 
@@ -32,7 +31,6 @@ import com.sun.corba.se.impl.orbutil.ORBUtility ;
 
 
 
-import org.omg.CORBA.INTERNAL ;
 
 public class ReentrantMutex implements Sync  {
 

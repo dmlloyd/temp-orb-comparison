@@ -14,7 +14,6 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.IOException;
 
 
 class ParseException extends Exception

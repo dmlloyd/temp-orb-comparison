@@ -6,8 +6,6 @@
 
 package org.omg.stub.java.rmi;
 
-import java.rmi.Remote;
-import javax.rmi.CORBA.Stub;
 
 
 public final class _Remote_Stub extends Stub implements Remote {

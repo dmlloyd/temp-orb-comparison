@@ -2,12 +2,8 @@
 
 package com.sun.jndi.url.iiop;
 
-import javax.naming.*;
-import javax.naming.spi.*;
 
-import java.util.Hashtable;
 
-import com.sun.jndi.cosnaming.CNCtx;
 
 
 

@@ -2,15 +2,8 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.*;
-import javax.naming.directory.*;
-import javax.naming.spi.*;
 
-import org.omg.CosNaming.*;
-import org.omg.CosNaming.NamingContextPackage.*;
-import org.omg.CORBA.*;
 
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
 
 

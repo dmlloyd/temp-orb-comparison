@@ -5,11 +5,7 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.PrintWriter;
 
-import java.util.Hashtable;
-import java.util.Stack;
-import java.util.Vector;
 
 
 public class SymtabEntry

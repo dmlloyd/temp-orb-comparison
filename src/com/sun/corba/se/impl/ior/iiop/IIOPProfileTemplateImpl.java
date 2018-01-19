@@ -2,34 +2,14 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import java.util.Iterator ;
 
-import org.omg.IOP.TAG_INTERNET_IOP ;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.se.spi.ior.TaggedComponent ;
-import com.sun.corba.se.spi.ior.TaggedProfile ;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplate ;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplateBase ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.IdentifiableContainerBase ;
-import com.sun.corba.se.spi.ior.IdentifiableBase ;
 
-import com.sun.corba.se.impl.ior.EncapsulationUtility ;
 
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate ;
-import com.sun.corba.se.spi.ior.iiop.IIOPAddress ;
-import com.sun.corba.se.spi.ior.iiop.IIOPFactories ;
 
-import com.sun.corba.se.impl.encoding.EncapsOutputStream ;
 
-import com.sun.corba.se.impl.encoding.CDROutputStream ;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion ;
-import com.sun.corba.se.spi.orb.ORB ;
 
 
 public class IIOPProfileTemplateImpl extends TaggedProfileTemplateBase

@@ -2,10 +2,7 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.spi.InitialContextFactory;
-import javax.naming.*;
 
-import java.util.Hashtable;
 
 
 

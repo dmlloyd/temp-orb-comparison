@@ -2,20 +2,10 @@
 
 package com.sun.corba.se.impl.transport;
 
-import java.nio.channels.SelectionKey;
 
-import org.omg.CORBA.INTERNAL;
 
-import com.sun.corba.se.pept.transport.Acceptor;
-import com.sun.corba.se.pept.transport.Connection;
-import com.sun.corba.se.pept.transport.EventHandler;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orbutil.threadpool.NoSuchThreadPoolException;
-import com.sun.corba.se.spi.orbutil.threadpool.NoSuchWorkQueueException;
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
 
 public abstract class EventHandlerBase
     implements

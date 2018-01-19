@@ -2,13 +2,9 @@
 
 package com.sun.corba.se.spi.ior;
 
-import java.util.Iterator ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.impl.ior.EncapsulationUtility ;
 
 public abstract class TaggedProfileTemplateBase
     extends IdentifiableContainerBase

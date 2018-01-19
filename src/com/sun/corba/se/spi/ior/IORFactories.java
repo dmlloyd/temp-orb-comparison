@@ -2,29 +2,12 @@
 
 package com.sun.corba.se.spi.ior ;
 
-import java.io.Serializable ;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
 
-import org.omg.CORBA.BAD_PARAM ;
-import org.omg.CORBA.portable.ValueFactory ;
 
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.ObjectReferenceFactory ;
 
-import com.sun.corba.se.impl.ior.ObjectIdImpl ;
-import com.sun.corba.se.impl.ior.ObjectKeyImpl ;
-import com.sun.corba.se.impl.ior.IORImpl ;
-import com.sun.corba.se.impl.ior.IORTemplateImpl ;
-import com.sun.corba.se.impl.ior.IORTemplateListImpl ;
-import com.sun.corba.se.impl.ior.ObjectReferenceProducerBase ;
-import com.sun.corba.se.impl.ior.ObjectReferenceFactoryImpl ;
-import com.sun.corba.se.impl.ior.ObjectReferenceTemplateImpl ;
-import com.sun.corba.se.impl.ior.ObjectKeyFactoryImpl ;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
 
 public class IORFactories {

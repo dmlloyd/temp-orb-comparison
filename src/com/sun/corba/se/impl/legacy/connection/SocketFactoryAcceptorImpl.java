@@ -2,18 +2,9 @@
 
 package com.sun.corba.se.impl.legacy.connection;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.net.ServerSocket;
 
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.INTERNAL;
 
-import com.sun.corba.se.spi.orb.ORB;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.transport.SocketOrChannelContactInfoImpl;
-import com.sun.corba.se.impl.transport.SocketOrChannelAcceptorImpl;
 
 
 public class SocketFactoryAcceptorImpl

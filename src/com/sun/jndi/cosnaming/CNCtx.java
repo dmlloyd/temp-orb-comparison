@@ -2,28 +2,11 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.*;
-import javax.naming.spi.NamingManager;
-import javax.naming.spi.ResolveResult;
-
-import java.util.Hashtable;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-
-import org.omg.CosNaming.*;
-import org.omg.CosNaming.NamingContextPackage.*;
-import org.omg.CORBA.*;
-
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
 
-import java.applet.Applet;
+
+
+
 
 
 

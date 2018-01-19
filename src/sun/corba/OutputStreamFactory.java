@@ -2,22 +2,9 @@
 
 package sun.corba;
 
-import com.sun.corba.se.impl.corba.AnyImpl;
-import com.sun.corba.se.impl.encoding.BufferManagerWrite;
-import com.sun.corba.se.impl.encoding.CDROutputObject;
-import com.sun.corba.se.impl.encoding.EncapsOutputStream;
-import com.sun.corba.se.impl.encoding.TypeCodeOutputStream;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 
-import com.sun.corba.se.pept.protocol.MessageMediator;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.transport.CorbaConnection;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
 
 public final class OutputStreamFactory {
 

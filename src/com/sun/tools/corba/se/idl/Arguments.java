@@ -11,16 +11,7 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.DataInputStream;
-import java.io.IOException;
-import java.util.Hashtable;
-import java.util.Properties;
-import java.util.Vector;
-import java.util.StringTokenizer;
-import java.lang.reflect.Modifier;
-import java.lang.reflect.Field;
 
-import com.sun.tools.corba.se.idl.som.cff.FileLocator;
 
 
 public class Arguments

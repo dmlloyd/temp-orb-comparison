@@ -2,9 +2,6 @@
 
 package com.sun.corba.se.impl.protocol.giopmsgheaders;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
 
 
 

@@ -1,7 +1,6 @@
 
 package com.sun.corba.se.spi.monitoring;
 
-import java.util.*;
 
 
 public abstract class StringMonitoredAttributeBase

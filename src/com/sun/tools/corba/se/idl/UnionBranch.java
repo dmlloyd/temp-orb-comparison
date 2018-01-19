@@ -5,9 +5,7 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.TypedefEntry;
 
 
 public class UnionBranch

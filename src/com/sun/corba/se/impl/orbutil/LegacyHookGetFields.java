@@ -3,8 +3,6 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.io.*;
-import java.util.Hashtable;
 
 class LegacyHookGetFields extends ObjectInputStream.GetField {
     private Hashtable fields = null;

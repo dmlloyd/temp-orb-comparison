@@ -1,21 +1,6 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetEncoder;
-import java.nio.charset.CharsetDecoder;
-import java.nio.charset.CharacterCodingException;
-import java.nio.charset.IllegalCharsetNameException;
-import java.nio.charset.MalformedInputException;
-import java.nio.charset.UnsupportedCharsetException;
-import java.nio.charset.UnmappableCharacterException;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.logging.OMGSystemException;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
 
 public class CodeSetConversion

@@ -2,19 +2,10 @@
 
 package com.sun.corba.se.impl.ior;
 
-import org.omg.CORBA_2_3.portable.InputStream ;
 
-import com.sun.corba.se.spi.ior.TaggedProfile ;
-import com.sun.corba.se.spi.ior.TaggedProfileTemplate ;
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.ObjectKey ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion ;
 
-import com.sun.corba.se.impl.encoding.EncapsOutputStream ;
 
 
 public class GenericTaggedProfile extends GenericIdentifiable implements TaggedProfile

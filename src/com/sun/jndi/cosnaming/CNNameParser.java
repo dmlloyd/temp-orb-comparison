@@ -2,12 +2,7 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.*;
-import java.util.Properties;
-import java.util.Vector;
-import java.util.Enumeration;
 
-import org.omg.CosNaming.NameComponent;
 
 
 

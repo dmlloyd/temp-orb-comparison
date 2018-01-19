@@ -2,16 +2,6 @@
 
 package com.sun.corba.se.spi.servicecontext;
 
-import org.omg.CORBA.BAD_PARAM ;
-import org.omg.CORBA_2_3.portable.InputStream ;
-import com.sun.corba.se.spi.servicecontext.ServiceContext ;
-import java.lang.reflect.InvocationTargetException ;
-import java.lang.reflect.Modifier ;
-import java.lang.reflect.Field ;
-import java.lang.reflect.Constructor ;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.orb.ORB ;
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
 
 
 public class ServiceContextData {

@@ -3,26 +3,13 @@
 package com.sun.corba.se.impl.naming.pcosnaming;
 
 
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.INTERNAL;
 
 
-import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.BindingTypeHolder;
-import org.omg.CosNaming.NameComponent;
-import org.omg.PortableServer.POA;
 
 
-import com.sun.corba.se.impl.naming.pcosnaming.NamingContextImpl;
-import com.sun.corba.se.impl.naming.pcosnaming.InternalBindingValue;
-
-import com.sun.corba.se.impl.naming.cosnaming.BindingIteratorImpl;
 
 
-import java.util.Hashtable;
-import java.util.Enumeration;
+
 
 
 public class PersistentBindingIterator extends BindingIteratorImpl

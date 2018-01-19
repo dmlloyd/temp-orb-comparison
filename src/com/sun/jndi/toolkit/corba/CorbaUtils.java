@@ -3,25 +3,11 @@
 package com.sun.jndi.toolkit.corba;
 
 
-import java.rmi.Remote;
 
-import java.rmi.RemoteException;
-import java.util.Hashtable;
-import java.util.Properties;
-import java.util.Enumeration;
-import java.applet.Applet;
 
-import org.omg.CORBA.ORB;
 
-import javax.naming.*;
-import javax.rmi.CORBA.Stub;
-import javax.rmi.PortableRemoteObject;
 
-import com.sun.jndi.cosnaming.CNCtx;
 
-import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
-import java.net.URLDecoder;
 
 
 

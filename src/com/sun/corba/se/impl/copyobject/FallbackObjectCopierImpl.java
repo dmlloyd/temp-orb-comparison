@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.copyobject ;
 
-import com.sun.corba.se.spi.copyobject.ObjectCopier ;
-import com.sun.corba.se.spi.copyobject.ReflectiveCopyException ;
 
 
 public class FallbackObjectCopierImpl implements ObjectCopier

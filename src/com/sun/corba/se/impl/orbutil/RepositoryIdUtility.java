@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import org.omg.CORBA.ORB;
-import com.sun.corba.se.impl.util.RepositoryId;
 
 
 public interface RepositoryIdUtility

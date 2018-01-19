@@ -2,12 +2,6 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.nio.ByteBuffer;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 
 public class BufferManagerReadGrow
     implements BufferManagerRead, MarkAndResetHandler

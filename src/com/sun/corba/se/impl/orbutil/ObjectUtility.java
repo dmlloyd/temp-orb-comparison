@@ -2,29 +2,6 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.security.PrivilegedAction;
-import java.security.AccessController;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Set;
-import java.util.Map.Entry;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Enumeration;
-import java.util.Properties;
-import java.util.IdentityHashMap;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.math.BigInteger ;
-import java.math.BigDecimal ;
 
 public final class ObjectUtility {
     private ObjectUtility() {}

@@ -7,16 +7,8 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.PrintWriter;
-import java.util.Hashtable;
 
-import com.sun.tools.corba.se.idl.InterfaceEntry;
-import com.sun.tools.corba.se.idl.PrimitiveEntry;
-import com.sun.tools.corba.se.idl.SequenceEntry;
-import com.sun.tools.corba.se.idl.StringEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
 
-import com.sun.tools.corba.se.idl.constExpr.Expression;
 
 
 public class SequenceGen implements com.sun.tools.corba.se.idl.SequenceGen, JavaGenerator

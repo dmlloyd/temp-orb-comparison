@@ -2,12 +2,7 @@
 
 package com.sun.corba.se.pept.transport;
 
-import java.util.Collection;
 
-import com.sun.corba.se.pept.transport.Acceptor;
-import com.sun.corba.se.pept.transport.ByteBufferPool;
-import com.sun.corba.se.pept.transport.ConnectionCache;
-import com.sun.corba.se.pept.transport.Selector;
 
 
 public interface TransportManager

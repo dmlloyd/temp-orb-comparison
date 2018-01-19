@@ -2,16 +2,9 @@
 
 package com.sun.corba.se.impl.transport;
 
-import java.io.IOException;
 
-import com.sun.corba.se.pept.transport.Connection;
-import com.sun.corba.se.pept.transport.ReaderThread;
-import com.sun.corba.se.pept.transport.Selector;
 
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
 
 public class ReaderThreadImpl
     implements

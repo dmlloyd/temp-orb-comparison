@@ -2,15 +2,9 @@
 
 package com.sun.jndi.cosnaming;
 
-import javax.naming.*;
-import javax.naming.spi.NamingManager;
 
-import java.util.NoSuchElementException;
-import java.util.Hashtable;
 
-import org.omg.CosNaming.*;
 
-import com.sun.jndi.toolkit.corba.CorbaUtils;
 
 
 

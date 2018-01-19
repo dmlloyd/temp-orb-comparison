@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.orbutil;
 
-import java.io.Serializable;
-import com.sun.corba.se.impl.io.TypeMismatchException;
 
 
 public interface RepositoryIdStrings

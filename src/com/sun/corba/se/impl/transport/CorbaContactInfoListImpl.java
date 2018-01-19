@@ -2,24 +2,9 @@
 
 package com.sun.corba.se.impl.transport;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
-import com.sun.corba.se.pept.transport.ContactInfo;
 
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate ;
-import com.sun.corba.se.spi.oa.ObjectAdapterFactory;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher;
-import com.sun.corba.se.spi.protocol.LocalClientRequestDispatcherFactory;
-import com.sun.corba.se.spi.transport.CorbaContactInfoList ;
-import com.sun.corba.se.spi.transport.SocketInfo;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.protocol.NotLocalLocalCRDImpl;
 
 
 public class CorbaContactInfoListImpl

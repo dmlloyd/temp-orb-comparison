@@ -2,80 +2,27 @@
 
 package com.sun.corba.se.spi.orb;
 
-import java.util.Map ;
-import java.util.HashMap ;
-import java.util.Properties ;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.logging.Logger ;
-
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
-
-import org.omg.CORBA.TCKind ;
-
-import com.sun.corba.se.pept.broker.Broker ;
-import com.sun.corba.se.pept.transport.ByteBufferPool;
-
-import com.sun.corba.se.spi.protocol.RequestDispatcherRegistry ;
-import com.sun.corba.se.spi.protocol.ClientDelegateFactory ;
-import com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher ;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator ;
-import com.sun.corba.se.spi.protocol.PIHandler ;
-import com.sun.corba.se.spi.resolver.LocalResolver ;
-import com.sun.corba.se.spi.resolver.Resolver ;
-import com.sun.corba.se.spi.transport.CorbaContactInfoListFactory ;
-import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketEndPointInfo;
-import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketManager;
-import com.sun.corba.se.spi.monitoring.MonitoringConstants;
-import com.sun.corba.se.spi.monitoring.MonitoringManager;
-import com.sun.corba.se.spi.monitoring.MonitoringManagerFactory;
-import com.sun.corba.se.spi.monitoring.MonitoringFactories;
-
-import com.sun.corba.se.spi.ior.IdentifiableFactoryFinder ;
-import com.sun.corba.se.spi.ior.TaggedComponentFactoryFinder ;
-import com.sun.corba.se.spi.ior.ObjectKey ;
-import com.sun.corba.se.spi.ior.ObjectKeyFactory ;
-import com.sun.corba.se.spi.ior.IOR ;
-
-import com.sun.corba.se.spi.orbutil.closure.Closure ;
-
-import com.sun.corba.se.spi.orb.Operation ;
-import com.sun.corba.se.spi.orb.ORBData ;
-import com.sun.corba.se.spi.orb.ORBVersion ;
-import com.sun.corba.se.spi.orbutil.threadpool.ThreadPoolManager;
-
-import com.sun.corba.se.spi.oa.OAInvocationInfo ;
-import com.sun.corba.se.spi.transport.CorbaTransportManager;
-
-import com.sun.corba.se.spi.logging.LogWrapperFactory ;
-import com.sun.corba.se.spi.logging.LogWrapperBase ;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-
-import com.sun.corba.se.spi.copyobject.CopierManager ;
-
-import com.sun.corba.se.spi.presentation.rmi.PresentationManager ;
-import com.sun.corba.se.spi.presentation.rmi.PresentationDefaults ;
-
-import com.sun.corba.se.spi.servicecontext.ServiceContextRegistry ;
 
 
-import com.sun.corba.se.impl.corba.TypeCodeImpl ;
-import com.sun.corba.se.impl.corba.TypeCodeFactory ;
 
 
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
 
-import com.sun.corba.se.impl.oa.poa.BadServerIdHandler ;
 
-import com.sun.corba.se.impl.transport.ByteBufferPoolImpl;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException ;
-import com.sun.corba.se.impl.logging.OMGSystemException ;
 
-import com.sun.corba.se.impl.presentation.rmi.PresentationManagerImpl ;
 
-import sun.awt.AppContext;
-import sun.corba.SharedSecrets;
+
+
+
+
+
+
+
+
+
+
+
+
 
 public abstract class ORB extends com.sun.corba.se.org.omg.CORBA.ORB
     implements Broker, TypeCodeFactory

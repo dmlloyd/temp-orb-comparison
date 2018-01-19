@@ -2,19 +2,9 @@
 
 package com.sun.corba.se.impl.orbutil.threadpool;
 
-import java.util.LinkedList;
 
-import com.sun.corba.se.spi.orbutil.threadpool.ThreadPool;
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
-import com.sun.corba.se.spi.orbutil.threadpool.WorkQueue;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.threadpool.ThreadPoolImpl;
 
-import com.sun.corba.se.spi.monitoring.MonitoringConstants;
-import com.sun.corba.se.spi.monitoring.MonitoringFactories;
-import com.sun.corba.se.spi.monitoring.MonitoredObject;
-import com.sun.corba.se.spi.monitoring.LongMonitoredAttributeBase;
 
 public class WorkQueueImpl implements WorkQueue
 {

@@ -2,13 +2,6 @@
 
 package com.sun.corba.se.spi.orbutil.fsm ;
 
-import com.sun.corba.se.spi.orbutil.fsm.Input ;
-import com.sun.corba.se.spi.orbutil.fsm.Action ;
-import com.sun.corba.se.spi.orbutil.fsm.Guard ;
-import com.sun.corba.se.spi.orbutil.fsm.StateEngine ;
-import com.sun.corba.se.spi.orbutil.fsm.StateImpl ;
-import com.sun.corba.se.spi.orbutil.fsm.StateEngineFactory ;
-import com.sun.corba.se.spi.orbutil.fsm.FSM ;
 
 class TestInput {
     TestInput( Input value, String msg )

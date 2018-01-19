@@ -1,20 +1,7 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.nio.ByteBuffer;
 
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.MessageBase;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.ReplyMessage;
-import com.sun.corba.se.impl.encoding.BufferManagerWrite;
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-import com.sun.corba.se.impl.encoding.CDROutputObject;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.pept.transport.Connection;
-import com.sun.corba.se.pept.encoding.OutputObject;
-import org.omg.CORBA.SystemException;
 
 
 public class BufferManagerWriteStream extends BufferManagerWrite

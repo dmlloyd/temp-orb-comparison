@@ -5,9 +5,6 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.PrintWriter;
-import java.io.IOException;
-import java.util.StringTokenizer;
 
 public class Comment
 {

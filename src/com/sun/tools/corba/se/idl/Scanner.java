@@ -11,17 +11,7 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.EOFException;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PushbackInputStream;
 
-import java.util.Enumeration;
-import java.util.Stack;
-import java.util.StringTokenizer;
-import java.util.Vector;
 
 
 class Scanner

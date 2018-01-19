@@ -2,13 +2,7 @@
 
 package com.sun.corba.se.impl.ior ;
 
-import java.util.Collection ;
-import java.util.List ;
-import java.util.AbstractList ;
-import java.util.ListIterator ;
-import java.util.Iterator ;
 
-import com.sun.corba.se.spi.ior.MakeImmutable ;
 
 
 public class FreezableList extends AbstractList {

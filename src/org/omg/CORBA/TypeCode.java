@@ -2,8 +2,6 @@
 
 package org.omg.CORBA;
 
-import org.omg.CORBA.TypeCodePackage.*;
-import org.omg.CORBA.portable.IDLEntity;
 
 
 public abstract class TypeCode implements IDLEntity {

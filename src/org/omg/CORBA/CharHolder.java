@@ -3,9 +3,6 @@
 
 package org.omg.CORBA;
 
-import org.omg.CORBA.portable.Streamable;
-import org.omg.CORBA.portable.InputStream;
-import org.omg.CORBA.portable.OutputStream;
 
 
 public final class CharHolder implements Streamable {

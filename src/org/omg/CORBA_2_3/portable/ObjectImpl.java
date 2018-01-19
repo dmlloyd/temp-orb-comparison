@@ -3,7 +3,6 @@
 
 package org.omg.CORBA_2_3.portable;
 
-import org.omg.CORBA_2_3.portable.Delegate;
 
 
 

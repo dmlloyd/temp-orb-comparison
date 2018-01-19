@@ -2,18 +2,9 @@
 
 package com.sun.corba.se.impl.interceptors;
 
-import org.omg.IOP.Codec;
-import org.omg.IOP.CodecFactory;
-import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
-import org.omg.IOP.Encoding;
-import org.omg.IOP.ENCODING_CDR_ENCAPS;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 
-import org.omg.CORBA.ORB;
-import org.omg.CORBA.LocalObject;
 
 
 public final class CodecFactoryImpl

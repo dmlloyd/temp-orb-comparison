@@ -2,7 +2,6 @@
 
 package com.sun.corba.se.impl.oa.toa ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
 
 
 public interface TOA extends ObjectAdapter {

@@ -2,13 +2,9 @@
 
 package com.sun.corba.se.impl.ior.iiop;
 
-import org.omg.IOP.TAG_ORB_TYPE ;
 
-import com.sun.corba.se.spi.ior.TaggedComponentBase ;
 
-import com.sun.corba.se.spi.ior.iiop.ORBTypeComponent ;
 
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
 
 public class ORBTypeComponentImpl extends TaggedComponentBase

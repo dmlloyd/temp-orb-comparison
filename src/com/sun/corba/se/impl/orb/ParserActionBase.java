@@ -2,9 +2,7 @@
 
 package com.sun.corba.se.impl.orb ;
 
-import java.util.Properties ;
 
-import com.sun.corba.se.spi.orb.Operation ;
 
 public abstract class ParserActionBase implements ParserAction {
     private String propertyName ;

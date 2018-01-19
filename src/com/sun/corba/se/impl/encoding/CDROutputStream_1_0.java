@@ -3,71 +3,12 @@
 
 package com.sun.corba.se.impl.encoding;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.Serializable;
-import java.io.ByteArrayOutputStream;
-import java.io.ObjectOutputStream;
-import java.io.IOException;
-import java.lang.reflect.Method;
-import java.lang.reflect.InvocationTargetException;
-import java.math.BigDecimal;
-import java.nio.ByteBuffer;
-import java.rmi.Remote;
-import java.security.AccessController;
-import java.security.PrivilegedExceptionAction;
-import java.security.PrivilegedActionException;
-import java.util.Hashtable;
-import java.util.Stack;
 
-import javax.rmi.CORBA.Util;
-import javax.rmi.CORBA.ValueHandler;
-import javax.rmi.CORBA.ValueHandlerMultiFormat;
 
-import org.omg.CORBA.CustomMarshal;
-import org.omg.CORBA.DataOutputStream;
-import org.omg.CORBA.TypeCodePackage.BadKind;
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.Object;
-import org.omg.CORBA.Principal;
-import org.omg.CORBA.TypeCode;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.VM_CUSTOM;
-import org.omg.CORBA.VM_TRUNCATABLE;
-import org.omg.CORBA.VM_NONE;
-import org.omg.CORBA.portable.IDLEntity;
-import org.omg.CORBA.portable.CustomValue;
-import org.omg.CORBA.portable.StreamableValue;
-import org.omg.CORBA.portable.BoxedValueHelper;
-import org.omg.CORBA.portable.OutputStream;
-import org.omg.CORBA.portable.ValueBase;
 
-import com.sun.org.omg.CORBA.portable.ValueHelper;
 
-import com.sun.corba.se.pept.protocol.MessageMediator;
-import com.sun.corba.se.pept.transport.ByteBufferPool;
 
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.IORFactories;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orb.ORBVersionFactory;
-import com.sun.corba.se.spi.orb.ORBVersion;
-import com.sun.corba.se.spi.protocol.CorbaMessageMediator;
-import com.sun.corba.se.spi.logging.CORBALogDomains;
 
-import com.sun.corba.se.impl.encoding.ByteBufferWithInfo;
-import com.sun.corba.se.impl.encoding.MarshalOutputStream;
-import com.sun.corba.se.impl.encoding.CodeSetConversion;
-import com.sun.corba.se.impl.corba.TypeCodeImpl;
-import com.sun.corba.se.impl.orbutil.CacheTable;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.orbutil.RepositoryIdStrings;
-import com.sun.corba.se.impl.orbutil.RepositoryIdUtility;
-import com.sun.corba.se.impl.orbutil.RepositoryIdFactory;
-import com.sun.corba.se.impl.util.Utility;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
 
 public class CDROutputStream_1_0 extends CDROutputStreamBase
 {

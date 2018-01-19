@@ -12,18 +12,8 @@ package com.sun.tools.corba.se.idl;
 
 
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.math.BigInteger;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Stack;
-import java.util.Vector;
 
-import com.sun.tools.corba.se.idl.RepositoryID;
 
-import com.sun.tools.corba.se.idl.constExpr.*;
 
 
 public class Preprocessor

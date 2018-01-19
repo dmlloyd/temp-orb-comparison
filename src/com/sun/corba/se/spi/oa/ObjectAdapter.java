@@ -2,16 +2,10 @@
 
 package com.sun.corba.se.spi.oa ;
 
-import org.omg.CORBA.Policy ;
 
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.ObjectReferenceFactory ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.spi.oa.OADestroyed ;
 
-import com.sun.corba.se.spi.ior.IORTemplate ;
 
 
 

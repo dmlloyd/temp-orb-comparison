@@ -5,7 +5,6 @@ package com.sun.tools.corba.se.idl.constExpr;
 
 
 
-import java.math.BigInteger;
 
 public abstract class Expression
 {

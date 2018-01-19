@@ -2,7 +2,6 @@
 
 package com.sun.jndi.cosnaming;
 
-import org.omg.CORBA.ORB;
 
 
 class OrbReuseTracker {

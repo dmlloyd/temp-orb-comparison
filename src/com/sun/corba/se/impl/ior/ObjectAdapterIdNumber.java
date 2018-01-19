@@ -2,8 +2,6 @@
 
 package com.sun.corba.se.impl.ior ;
 
-import java.util.Iterator ;
-import org.omg.CORBA_2_3.portable.OutputStream ;
 
 
 public class ObjectAdapterIdNumber extends ObjectAdapterIdArray {

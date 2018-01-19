@@ -2,13 +2,7 @@
 
 package com.sun.jndi.url.iiop;
 
-import javax.naming.spi.ResolveResult;
-import javax.naming.*;
-import java.util.Hashtable;
-import java.net.MalformedURLException;
 
-import com.sun.jndi.cosnaming.IiopUrl;
-import com.sun.jndi.cosnaming.CorbanameUrl;
 
 
 

@@ -30,7 +30,6 @@ package com.sun.corba.se.impl.orbutil.concurrent;
 
 
 
-import org.omg.CORBA.INTERNAL ;
 
 public class DebugMutex implements Sync  {
 

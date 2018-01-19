@@ -4,13 +4,7 @@
 
 package com.sun.corba.se.impl.io;
 
-import java.lang.reflect.Field;
-import java.lang.Comparable;
-import java.util.Hashtable;
 
-import sun.corba.Bridge ;
-import java.security.AccessController ;
-import java.security.PrivilegedAction ;
 
 
 public class ObjectStreamField implements Comparable

@@ -2,14 +2,7 @@
 
 package com.sun.corba.se.spi.ior.iiop ;
 
-import com.sun.corba.se.spi.ior.IOR ;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfile;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orb.ORBVersion;
-import com.sun.corba.se.spi.orb.ORBVersionFactory;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.impl.protocol.giopmsgheaders.Message;
 
 public class GIOPVersion {
 

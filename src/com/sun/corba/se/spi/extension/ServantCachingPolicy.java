@@ -2,9 +2,6 @@
 
 package com.sun.corba.se.spi.extension ;
 
-import org.omg.CORBA.Policy ;
-import org.omg.CORBA.LocalObject ;
-import com.sun.corba.se.impl.orbutil.ORBConstants ;
 
 
 public class ServantCachingPolicy extends LocalObject implements Policy

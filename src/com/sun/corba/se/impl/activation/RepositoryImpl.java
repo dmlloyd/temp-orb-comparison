@@ -2,36 +2,9 @@
 
 package com.sun.corba.se.impl.activation;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.util.Properties;
-import java.util.Hashtable;
-import java.util.Enumeration;
-import java.util.Vector;
 
-import org.omg.CORBA.CompletionStatus;
-import org.omg.CORBA.INITIALIZE;
-import org.omg.CORBA.INTERNAL;
-import org.omg.CORBA.SystemException;
 
-import com.sun.corba.se.spi.activation.BadServerDefinition;
-import com.sun.corba.se.spi.activation.RepositoryPackage.ServerDef;
-import com.sun.corba.se.spi.activation._RepositoryImplBase;
-import com.sun.corba.se.spi.activation.ServerAlreadyRegistered;
-import com.sun.corba.se.spi.activation.ServerAlreadyInstalled;
-import com.sun.corba.se.spi.activation.ServerAlreadyUninstalled;
-import com.sun.corba.se.spi.activation.ServerNotRegistered;
-import com.sun.corba.se.spi.legacy.connection.LegacyServerSocketEndPointInfo;
-import com.sun.corba.se.spi.transport.SocketOrChannelAcceptor;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
 
-import com.sun.corba.se.spi.logging.CORBALogDomains;
-import com.sun.corba.se.impl.logging.ActivationSystemException;
 
 
 public class RepositoryImpl extends _RepositoryImplBase

@@ -1,6 +1,5 @@
 package org.jboss.javax.rmi;
 
-import java.security.Permission;
 
 
 public class RemoteObjectSubstitutionManager {

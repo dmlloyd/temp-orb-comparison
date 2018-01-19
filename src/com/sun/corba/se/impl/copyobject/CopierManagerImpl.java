@@ -2,13 +2,8 @@
 
 package com.sun.corba.se.impl.copyobject ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
-import com.sun.corba.se.impl.orbutil.DenseIntMapImpl ;
 
-import com.sun.corba.se.spi.copyobject.ObjectCopierFactory ;
-import com.sun.corba.se.spi.copyobject.CopierManager ;
-import com.sun.corba.se.spi.copyobject.ObjectCopierFactory ;
 
 public class CopierManagerImpl implements CopierManager
 {

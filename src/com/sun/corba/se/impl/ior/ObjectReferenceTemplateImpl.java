@@ -2,31 +2,13 @@
 
 package com.sun.corba.se.impl.ior ;
 
-import java.util.Iterator ;
 
-import org.omg.CORBA.portable.InputStream ;
-import org.omg.CORBA.portable.OutputStream ;
-import org.omg.CORBA.portable.StreamableValue ;
 
-import org.omg.CORBA.TypeCode ;
 
-import org.omg.PortableInterceptor.ObjectReferenceTemplate ;
-import org.omg.PortableInterceptor.ObjectReferenceTemplateHelper ;
 
-import com.sun.corba.se.spi.oa.ObjectAdapter ;
 
-import com.sun.corba.se.spi.ior.ObjectId ;
-import com.sun.corba.se.spi.ior.ObjectKeyTemplate ;
-import com.sun.corba.se.spi.ior.ObjectAdapterId ;
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.IORFactory;
-import com.sun.corba.se.spi.ior.IORTemplate;
-import com.sun.corba.se.spi.ior.IORTemplateList;
-import com.sun.corba.se.spi.ior.IORFactories;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility ;
 
-import com.sun.corba.se.spi.orb.ORB ;
 
 
 public class ObjectReferenceTemplateImpl extends ObjectReferenceProducerBase

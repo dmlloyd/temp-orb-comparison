@@ -2,13 +2,7 @@
 
 package com.sun.corba.se.impl.monitoring;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Collection;
-import java.util.Iterator;
 
-import com.sun.corba.se.spi.monitoring.MonitoredObject;
-import com.sun.corba.se.spi.monitoring.MonitoredAttribute;
 
 public class MonitoredObjectImpl implements MonitoredObject {
     private final String name;

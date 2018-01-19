@@ -5,9 +5,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.PrintWriter;
 
-import com.sun.tools.corba.se.idl.SymtabEntry;
 
 
 public interface JavaGenerator

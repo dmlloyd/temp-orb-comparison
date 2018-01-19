@@ -2,58 +2,10 @@
 
 package com.sun.corba.se.impl.resolver;
 
-import java.util.List ;
-import java.util.Map ;
-import java.util.Comparator ;
-import java.util.Iterator ;
-import java.util.HashMap ;
-import java.util.ArrayList ;
-import java.util.Collections ;
 
-import com.sun.corba.se.impl.interceptors.CDREncapsCodec;
-import com.sun.corba.se.spi.ior.TaggedComponentFactoryFinder;
-import org.omg.CORBA.Any;
-import org.omg.CORBA.UserException;
-import org.omg.CSIIOP.Confidentiality;
-import org.omg.CSIIOP.DetectMisordering;
-import org.omg.CSIIOP.DetectReplay;
-import org.omg.CSIIOP.EstablishTrustInClient;
-import org.omg.CSIIOP.EstablishTrustInTarget;
-import org.omg.CSIIOP.Integrity;
-import org.omg.CosNaming.NamingContextExt ;
-import org.omg.CosNaming.NamingContextExtHelper ;
 
-import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
-import org.omg.IOP.TaggedComponent;
-import org.omg.SSLIOP.SSL;
-import org.omg.SSLIOP.SSLHelper;
-import org.omg.SSLIOP.TAG_SSL_SEC_TRANS;
-import sun.corba.EncapsInputStreamFactory;
 
-import com.sun.corba.se.spi.ior.IOR;
-import com.sun.corba.se.spi.ior.IORTemplate;
-import com.sun.corba.se.spi.ior.ObjectKey;
-import com.sun.corba.se.spi.ior.IORFactories;
-import com.sun.corba.se.spi.ior.iiop.IIOPAddress;
-import com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate ;
-import com.sun.corba.se.spi.ior.iiop.IIOPFactories ;
-import com.sun.corba.se.spi.ior.iiop.GIOPVersion;
-import com.sun.corba.se.spi.ior.iiop.AlternateIIOPAddressComponent;
-import com.sun.corba.se.spi.logging.CORBALogDomains ;
-import com.sun.corba.se.spi.orb.Operation;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.resolver.Resolver;
 
-import com.sun.corba.se.impl.encoding.EncapsInputStream;
-import com.sun.corba.se.impl.logging.ORBUtilSystemException;
-import com.sun.corba.se.impl.logging.OMGSystemException;
-import com.sun.corba.se.impl.naming.namingutil.INSURLHandler;
-import com.sun.corba.se.impl.naming.namingutil.IIOPEndpointInfo;
-import com.sun.corba.se.impl.naming.namingutil.INSURL;
-import com.sun.corba.se.impl.naming.namingutil.CorbalocURL;
-import com.sun.corba.se.impl.naming.namingutil.CorbanameURL;
-import com.sun.corba.se.impl.orbutil.ORBConstants;
-import com.sun.corba.se.impl.orbutil.ORBUtility;
 
 
 public class INSURLOperationImpl implements Operation

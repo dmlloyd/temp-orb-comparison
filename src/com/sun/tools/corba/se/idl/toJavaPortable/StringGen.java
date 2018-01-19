@@ -6,11 +6,7 @@ package com.sun.tools.corba.se.idl.toJavaPortable;
 
 
 
-import java.io.PrintWriter;
-import java.util.Hashtable;
 
-import com.sun.tools.corba.se.idl.StringEntry;
-import com.sun.tools.corba.se.idl.SymtabEntry;
 
 
 public class StringGen implements com.sun.tools.corba.se.idl.StringGen, JavaGenerator

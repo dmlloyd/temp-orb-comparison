@@ -5,11 +5,6 @@
 
 package javax.rmi.CORBA;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.Properties;
 
 class GetORBPropertiesFileAction implements PrivilegedAction<Object> {
     private boolean debug = false ;

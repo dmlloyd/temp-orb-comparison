@@ -3,23 +3,12 @@
 package com.sun.corba.se.impl.naming.cosnaming;
 
 
-import org.omg.CORBA.SystemException;
-import org.omg.CORBA.ORB;
-import org.omg.PortableServer.POA;
 
 
-import org.omg.CosNaming.Binding;
-import org.omg.CosNaming.BindingType;
-import org.omg.CosNaming.BindingTypeHolder;
-import org.omg.CosNaming.NameComponent;
 
 
-import com.sun.corba.se.impl.naming.cosnaming.NamingContextImpl;
-import com.sun.corba.se.impl.naming.cosnaming.InternalBindingValue;
 
 
-import java.util.Hashtable;
-import java.util.Enumeration;
 
 
 public class TransientBindingIterator extends BindingIteratorImpl

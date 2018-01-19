@@ -2,12 +2,6 @@
 
 package com.sun.corba.se.impl.transport;
 
-import com.sun.corba.se.impl.orbutil.ORBUtility;
-import com.sun.corba.se.pept.transport.Acceptor;
-import com.sun.corba.se.pept.transport.ListenerThread;
-import com.sun.corba.se.pept.transport.Selector;
-import com.sun.corba.se.spi.orb.ORB;
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
 
 
 public class ListenerThreadImpl
